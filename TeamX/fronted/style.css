@@ -1,0 +1,156 @@
+/*------------------------------
+=BASIC SETUP
+------------------------------*/
+
+/* Makeshift CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, section, aside, nav, article {
+	display: block;
+}
+
+body {
+	font: 13px/22px Calibri, Helvetica, Arial, sans-serif;
+	background: #FFFEFC;
+}
+
+.header {
+	width:640px;
+	padding-bottom:64px;
+	background-image:url("bg_header.jpg");
+	background-repeat:no-repeat;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 640px;
+	background: #f0f0f0;
+	border:solid 1px #874600;	
+}
+
+h1, h2 {
+	font-size: 28px;
+	line-height: 44px;
+	padding: 22px 0;
+	color:#242424;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 42px;
+	padding: 11px 0;
+	color:#242424;
+}
+
+p {
+	padding-bottom: 22px;
+}
+
+
+
+/*------------------------------
+=NAVIGATION
+------------------------------*/
+
+nav {
+	position: absolute;
+	width: 640px;
+	background: #FF9D00;
+}
+
+	nav ul {
+		margin: 0 auto;
+		width: 640px;
+		list-style: none;
+	}
+
+		nav ul li {
+			float: left;
+		}
+		
+			nav ul li a {
+				display: block;
+				width: 128px;
+				font-size: 18px;
+				line-height: 66px;
+				text-align: center;
+				text-decoration: none;
+				color: #242424;
+			}
+			
+				nav ul li a:hover {
+					background-color: #fff;
+				}
+			
+			
+
+
+
+
+/*------------------------------
+=CONTENT AREA AND SIDEBAR LAYOUT
+------------------------------*/
+
+#content {
+	display: table;
+}
+
+	#mainContent {
+		display: table-cell;
+		width: 640px;
+		padding-left:22px;
+		padding-right: 22px;
+		padding-top:22px;
+	}
+	
+/*------------------------------
+=FOOTER
+------------------------------*/
+footer {
+	width: 640px;
+	background: #222;
+}
+
+	footer div {
+		display: table;
+		margin: 0 auto;
+		padding: 7px 0px;
+		width: 640px;
+		color: #777;
+	}
+	
+		footer div section {
+			display: table-cell;
+			width: 300px;
+		}
+		
+		footer div #TeamX {
+			padding-right: 20px;
+			padding-left:20px;
+		}
+		
+	footer h3 {
+		color: #FFF;
+	}
+	
+	footer a {
+		color: #999;
+	}
+	
+		footer a:hover {
+			color: #FFF;
+			text-decoration: none;
+		}
+	
+	footer ul {
+		margin: 0 0 0 40px;
+		list-style: square;
+		color: #565656;
+	}
+	
+		footer ul li a {
+			display: block;
+		}
