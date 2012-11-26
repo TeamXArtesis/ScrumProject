@@ -1,0 +1,700 @@
+1	2u00	H	Acke Tim	MUSICE	Musiceren: Ensemble 1	1  SO Groep MO	Academie 3.3;Academie 3.7;Academie 3.4;Academie 3.8	AV+	3	AV	1	vrijdag	  08u00
+2	2u00	H	Acke Tim	MUZ.UI	Muz.Uitd.: Muziekprojecten 1	1  SO Groep PKV	Academie 3.3;Academie 3.7;Academie 3.4;Academie 3.8		3	AV	1	donderdag	  08u00
+3	3u00	H	Bambust Joost;Caelen Deeviet;Celis Luc;Correwyn Annemieke;De Bruyn Tine;Dieltiens Merel;Havermans Inge;Koelman Astrid;Landuyt Inge;Martin Philippe;Robert Nathan;Timmermans Annie;Wouters Greet;Jacobs Ludwig;Verschaeren Ines;Hegge Miet;Adriaensen Heidi;Willems Nele;Vandewinkel Anneleen;Bolckmans Nora;De Pauw Sonia;Hargreaves Stephen;Taets An;Van Leuven Wendy	VERGAD	Vergadering Opleidingsteam KL		M106 (salon);M108		1	AV	1	donderdag	  13u00
+4	3u00	H	Adriaensen Heidi	ONDERW	Onderwijzen 3	2KL Groep 3	K111(PW)+beamer		5	AV	1	maandag	  13u00
+5	2u00	H	Adriaensen Heidi	ERVARI	Ervaringsgericht leren 3	2KL Groep 3	K105 (S)+beamer		5	AV	1	dinsdag	  13u00
+6	3u00	H	Adriaensen Heidi	ONDERW	Onderwijzen 3	2KL Groep 1	K105 (S)+beamer		5	AV	1	dinsdag	  09u00
+7	3u00	H	Aelbrecht Eddy;De Roover Ann;Van Aerschot Heidi;Dirkx Bie	VERGAD	Vergadering VOC L		M106 (salon)		3	AV	1	maandag	  09u00
+8	2u00	H	Aerts Brigitte	SUPERV	Supervisie	2SW Gr09	K019 + beamer		6	AV	1	vrijdag	  14u00
+9	2u00	H	Aerts Dirk	DOUANE	Douane-Accijnzen&BTW: basis	1BL	B208 + beamer		6	AV	1	donderdag	  08u00
+10	1u00	H	Aerts Dirk	DOUANE	Douane en Accijnzen	3BA	B208 + beamer		6	AV	1	donderdag	  10u00
+11	3u00	H	Amelinckx Lily	BASISP	Basisprincipes boekhouden	1BA	B210 + beamer		6	AV	1	donderdag	  09u00
+12	2u00	H	Amelinckx Lily	ANALYT	analytisch boekhouden	2BA	B208 + beamer		6	AV	1	vrijdag	  11u00
+13	3u45	H	Amelinckx Lily	ANDERE	Andere job		andere school	AV+	6	AV	1	maandag	  18u00
+14	3u00	H	Amelinckx Lily	ANDERE	Andere job		andere school	AV+	6	AV	1	dinsdag	  18u00
+15	2u00	H	Amelinckx Lily	FINANC	financiele analyse	3BF	B208 + beamer		6	AV	1	woensdag	  11u00
+16	2u00	H	Amelinckx Lily	ALGEME	Algemeen en vennootschapsbhk 1	2BA	B208 + beamer		1	AV	1	vrijdag	  09u00
+17	1u00	H	Amelinckx Lily	BEDRIJ	Bedrijfsbeleid	1BA;1BF	Aula K1		1	AV	1	woensdag	  14u00
+18	1u00	H	Amelinckx Lily	BEDRIJ	Bedrijfsbeleid	1BL;1BM	Aula K1		1	AV	1	woensdag	  15u00
+19	2u00	H	Apers Els	CULTUU	Cultuur en samenleving	3SCW	K101(SCW)+beame		4	AV	1	woensdag	  11u00
+20	4u00	H	Bollaert Hiram;Baeyens Davina	PWO EA	PWO ea&si		V101(wisk)+beam		1	AV	1	donderdag	  08u00
+21	4u00	H	Bollaert Hiram;Baeyens Davina	PWO EA	PWO ea&si		V101(wisk)+beam		1	AV	1	donderdag	  14u00
+22	2u00	H	Bollaert Hiram;Baeyens Davina	PWO EA	PWO ea&si		V102 (OLC-les);V103(OLC-PC)		1	AV	1	donderdag	  12u00
+23	3u30	H	Balemans Leo	SUCCES	Successierecht	BKR Fiscaliteit1	Aula B4 +beamer	AV+	6	AV	1	woensdag	  18u30
+24	2u00	H	Bambust Joost	WISK.:	Wisk.:Getallen&Gecijferdheid 1	1ON Groep 3	V101(wisk)+beam		1	AV	1	woensdag	  08u00
+25	1u00	H	Bambust Joost	WISK.:	Wisk.:Getallen&Gecijferdheid 1	1ON	Aula V3		6	AV	1	dinsdag	  08u00
+26	2u00	H	Bambust Joost	WISK.:	Wisk.:Getallen&Gecijferdheid 1	1ON Groep 2;1ON Groep 4;1ON Groep 6	V101(wisk)+beam		1	AV	1	vrijdag	  08u00
+27	4u00	H	Bambust Joost;Binon Sam;Christiaens Maja;Craen Britt;De Bruyn Tine;De Feyter Patricia;De Roover Ann;Dieltiens Merel;Gadeyne Judith;Haaren Hermine;Hancké Tom;Heyrman Rita;Martens Nele;Martin Philippe;Mommaerts Magda;Rosseel Tom;Timmermans Annie;Wouters Greet;Jacobs Ludwig;Vansteelandt Iris;Pycke Lies;Willems Nele;Vandewinkel Anneleen;Sychold Nina;De Pauw Sonia	VERGAD	Vergadering Opleidingsteam ON		M106 (salon);M108		1	AV	1	donderdag	  09u00
+28	2u00	H	Bambust Joost	WISK.:	Wisk.:Getallen&Gecijferdheid 1	1ON Groep 5	V201 (peda)		6	AV	1	dinsdag	  09u00
+29	2u00	H	Bambust Joost	WISK.:	Wisk.:Getallen&Gecijferdheid 1	1ON Groep 1	V101(wisk)+beam		2	AV	1	woensdag	  10u00
+30	3u00	H	Beine Ann;Lebeer Jo	OPVOED	Opvoedingsproblemen en -strate	BanabaBo	B117 + beamer	AV+	4	AV	1	woensdag	  13u30
+31	1u00	H	Belmans Willy	MONDEL	Mondeling Engels 1	1 SO Engels	Aula K2	AV+	5	AV	1	vrijdag	  14u00
+32	1u00	H	Belmans Willy	SCHRIF	Schriftelijk Engels 1	1 SO Engels	Aula K2		5	AV	1	vrijdag	  13u00
+33	1u00	H	Belmans Willy	MONDEL	Mondeling Engels 1	1 SO Engels 1	V102 (OLC-les)		5	AV	1	woensdag	  15u00
+34	1u00	H	Belmans Willy	MONDEL	Mondeling Engels 1	1 SO Engels 2	V102 (OLC-les)		5	AV	1	woensdag	  17u00
+35	2u00	H	Belmans Willy	SCHRIF	Schriftelijk Engels 1	1 SO Engels	Aula K2		5	AV	1	donderdag	  09u00
+36	1u00	H	Belmans Willy	MONDEL	Mondeling Engels 1	1 SO Engels 3	V102 (OLC-les)		5	AV	1	woensdag	  16u00
+37	3u30	H	Binon Sam	HOC	HOC		Externe locatie		1	AV	1	donderdag	  13u30
+38	2u00	H	Binon Sam	DIDACT	Didactisch werken 1	1ON Groep 3;1ON Groep 4	B210 + beamer		1	AV	1	vrijdag	  16u00
+39	3u00	H	Binon Sam	ONDERW	Onderwijs en maatschappij 5	3ON/A Ond wereld	Aula K2		6	AV	1	woensdag	  09u00
+40	2u00	H	Binon Sam	DIDACT	Didactisch werken 1	1ON Groep 1;1ON Groep 2	B210 + beamer		1	AV	1	vrijdag	  14u00
+41	10u00	H	Binon Sam	XX	xx		Lokaal onbekend		1	AV	1	dinsdag	  08u00
+42	2u00	H	Bollaert Hiram	FINANC	Financiële algebra	2BA	B207 + beamer	AV+	6	AV	1	vrijdag	  14u00
+43	2u00	H	Bollaert Hiram	FINANC	Financiële algebra	2BF	B207 + beamer	AV+	6	AV	1	vrijdag	  11u00
+44	10u00	H	Bollens Eric	DEPART	Departement G		andere school	AV+	6	AV	1	vrijdag	  08u00
+45	3u00	H	Bollens Eric;Clerckx Joeri;Decru Bart;Plaetinck Silke	SPORT	Sport en beweging	1  SO BR 1-2-4;1  SO BR 3-5-6	NSporthal;NDans/gevechts;N1 (polyvalent);N2 (theorie)	AV+	5	AV	1	maandag	  08u00
+46	0u45	H	Bollens Eric;Decru Bart;Plaetinck Silke	SPORTT	Sporttechniek 1: Zwemmen	1 SO LO groep 1;1 SO LO groep 2;1 SO LO groep 4	Zwembad Veldstr	AV+	5	AV	1	maandag	  14u30
+47	3u00	H	Bollens Eric;Clerckx Joeri;Deckers Bruno;Mertens Patsy;Plaetinck Silke;Weemaes Thomas	DID. L	Did. LO - Didactiek specifiek	1 SO LO groep 1;1 SO LO groep 2;1 SO LO groep 3;1 SO LO groep 4;1 SO LO groep 5;1 SO LO groep 6	NSporthal;NGymzaal;NDans/gevechts;N1 (polyvalent)	AV+	1	AV	1	maandag	  11u00
+48	2u30	H	Bollens Eric	GEZOND	Gezondheidsleer 1	1  SO BR 1-2-4	B211	AV+	5	AV	1	donderdag	  08u30
+49	0u45	H	Bollens Eric;Decru Bart;Plaetinck Silke	SPORTT	Sporttechniek 1: Zwemmen	1 SO LO groep 3;1 SO LO groep 5;1 SO LO groep 6	Zwembad Veldstr	AV+	5	AV	1	maandag	  15u15
+50	3u00	H	Boutchakate Samirah	TRAINI	Leergroepen 1	1SWA Gr 03	K101(SCW)+beame		6	AV	1	dinsdag	  14u00
+51	2u00	H	Boutchakate Samirah	SUPERV	Supervisie	2SW Gr10	B111 + beamer		6	AV	1	vrijdag	  14u00
+52	5u00	H	Caelen Deeviet;Mommaerts Magda;Vansteelandt Iris	PWO-VE	PWO-vergadering		Lokaal onbekend		6	AV	1	vrijdag	  13u00
+53	5u00	H	Caelen Deeviet;Mommaerts Magda;Vansteelandt Iris	PWO-VE	PWO-vergadering		Lokaal onbekend		1	AV	1	vrijdag	  08u00
+54	1u30	H	Caelen Deeviet	TOOLKI	Toolkit	1  SO Groep AV B	Aula V3		1	AV	1	dinsdag	  13u00
+55	2u00	H	Calders Vera	ECONOM	Economie bedrijfsbeheer 1	1 SO Economie	B204 (comp);B206A	AV+	5	AV	1	donderdag	  13u00
+56	14u00	H	Calders Vera;Dieltiens Merel	DIENST	Dienstvrijstelling		Geen lokaal		1	AV	1	maandag	  08u00
+57	14u00	H	Calders Vera	DIENST	Dienstvrijstelling		Geen lokaal		1	AV	1	dinsdag	  08u00
+58	14u00	H	Calders Vera;Dieltiens Merel;Van d'helsen Elisabeth	DIENST	Dienstvrijstelling		Geen lokaal		1	AV	1	woensdag	  08u00
+59	1u30	H	Calders Vera	XX	xx		Externe locatie		3	AV	1	donderdag	  16u30
+60	2u00	H	Cami Ludo	HAVEN-	Haven- en transportorganisator	2BL;1OM Haven- en tr	B207 + beamer	AV+	5	AV	1	donderdag	  13u00
+61	2u00	H	Cami Ludo	HAVEN-	Haven- en transportorganisator	2BL;1OM Haven- en tr	B207 + beamer	AV+	2	AV	1	donderdag	  15u00
+62	1u00	H	Celis Luc	VAK NI	Vak niet toegekend	Internat Kroaten	M106 (salon)		1	AV	1	dinsdag	  08u00
+63	1u00	H	Celis Luc	VAK NI	Vak niet toegekend	Internat Kroaten	M106 (salon)		1	AV	1	woensdag	  08u00
+64	9u00	H	Celis Luc	VAK NI	Vak niet toegekend	Internat Kroaten	andere school		1	AV	1	dinsdag	  09u00
+65	9u00	H	Celis Luc	VAK NI	Vak niet toegekend	Internat Kroaten	andere school		1	AV	1	woensdag	  09u00
+66	3u00	H	Celis Luc	VAK NI	Vak niet toegekend	Internat Kroaten	M106 (salon)		1	AV	1	vrijdag	  10u00
+67	1u00	H	Celis Luc	VAK NI	Vak niet toegekend	Internat Kroaten	B002 (Vergzaal)		1	AV	1	maandag	  11u30
+68	2u00	H	Challouk Mourad	BIJLES	Bijles Engels	1BA;1BF;1BL;1BM;1OM;1TI	B111 + beamer		6	AV	1	dinsdag	  15u00
+69	2u00	H	Chapelle Géraldine	BUSINE	Business English	2BL	B210 + beamer		6	AV	1	maandag	  13u00
+70	3u00	H	Schwagten Marina;Chapelle Géraldine	BACHEL	Bachelorproef	3BL	B111 + beamer		6	AV	1	woensdag	  13u00
+71	3u00	H	Chapelle Géraldine	ENGLIS	English	1OM	B111 + beamer		6	AV	1	woensdag	  09u00
+72	2u00	H	Christiaens Maja	DIDACT	Didactisch werken 1	1ON Groep 5;1ON Groep 6	V202 (peda)		1	AV	1	vrijdag	  11u00
+73	2u00	H	Christiaens Maja;Denkens Rilke;Pycke Lies	INSPEL	Inspelen op verschillen 5 Peda	3ON	K203 (Ned)+beam;K204;K205 (Ned)		1	AV	1	maandag	  11u00
+74	2u00	H	Christiaens Maja;Denkens Rilke;Pycke Lies	INSPEL	Inspelen op verschillen 5 Peda	3ON	K203 (Ned)+beam;K204;K205 (Ned)		1	AV	1	maandag	  14u00
+75	2u00	H	Christiaens Maja;De Roover Ann	KRACHT	Krachtige leeromg: Werkvormen	3ON Groep 2	Externe locatie		1	AV	1	vrijdag	  14u00
+76	2u00	H	Claessen Hanneke	SUPERV	Supervisie	2SW Gr11	V104 (gesch)		6	AV	1	vrijdag	  14u00
+77	2u00	H	Claessens Dries	SUPERV	Supervisie	2SW Gr12	K203 (Ned)+beam		4	AV	1	vrijdag	  16u00
+78	2u00	H	Claessens Dries	SUPERV	Supervisie	3MW Superv 8	K203 (Ned)+beam		4	AV	1	vrijdag	  14u00
+79	1u00	H	Claeys Anthony	MUZ.UI	Muz.uitd.: ICT	1  SO Groep PKV	Academie 2.6		3	AV	1	dinsdag	  12u00
+80	1u00	H	Claeys Anthony	MUSICE	Musiceren: Peagogische ICT	1  SO Groep MO	Academie 2.6	AV+	3	AV	1	dinsdag	  13u00
+81	3u00	H	Clauw Jo	TRAINI	Training: Vaardigheden v d MA1	1SWB Gr 09	K103 (Eng)+beam		4	AV	1	donderdag	  09u00
+82	2u00	H	Clauw Jo	PROF W	Prof werken in en met groepen	3PW	K111(PW)+beamer		4	AV	1	maandag	  11u00
+83	3u00	H	Clauw Jo	TRAINI	Training: Vaardigheden v d MA1	1SWB Gr 10	K103 (Eng)+beam		4	AV	1	donderdag	  13u00
+84	2u00	H	Clauw Jo	PROF W	Prof werken in en met groepen	3MW Groep 1	K109(MW)+beamer		4	AV	1	woensdag	  09u00
+85	2u00	H	Clauw Jo	PROF W	Prof werken in en met groepen	3MW Groep 2	K110(MW)+beamer		4	AV	1	woensdag	  11u00
+86	2u00	H	Clauw Jo	SUPERV	Supervisie	2SW Gr13	V202 (peda)		6	AV	1	vrijdag	  14u00
+87	2u00	H	Clauw Jo	PROF W	Prof werken in en met groepen	3SCW	K101(SCW)+beame		4	AV	1	woensdag	  14u00
+88	1u00	H	Clerckx Joeri	SPORTT	Sporttechniek 1: Voetbal	1 SO LO groep 3;1 SO LO groep 5;1 SO LO groep 6	NSporthal		3	AV	1	donderdag	  13u00
+89	1u00	H	Clerckx Joeri	SPORTT	Sporttechniek 1: Voetbal	1 SO LO groep 1	NSporthal		3	AV	1	donderdag	  14u00
+90	1u00	H	Clerckx Joeri	SPORTT	Sporttechniek 1: Voetbal	1 SO LO groep 2	NSporthal		3	AV	1	donderdag	  15u00
+91	1u00	H	Clerckx Joeri	SPORTT	Sporttechniek 1: Voetbal	1 SO LO groep 4	NSporthal		3	AV	1	donderdag	  16u00
+92	2u00	H	Cleys Griet	SOCIAA	Sociaal en cultureel traject 1	1  SO Groep AV A	Aula V3		1	AV	1	maandag	  16u00
+93	1u00	H	Cleys Griet	VAKDID	Vakdid. PKV1: Cult&Kunstago 1	1  SO Groep PKV	Academie 2.6	AV+	3	AV	1	vrijdag	  12u00
+94	2u00	H	Cleys Griet	PSYCHO	Psychoped competenties MO 1	1  SO Groep MO	Academie 2.6	AV+	5	AV	1	woensdag	  10u00
+95	2u00	H	Cools Tim	SUPERV	Supervisie	3MW Superv 3	K109(MW)+beamer		6	AV	1	donderdag	  13u30
+96	1u00	H	Cornelis Hans	VAKDID	Vakdid MO: AML 1	1  SO Groep MO	Academie 2.6		3	AV	1	maandag	  09u00
+97	1u00	H	Cornelis Hans	VAKDID	Vakdid PKV1: muziektheorie 1	1  SO Groep PKV	Academie 2.6	AV+	3	AV	1	maandag	  08u00
+98	1u30	H	Correwyn Annemieke;Robert Nathan	VLAAMS	Vlaams onderwijs	Internat Kroaten	Aula B4 +beamer		1	AV	1	maandag	  15u00
+99	2u00	H	Coutrin Olga	PROGRA	Programmeren	1TI Groep 2;1TI Groep 4	B105 (comp)		1	AV	1	donderdag	  09u30
+100	2u00	H	Coutrin Olga	PROGRA	Programmeren	1TI Groep 1	B203 (comp)		1	AV	1	donderdag	  14u30
+101	2u00	H	Coutrin Olga	PROGRA	Programmeren	1TI	Aula B6 +beamer		6	AV	1	maandag	  14u00
+102	2u00	H	Coutrin Olga	PROGRA	Programmeren	1TI Groep 3	B102 (comp)		6	AV	1	dinsdag	  10u00
+103	2u00	H	Coutrin Olga	INTERD	Interdisciplinaire vaardigh 5	3TI	Aula B4 +beamer		6	AV	1	dinsdag	  13u00
+104	2u00	H	Coutrin Olga	WISKUN	Wiskunde voor informatici 1	1TI	Aula B6 +beamer		6	AV	1	woensdag	  14u00
+105	3u30	H	Coutrin Olga	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	maandag	  09u00
+106	3u30	H	Coutrin Olga	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	woensdag	  09u00
+107	1u00	H	Coutrin Olga	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	donderdag	  11u30
+108	1u00	H	Coutrin Olga	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	woensdag	  16u00
+109	0u30	H	Coutrin Olga	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	donderdag	  09u00
+110	1u00	H	Coutrin Olga	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	donderdag	  13u30
+111	1u00	H	Coutrin Olga	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	maandag	  16u00
+112	5u00	H	Craen Britt	ANDERE	Andere job		andere school		6	AV	1	vrijdag	  08u00
+113	2u00	H	Craen Britt	WO:NAT	WO:natuur,tijd&ruimte 1-Tijd	1ON Groep 1	V104 (gesch)		1	AV	1	dinsdag	  09u00
+114	2u00	H	Craen Britt	WO:NAT	WO:natuur,tijd&ruimte 1-Tijd	1ON Groep 3	V104 (gesch)		1	AV	1	dinsdag	  11u00
+115	5u00	H	Craen Britt	ANDERE	Andere job		andere school		6	AV	1	woensdag	  08u00
+116	4u00	H	Daman Luc	GEVAAR	Gevaarlijke goederen	3BL	B111 + beamer		2	AV	1	maandag	  08u00
+117	2u00	H	De Boeck Marc	PRAKTI	Praktijk mechanica 1	1 SO Mechanica	PA 03 (me/el)	AV+	5	AV	1	donderdag	  14u00
+118	2u00	H	De Boeck Marc	PRAKTI	Praktijk mechanica 1	1 SO Mechanica	PA 03 (me/el)	AV+	5	AV	1	maandag	  13u00
+119	1u00	H	De Brucker Johnny	MONDEL	Mondeling Engels 1	1 SO Engels 3	M017 (media)		4	AV	1	woensdag	  15u00
+120	1u00	H	De Brucker Johnny	MONDEL	Mondeling Engels 1	1 SO Engels 2	M017 (media)		4	AV	1	woensdag	  16u00
+121	1u00	H	De Brucker Johnny	MONDEL	Mondeling Engels 1	1 SO Engels 1	M017 (media)		4	AV	1	woensdag	  17u00
+122	4u00	H	De Bruyn Tine;Gadeyne Judith;Mast Pascale;Van Strydonck Marleen	VERGAD	Vergadering PWO Wetens & Techn		K010 (S)+beamer		6	AV	1	dinsdag	  13u00
+123	2u00	H	De Bruyn Tine	VERK.V	Verk.vd wereld 3 Natuur	2KL Groep 3	V204 (lab bio)		1	AV	1	woensdag	  10u00
+124	4u45	H	De Bruyn Tine	WO:NAT	WO:natuur,tijd&ruimte 1-Natuur	1ON Groep 2;1ON Groep 4;1ON Groep 5;1ON Groep 6	De Vroente		1	AV	1	maandag	  12u00
+125	2u00	H	De Bruyn Tine	KRACHT	Krachtige leeromg 5 Wo technol	3ON Groep 2	V204 (lab bio)		1	AV	1	vrijdag	  11u00
+126	4u00	H	De Bruyn Tine	VERGAD	Vergadering PWO Wetens & Techn		Geen lokaal		1	AV	1	dinsdag	  08u00
+127	2u00	H	De Bruyn Tine	VERK.V	Verk. vd wereld 1 Natuur 1	1KL Groep 2;1KL Groep 4;1KL Groep 6	V204 (lab bio)		1	AV	1	maandag	  08u00
+128	5u00	H	De Bruyn Tine;Verschaeren Ines	XX	xx		Uitgev Zwijsen		1	AV	1	woensdag	  13u00
+129	3u00	H	De Ceuster Els	TRAINI	Leergroepen 1	1SWB Gr 11	K102 (Eng)+ SB		6	AV	1	donderdag	  13u00
+130	3u00	H	De Ceuster Els	TRAINI	Leergroepen 1	1SWB Gr 12	K102 (Eng)+ SB		6	AV	1	donderdag	  09u00
+131	2u00	H	De Ceuster Els	ANIMAT	Animatie	3SCW	R Theaterzaal		1	AV	1	vrijdag	  11u00
+132	3u00	H	De Ceuster Els	ANIMAT	Animatie	3SCW	R Theaterzaal		2	AV	1	vrijdag	  14u00
+133	5u30	H	De Feyter Patricia	ANDERE	Andere job		andere school		6	AV	1	woensdag	  12u30
+134	3u00	H	De Feyter Patricia	KRACHT	Krachtige leeromg 5 Frans init	3ON Groep 1	K017		1	AV	1	vrijdag	  10u00
+135	1u30	H	De Feyter Patricia	KRACHT	Krachtige leeromg 5 Frans init	3ON Groep 2	K017		1	AV	1	dinsdag	  13u30
+136	1u30	H	De Feyter Patricia	TAAL:	Taal: Bouwstenen 1 - Frans	1ON Groep 1	K017		1	AV	1	maandag	  16u00
+137	1u30	H	De Feyter Patricia	TAAL:	Taal: Bouwstenen 1 - Frans	1ON Groep 3	K017		1	AV	1	maandag	  14u30
+138	1u30	H	De Feyter Patricia	TAAL:	Taal: Bouwstenen 1 - Frans	1ON Groep 2;1ON Groep 4;1ON Groep 6	K017		1	AV	1	maandag	  09u30
+139	1u30	H	De Feyter Patricia	TAAL:	Taal: Bouwstenen 1 - Frans	1ON Groep 5	K017		1	AV	1	maandag	  08u00
+140	1u30	H	De Feyter Patricia	KRACHT	Krachtige leeromg 5 Frans init	3ON Groep 2	K017		1	AV	1	dinsdag	  11u00
+141	3u30	H	De Greef L.	PERSON	Personenbelasting	BKR Fiscaliteit1	Aula B4 +beamer	AV+	6	AV	1	maandag	  18u30
+142	2u00	H	De Knop Guy	RISICO	Risicobeheer en deontologie	3BF	Aula B4 +beamer	AV+	6	AV	1	maandag	  10u00
+143	10u00	H	De Knop Guy	ION	ION		andere school		6	AV	1	donderdag	  08u00
+144	3u00	H	De Kock Vicky	TRAINI	Leergroepen 1	1SWA Gr 02	K019 + beamer		6	AV	1	dinsdag	  14u00
+145	3u00	H	De Kock Vicky	TRAINI	Leergroepen 1	1SWA Gr 01	V105 (NCZ)		6	AV	1	donderdag	  09u00
+146	3u00	H	De Kock Vicky	WERKVE	Werkveldspecialisatie 2	3MW Groep 2	K110(MW)+beamer		2	AV	1	vrijdag	  10u00
+147	3u00	H	De Kock Vicky	WERKVE	Werkveldspecialisatie 2	3MW Groep 1	K109(MW)+beamer		2	AV	1	vrijdag	  14u00
+148	3u00	H	De Laet Marc;Janssens Anny;Verpoort Roxanne	MARKET	Marketingprojecten 1	2BM	B102 (comp);B114 + beamer;B115 + beamer		1	AV	1	maandag	  13u00
+149	2u00	H	De Laet Marc;Janssens Anny;Verpoort Roxanne	MARKET	Marketingprojecten 1	2BM	B102 (comp);B114 + beamer;B115 + beamer		1	AV	1	maandag	  10u00
+150	3u00	H	De Laet Marc;Janssens Anny;Verpoort Roxanne	MARKET	Marketingprojecten 1	2BM	B114 + beamer;B115 + beamer		1	AV	1	dinsdag	  09u00
+151	3u00	H	De Laet Marc;Janssens Anny;Verpoort Roxanne	MARKET	Marketingprojecten 1	2BM	B102 (comp);B114 + beamer;B115 + beamer		1	AV	1	dinsdag	  13u00
+152	3u00	H	De Laet Marc;Janssens Anny	MARKET	Marketingprojecten 1	2BM	B102 (comp);B114 + beamer;B115 + beamer		1	AV	1	donderdag	  09u00
+153	3u00	H	De Laet Marc;Janssens Anny;Verpoort Roxanne	MARKET	Marketingprojecten 1	2BM	B102 (comp);B114 + beamer;B115 + beamer		1	AV	1	woensdag	  09u00
+154	3u00	H	De Laet Marc;Janssens Anny;Verpoort Roxanne	MARKET	Marketingprojecten 1	2BM	B102 (comp);B114 + beamer;B115 + beamer		1	AV	1	donderdag	  13u00
+155	3u00	H	De Laet Marc;Janssens Anny;Verpoort Roxanne	MARKET	Marketingprojecten 1	2BM	B102 (comp);B211;B115 + beamer		1	AV	1	woensdag	  13u00
+156	3u00	H	De Laet Marc;Janssens Anny;Verpoort Roxanne	MARKET	Marketingprojecten 1	2BM	B102 (comp);B114 + beamer;B115 + beamer		1	AV	1	vrijdag	  09u00
+157	2u00	H	De Pauw Sonia	SPELEN	Spelen 1 Psycho	1KL Groep 2;1KL Groep 4;1KL Groep 6	K204		1	AV	1	donderdag	  16u00
+158	2u00	H	De Pauw Sonia	SPELEN	Spelen 1 Psycho	1KL Groep 1	K202		1	AV	1	vrijdag	  08u00
+159	2u00	H	De Pauw Sonia	SPELEN	Spelen 1 Psycho	1KL Groep 5	K202		1	AV	1	woensdag	  11u00
+160	2u00	H	Willems Nele;De Pauw Sonia	LEERKR	Leerkracht in ontw : Portfolio	1KL Groep 5;1KL Groep 6	K202;K203 (Ned)+beam		1	AV	1	dinsdag	  13u00
+161	2u00	H	De Pauw Sonia	SPELEN	Spelen 1 Psycho	1KL Groep 3	K202		1	AV	1	dinsdag	  08u00
+162	3u00	H	Rosseel Tom;Pycke Lies;De Pauw Sonia	KINDER	Kinderen ondersteunen 5	3ON Huiswerk;3ON Leertrein	Externe locatie		6	AV	1	dinsdag	  15u00
+163	2u00	H	Willems Nele;De Pauw Sonia	LEERKR	Leerkracht in ontw : Portfolio	1KL Groep 5;1KL Groep 6	K202;K203 (Ned)+beam		1	AV	1	vrijdag	  11u00
+164	2u00	H	De Pooter Marijn	COMPUT	Computerarchitectuur 1	1TI	Aula B4 +beamer		1	AV	1	donderdag	  11u30
+165	2u00	H	De Pooter Marijn	ONTWIK	Ontwikkelen in een bedrijfsomg	3TI	B204 (comp)		6	AV	1	vrijdag	  11u00
+166	2u00	H	De Pooter Marijn	INFORM	Informatica-architectuur	3TI	B204 (comp)		6	AV	1	vrijdag	  14u00
+167	6u00	H	De Ridder Ingrid	ANDERE	Andere job		andere school		3	AV	1	donderdag	  10u30
+168	6u00	H	De Ridder Ingrid	ANDERE	Andere job		andere school		3	AV	1	vrijdag	  10u30
+169	7u00	H	De Ridder Ingrid	ANDERE	Andere job		andere school		4	AV	1	dinsdag	  08u00
+170	3u30	H	De Ridder Ingrid	ANDERE	Andere job		andere school		4	AV	1	maandag	  13u00
+171	1u00	H	De Ridder Ingrid	CHEMIE	Chemie (Fysica 1A/Biologie 1B)	1 SO Biologie;1 SO Fysica	K104 (S)+ SB	AV+	1	AV	1	woensdag	  15u30
+172	9u00	H	De Roover Ann;Van Aerschot Heidi	VERGAD	Vergadering		B117 + beamer		1	AV	1	dinsdag	  09u00
+173	2u00	H	De Schepper Koen	SUPERV	Supervisie	3PW Superv 4	K111(PW)+beamer		5	AV	1	vrijdag	  10u30
+174	3u00	H	De Schepper Koen	TRAINI	Leergroepen 1	1SWA Gr 04	K017		6	AV	1	donderdag	  09u00
+175	3u00	H	De Schepper Koen	TRAINI	Leergroepen 1	1SWA Gr 05	K017		6	AV	1	donderdag	  13u00
+176	2u00	H	De Schepper Koen	SUPERV	Supervisie	2SW Gr14	K111(PW)+beamer		6	AV	1	vrijdag	  14u00
+177	2u00	H	De Witte Marc	ECON A	Econ aardr en havenstudie	2BL	B208 + beamer		6	AV	1	maandag	  10u00
+178	1u00	H	Deckers Bruno	SPORTT	Sporttechniek 1: Handbal	1 SO LO groep 5	NSporthal	AV+	3	AV	1	woensdag	  10u00
+179	1u00	H	Deckers Bruno	SPORTT	Sporttechniek 1: Handbal	1 SO LO groep 3	NSporthal	AV+	3	AV	1	woensdag	  09u00
+180	1u00	H	Deckers Bruno	SPORTT	Sporttechniek 1: Handbal	1 SO LO groep 1;1 SO LO groep 2;1 SO LO groep 4	NSporthal	AV+	3	AV	1	woensdag	  08u00
+181	1u00	H	Deckers Bruno	SPORTT	Sporttechniek 1: Handbal	1 SO LO groep 6	NSporthal	AV+	3	AV	1	woensdag	  11u00
+182	10u00	H	Decru Bart	ANDERE	Andere job		Externe locatie		6	AV	1	donderdag	  08u00
+183	1u00	H	Decru Bart	SPORTT	Sporttechniek 1: Volleybal	1 SO LO groep 4	NSporthal	AV+	3	AV	1	vrijdag	  14u00
+184	1u00	H	Decru Bart	SPORTT	Sporttechniek 1: Volleybal	1 SO LO groep 3;1 SO LO groep 5;1 SO LO groep 6	NSporthal	AV+	3	AV	1	vrijdag	  13u00
+185	1u00	H	Decru Bart	SPORTT	Sporttechniek 1: Volleybal	1 SO LO groep 1	NSporthal	AV+	3	AV	1	vrijdag	  15u00
+186	1u00	H	Decru Bart	SPORTT	Sporttechniek 1: Volleybal	1 SO LO groep 2	NSporthal	AV+	3	AV	1	vrijdag	  16u00
+187	2u00	H	Dehertogh Britt	PRAKTI	Praktijkonderzoek	2PW;2SCW	Aula K2		1	AV	1	vrijdag	  11u00
+188	2u00	H	Dehertogh Britt	PRAKTI	Praktijkonderzoek	2MW	Aula K2		1	AV	1	vrijdag	  09u00
+189	1u30	H	Dehertogh Britt	TOOLKI	Toolkit	1 SO LO groep 3;1 SO LO groep 5;1 SO LO groep 6	N2 (theorie)		1	AV	1	vrijdag	  14u00
+190	1u00	H	Deman Niko	MUZ.UI	Muz.Uitd.: Praktische harm 1	1 MO-PKV groep E;1 MO-PKV groep F	Academie 3.3	AV+	3	AV	1	maandag	  13u00
+191	1u00	H	Deman Niko	MUZ.UI	Muz.Uitd.: Praktische harm 1	1 MO-PKV groep C;1 MO-PKV groep D	Academie 3.3	AV+	3	AV	1	maandag	  11u00
+192	1u00	H	Deman Niko	MUZ.UI	Muz.Uitd.: Praktische harm 1	1 MO-PKV groep A;1 MO-PKV groep B	Academie 3.3	AV+	3	AV	1	maandag	  12u00
+193	3u30	H	Denkens Rilke	PSYCHO	Psychoped competenties TV 1	1  SO GrTV glila	V201 (peda)		4	AV	1	vrijdag	  08u30
+194	2u00	H	Denkens Rilke	INSPEL	Inspelen op verschillen 5 Peda	3ON	Aula K1		1	AV	1	donderdag	  10u00
+195	2u00	H	Denkens Rilke	PSYCHO	Psychoped competenties TV 1	1  SO GrTV glila	V201 (peda)		1	AV	1	maandag	  16u00
+196	2u00	H	Dereymaeker Peter	DATABA	Databanken - beheer	3TI	B203 (comp);B204 (comp)		6	AV	1	vrijdag	  09u00
+197	2u00	H	Dereymaeker Peter	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	vrijdag	  11u00
+198	10u00	H	Dieltiens Merel	ANDERE	Andere job		andere school		3	AV	1	vrijdag	  08u00
+199	2u00	H	Dieltiens Merel	ONTWIK	Ontwikkelingsroute 1 Beeld	1KL Groep 1	V011 (PO)		1	AV	1	dinsdag	  11u00
+200	2u00	H	Doumen Axel	ZAKELI	Zakelijke communicatie	2BL	Aula B5 +beamer	AV+	6	AV	1	donderdag	  10u00
+201	9u00	H	Doumen Axel;Soenen Christine	VERGAD	Vergadering stuurgroep OM		B001 (Onthaal)		1	AV	1	dinsdag	  09u00
+202	2u00	H	Drees Sabine	SUPERV	Supervisie	2SW Gr15	V201 (peda)		6	AV	1	vrijdag	  14u00
+203	2u00	H	Exsteens Jannick	SUPERV	Supervisie	2SW Gr16	K101(SCW)+beame		4	AV	1	vrijdag	  16u00
+204	3u00	H	Ferny Lies	TRAINI	Leergroepen 1	1SWB Gr 14	V104 (gesch)		5	AV	1	donderdag	  13u00
+205	3u00	H	Ferny Lies	TRAINI	Leergroepen 1	1SWB Gr 15	V104 (gesch)		5	AV	1	donderdag	  09u00
+206	2u00	H	Fiers Sabine	SUPERV	Supervisie	2SW Gr17	K102 (Eng)+ SB		6	AV	1	vrijdag	  14u00
+207	2u00	H	Fiers Sabine	SUPERV	Supervisie	2SW Gr18	K102 (Eng)+ SB		6	AV	1	vrijdag	  16u00
+208	2u00	H	Gadeyne Judith	BIOLOG	Biologie (Biologie1A/Fysica1B)	1 SO Biologie;1 SO Fysica	V204 (lab bio)		5	AV	1	vrijdag	  13u00
+209	4u45	H	Gadeyne Judith	WO:NAT	WO:natuur,tijd&ruimte 1-Natuur	1ON Groep 1;1ON Groep 3	De Vroente		1	AV	1	maandag	  08u30
+210	3u00	H	Gadeyne Judith;Haazen Peter	KRACHT	Krachtige leeromg 5 Wo technol	3ON Groep 1	V102 (OLC-les);V103(OLC-PC)		1	AV	1	dinsdag	  09u00
+211	4u00	H	Gadeyne Judith	VERGAD	Vergadering PWO Wetens & Techn		Geen lokaal		6	AV	1	donderdag	  13u00
+212	2u00	H	Gadeyne Judith	KRACHT	Krachtige leeromg 5 Wo technol	3ON Groep 1	V204 (lab bio)		1	AV	1	vrijdag	  15u00
+213	1u00	H	Gadeyne Judith	BIOLOG	Biologie (Biologie1A/Fysica1B)	1 SO Biologie;1 SO Fysica	V204 (lab bio)		1	AV	1	woensdag	  16u30
+214	2u00	H	Galle Nele	BA&KR	Bank en kredietwezen	2BF	B208 + beamer		6	AV	1	woensdag	  15u00
+215	1u00	H	Galle Nele	ECONOM	Economie	1OM	B208 + beamer	AV+	6	AV	1	maandag	  16u00
+216	1u00	H	Galle Nele	CONTRO	controleleer en deontologie	3BA	B208 + beamer		6	AV	1	maandag	  15u00
+217	2u00	H	Galle Nele	CONTRO	controleleer en deontologie	3BA	B208 + beamer		6	AV	1	woensdag	  13u00
+218	2u00	H	Galle Nele	BEDRIJ	Bedrijfsbeleid	1BL;1BM	Aula B5 +beamer		3	AV	1	woensdag	  08u00
+219	2u00	H	Galle Nele	ECONOM	Economie	1OM	B115 + beamer	AV+	6	AV	1	maandag	  08u00
+220	2u00	H	Galle Nele	ECONOM	Economie	1BL;1BM	Aula B5 +beamer		3	AV	1	maandag	  13u00
+221	2u00	H	Galle Nele	ECONOM	Economie	1BA;1BF	Aula B6 +beamer		3	AV	1	maandag	  10u00
+222	2u00	H	Galle Nele	BEDRIJ	Bedrijfsbeleid	1BA;1BF	Aula B5 +beamer		3	AV	1	woensdag	  10u00
+223	2u00	H	Galle Nele	ECONOM	Economie	1BA;1BF	Aula B5 +beamer		3	AV	1	vrijdag	  08u00
+224	2u00	H	Galle Nele	BEDRIJ	Bedrijfsbeleid	1BA;1BF	Aula B5 +beamer		3	AV	1	vrijdag	  10u00
+225	2u00	H	Galle Nele	BEDRIJ	Bedrijfsbeleid	1BL;1BM	Aula B5 +beamer		3	AV	1	vrijdag	  15u00
+226	2u00	H	Galle Nele	ECONOM	Economie	1BL;1BM	Aula B5 +beamer		3	AV	1	vrijdag	  13u00
+227	2u00	H	Geukens Lieve	SUPERV	Supervisie	3MW Superv 2	K010 (S)+beamer		5	AV	1	vrijdag	  13u00
+228	2u00	H	Masson Ann	VAARDI	Vaardigh vd MA 1: theorie 1	1SWB	Aula V3	AV+	5	AV	1	dinsdag	  09u00
+229	2u00	H	Masson Ann	VAARDI	Vaardigh vd MA 1: theorie 1	1SWA	Aula V3	AV+	5	AV	1	dinsdag	  11u00
+230	3u00	H	Giltjes Veerle	TRAINI	Training: Vaardigheden v d MA1	1SWA Gr 01	K016 (Frans)		4	AV	1	dinsdag	  14u00
+231	3u00	H	Giltjes Veerle	TRAINI	Training: Vaardigheden v d MA1	1SWA Gr 02	K104 (S)+ SB		4	AV	1	donderdag	  09u00
+232	3u00	H	Giltjes Veerle	TRAINI	Training: Vaardigheden v d MA1	1SWA Gr 03	K104 (S)+ SB		4	AV	1	donderdag	  13u00
+233	2u00	H	Giltjes Veerle	SUPERV	Supervisie	2SW Gr19	B211		5	AV	1	vrijdag	  14u00
+234	2u00	H	Goldwasser Janine	MONDEL	Mondeling Frans 1	1 SO Frans	K104 (S)+ SB	AV+	5	AV	1	maandag	  13u00
+235	3u00	H	Goldwasser Janine	SCHRIF	Schriftelijk Frans 1	1 SO Frans	K102 (Eng)+ SB		5	AV	1	woensdag	  09u00
+236	2u00	H	Goldwasser Janine	MONDEL	Mondeling Frans 1	1 SO Frans	K104 (S)+ SB	AV+	4	AV	1	donderdag	  16u00
+237	2u00	H	Grymonprez Hans	INLEID	Inleiding in het werkveld	1SWA;1SWB	Aula Keizerstra		6	AV	1	vrijdag	  11u00
+238	3u00	H	Grymonprez Hans	METHOD	Methodiek maatschap. werk 2	3MW	Aula K2	AV+	5	AV	1	maandag	  10u00
+239	2u00	H	Grymonprez Hans	MAATSC	Activering en gemeenschapsvorm	3MW Groep 2	K109(MW)+beamer	AV+	6	AV	1	donderdag	  09u00
+240	2u00	H	Grymonprez Hans	MAATSC	Activering en gemeenschapsvorm	3MW Groep 1	K109(MW)+beamer	AV+	6	AV	1	donderdag	  11u00
+241	2u00	H	Gys Kathleen	METHOD	Methodiek personeelsmanagement	3PW	K111(PW)+beamer	AV+	6	AV	1	dinsdag	  09u00
+242	2u00	H	Gys Kathleen	METHOD	Methodiek personeelsmanagement	3PW	K111(PW)+beamer	AV+	6	AV	1	maandag	  09u00
+243	2u00	H	Gys Kathleen	PRAKTI	Praktijk Sociaal Recht	3PW	K111(PW)+beamer	AV+	6	AV	1	dinsdag	  11u00
+244	3u00	H	Gys Kathleen	TRAINI	Leergroepen 1	1SWB Gr 13	K101(SCW)+beame		6	AV	1	donderdag	  13u00
+245	3u00	H	Gys Kathleen	TRAINI	Leergroepen 1	1SWA Gr 06	V105 (NCZ)		6	AV	1	dinsdag	  14u00
+246	2u00	H	Gys Kathleen	SUPERV	Supervisie	2SW Gr20	K204		6	AV	1	vrijdag	  14u00
+247	2u00	H	Gys Kathleen	SUPERV	Supervisie	2SW Gr21	K204		6	AV	1	vrijdag	  16u00
+248	3u00	H	Haaren Hermine	BEWEGI	Beweging en gezondheid 1	1ON Groep 1	NGymzaal		6	AV	1	vrijdag	  08u00
+249	3u00	H	Haaren Hermine	BEWEGI	Beweging en gezondheid 1	1ON Groep 5	NGymzaal		3	AV	1	vrijdag	  14u00
+250	3u00	H	Haaren Hermine	BEWEGI	Beweging en gezondheid 1	1ON Groep 3	NGymzaal		3	AV	1	vrijdag	  11u00
+251	3u00	H	Haaren Hermine	BEWEGI	Beweging en gezondheid 1	1ON Groep 2;1ON Groep 4;1ON Groep 6	NGymzaal		5	AV	1	dinsdag	  10u00
+252	5u00	H	Hancké Tom	ANDERE	Andere job		andere school	AV+	6	AV	1	vrijdag	  08u00
+253	3u00	H	Hancké Tom	KIND I	Kind in de lagere school	1ON Groep 2;1ON Groep 4;1ON Groep 5;1ON Groep 6	Aula K1		5	AV	1	dinsdag	  15u00
+254	3u00	H	Hancké Tom	KIND I	Kind in de lagere school	1ON Groep 1;1ON Groep 3	Aula K2		5	AV	1	woensdag	  13u00
+255	3u00	H	Hancké Tom	ALGEME	Algemene didactiek TV 1	1  SO GrTV glila	M108	AV+	5	AV	1	woensdag	  09u00
+256	5u00	H	Hancké Tom	ANDERE	Andere job		andere school	AV+	6	AV	1	maandag	  13u00
+257	1u00	H	Hargreaves Stephen	MONDEL	Mondeling Engels 1	1 SO Engels 1	V103(OLC-PC)		5	AV	1	woensdag	  16u00
+258	1u00	H	Hargreaves Stephen	MONDEL	Mondeling Engels 1	1 SO Engels 2	V103(OLC-PC)		5	AV	1	woensdag	  15u00
+259	1u00	H	Hargreaves Stephen	MONDEL	Mondeling Engels 1	1 SO Engels 3	V103(OLC-PC)		5	AV	1	woensdag	  17u00
+260	2u00	H	Havermans Inge	ONTWIK	Ontwikkelingsroute 1 Beeld	1KL Groep 5	V011 (PO)		1	AV	1	dinsdag	  15u00
+261	2u00	H	Havermans Inge;Koelman Astrid	LEERKR	Leerkracht in ontw : Portfolio	1KL Groep 1;1KL Groep 2	K110(MW)+beamer;K109(MW)+beamer		1	AV	1	maandag	  14u00
+262	2u00	H	Havermans Inge;Koelman Astrid	LEERKR	Leerkracht in ontw : Portfolio	1KL Groep 1;1KL Groep 2	K202;K203 (Ned)+beam		1	AV	1	woensdag	  09u00
+263	1u00	H	Havermans Inge	ONTWIK	Ontwikkelingsroute 1 Beeld	1KL Groep 2;1KL Groep 4;1KL Groep 6	V011 (PO)		1	AV	1	maandag	  16u00
+264	2u00	H	Havermans Inge	ONTWIK	Ontwikkelingsroute 1 Beeld	1KL Groep 3	V011 (PO)		1	AV	1	vrijdag	  09u00
+265	2u00	H	Havermans Inge	SPELEN	Spelen met beeld	2KL Groep 1	V011 (PO)		1	AV	1	maandag	  09u00
+266	2u00	H	Havermans Inge	SPELEN	Spelen met beeld	2KL Groep 2;2KL Groep 4	V011 (PO)		1	AV	1	maandag	  11u00
+267	2u00	H	Havermans Inge	SPELEN	Spelen met beeld	2KL Groep 3	V011 (PO)		1	AV	1	woensdag	  13u00
+268	1u00	H	Havermans Inge	ONTWIK	Ontwikkelingsroute 1 Beeld	1KL Groep 2;1KL Groep 4;1KL Groep 6	V011 (PO)		1	AV	1	woensdag	  11u00
+269	7u15	H	Hegge Miet	ANDERE	Andere job		andere school		6	AV	1	dinsdag	  10u45
+270	7u15	H	Hegge Miet	ANDERE	Andere job		andere school		6	AV	1	maandag	  10u45
+271	2u00	H	Heyrman Rita	SOCIAA	Sociaal en cultureel traject 1	1  SO Groep AV B	Aula V3		1	AV	1	dinsdag	  14u30
+272	10u00	H	Heyrman Rita	BIJSCH	Bijscholing		Externe locatie		1	AV	1	maandag	  08u00
+273	10u00	H	Heyrman Rita	BIJSCH	Bijscholing		Externe locatie		1	AV	1	vrijdag	  08u00
+274	3u00	H	Hintjens Joost	ANDERE	Andere job		andere school		6	AV	1	vrijdag	  15u00
+275	2u00	H	Hintjens Joost	LOGIST	Logistieke kostprijsberekening	3BL	B210 + beamer	AV+	6	AV	1	vrijdag	  11u00
+276	2u00	H	Hintjens Joost	MARKET	Marketing logistiek:B2B,Dienst	3BL	B104 (comp);B105 (comp)		4	AV	1	vrijdag	  09u00
+277	1u00	H	Huybrechts Lukas/Student AV	BIJLES	Bijles Engels	1BA;1BF;1BL;1BM;1OM;1TI Groep 4	B207 + beamer		1	AV	1	dinsdag	  10u00
+278	1u00	H	Huybrechts Lukas/Student AV	BIJLES	Bijles Engels	1BA;1BF;1BL;1BM;1OM;1TI	B207 + beamer		1	AV	1	dinsdag	  09u00
+279	2u00	H	Jacobs Ludwig	ONTWIK	Ontwikkelingsroute 1 Muziek	1KL Groep 3	V203 (MO)		1	AV	1	donderdag	  16u00
+280	2u00	H	Jacobs Ludwig	ONTWIK	Ontwikkelingsroute 1 Muziek	1KL Groep 1	V203 (MO)		1	AV	1	maandag	  11u00
+281	2u00	H	Robert Nathan;Jacobs Ludwig	LEERKR	Leerkracht in ontw : Portfolio	1KL Groep 3;1KL Groep 4	K104 (S)+ SB;K105 (S)+beamer		1	AV	1	dinsdag	  15u00
+282	2u00	H	Jacobs Ludwig	ONTWIK	Ontwikkelingsroute 1 Muziek	1KL Groep 5	V203 (MO)		1	AV	1	woensdag	  15u00
+283	2u00	H	Jacobs Ludwig	ONTWIK	Ontwikkelingsroute 3 Muziek	2KL Groep 3	V203 (MO)		1	AV	1	dinsdag	  09u00
+284	2u00	H	Robert Nathan;Jacobs Ludwig	LEERKR	Leerkracht in ontw : Portfolio	1KL Groep 3;1KL Groep 4	K104 (S)+ SB;K105 (S)+beamer		1	AV	1	woensdag	  08u00
+285	2u00	H	Jacobs Ludwig	ONTWIK	Ontwikkelingsroute 1 Muziek	1KL Groep 2;1KL Groep 4;1KL Groep 6	V203 (MO)		1	AV	1	woensdag	  13u00
+286	2u00	H	Jacobs Ludwig	ONTWIK	Ontwikkelingsroute 3 Muziek	2KL Groep 1	V203 (MO)		1	AV	1	woensdag	  10u00
+287	2u00	H	Jacobs Ludwig	ONTWIK	Ontwikkelingsroute 3 Muziek	2KL Groep 2;2KL Groep 4	V203 (MO)		1	AV	1	dinsdag	  11u00
+288	2u00	H	Janssen Monique	VAKDID	Vakdid MO: Methodiek 1	1  SO Groep MO	Academie 2.7	AV+	3	AV	1	donderdag	  12u30
+289	3u00	H	Keulemans Anneke	TRAINI	Training: Vaardigheden v d MA1	1SWB Gr 12	K203 (Ned)+beam		4	AV	1	donderdag	  13u00
+290	3u00	H	Keulemans Anneke	TRAINI	Training: Vaardigheden v d MA1	1SWB Gr 11	K203 (Ned)+beam		4	AV	1	donderdag	  09u00
+291	2u00	H	Keulemans Anneke	SUPERV	Supervisie	2SW Gr22	K016 (Frans)		6	AV	1	vrijdag	  14u00
+292	2u00	H	Keulemans Anneke	VAARDI	Vaardigheden personeelswerk	3PW	K111(PW)+beamer		6	AV	1	woensdag	  09u00
+293	6u00	H	Kimpe Mieke	ION	ION		andere school		6	AV	1	woensdag	  12u00
+294	10u00	H	Kimpe Mieke	ION	ION		andere school		6	AV	1	vrijdag	  08u00
+295	2u00	H	Kimpe Mieke	FINANC	Financiële analyse & consolida	3BA	B208 + beamer		6	AV	1	donderdag	  14u00
+296	2u00	H	Kimpe Mieke	FINANC	Financiële analyse & consolida	3BA	B208 + beamer		6	AV	1	donderdag	  11u00
+297	10u00	H	Kimpe Mieke	ION	ION		andere school		6	AV	1	maandag	  08u00
+298	2u00	H	Koelman Astrid	ERVARI	Ervaringsgericht leren 3	2KL Groep 1	R Theaterzaal		1	AV	1	maandag	  11u00
+299	3u00	H	Koelman Astrid	ONDERW	Onderwijzen 3	2KL Groep 2;2KL Groep 4	R Theaterzaal		1	AV	1	dinsdag	  14u00
+300	2u00	H	Koelman Astrid	ERVARI	Ervaringsgericht leren 3	2KL Groep 2;2KL Groep 4	R Theaterzaal		1	AV	1	maandag	  09u00
+301	2u00	H	Koning Myriam	SUPERV	Supervisie	2SW Gr23	V108(aard)+beam		6	AV	1	vrijdag	  14u00
+302	2u00	H	Kuppens Bram	PRAKTI	Praktijk bouw 1	1 SO Bouw	K202	AV+	1	AV	1	woensdag	  15u00
+303	2u00	H	Kuppens Bram	PRAKTI	Praktijk hout 1	1 SO Hout	K202	AV+	1	AV	1	donderdag	  13u00
+304	2u00	H	Kuppens Bram	PRAKTI	Praktijk bouw 1	1 SO Bouw	K202	AV+	1	AV	1	woensdag	  13u00
+305	14u00	H	Van Strydonck Marleen;Kuppens Bram	DIENST	Dienstvrijstelling		Geen lokaal		1	AV	1	vrijdag	  08u00
+306	2u00	H	Kuppens Bram	PRAKTI	Praktijk hout 1	1 SO Hout	K202	AV+	1	AV	1	donderdag	  15u00
+307	2u00	H	Lams Line	BIJZ.	Bijz. vraagstukken recht	3MW Groep 2	K110(MW)+beamer	AV+	6	AV	1	dinsdag	  09u00
+308	2u00	H	Lams Line	BIJZ.	Bijz. vraagstukken recht	3MW Groep 1	K109(MW)+beamer	AV+	6	AV	1	dinsdag	  11u00
+309	3u00	H	Landuyt Inge	COMMUN	Communiceren 1 Taal	1KL Groep 5	K102 (Eng)+ SB		1	AV	1	dinsdag	  09u00
+310	2u00	H	Landuyt Inge	ONTLUI	Ontluikende geletterdheid 3	2KL Groep 3	K102 (Eng)+ SB		1	AV	1	maandag	  16u00
+311	2u00	H	Landuyt Inge	ONTLUI	Ontluikende geletterdheid 3	2KL Groep 1	K102 (Eng)+ SB		1	AV	1	dinsdag	  13u00
+312	2u00	H	Landuyt Inge	ONTLUI	Ontluikende geletterdheid 3	2KL Groep 2;2KL Groep 4	K102 (Eng)+ SB		1	AV	1	maandag	  14u00
+313	3u00	H	Landuyt Inge	COMMUN	Communiceren 1 Taal	1KL Groep 2;1KL Groep 4;1KL Groep 6	K102 (Eng)+ SB		1	AV	1	maandag	  10u00
+314	1u30	H	Landuyt Inge	TOOLKI	Toolkit	1  SO Groep AV A	Aula K2		1	AV	1	dinsdag	  16u00
+315	10u00	H	Landuyt Inge	CONGRE	Congres		Externe locatie		1	AV	1	vrijdag	  08u00
+316	3u30	H	Laurent Marleen	HOUT 1	Hout 1	1 SO Hout	K202	AV+	1	AV	1	maandag	  12u30
+317	2u00	H	Leirs Sybryn	SUPERV	Supervisie	2SW Gr24	V101(wisk)+beam		6	AV	1	vrijdag	  14u00
+318	2u00	H	Lepage Nathalie	SUPERV	Supervisie	2SW Gr25	M108		6	AV	1	vrijdag	  14u00
+319	2u00	H	Leyman Bart	SPECIF	Specifieke softwarepakketten	2BA	B104 (comp);B105 (comp)	AV+	5	AV	1	donderdag	  13u00
+320	4u30	H	Leys Corinne	ANDERE	Andere job		andere school		5	AV	1	vrijdag	  08u00
+321	4u30	H	Leys Corinne	ANDERE	Andere job		andere school		6	AV	1	maandag	  08u00
+322	2u00	H	Leys Corinne	NCZ VA	NCZ vakinhoud 1	1 SO NCZ	V105 (NCZ)	AV+	5	AV	1	maandag	  14u00
+323	2u00	H	Leys Corinne	NCZ VA	NCZ vakinhoud 1	1 SO NCZ	V105 (NCZ)	AV+	5	AV	1	donderdag	  16u00
+324	3u00	H	Leys Corinne	NCZ VA	NCZ vakinhoud 1	1 SO NCZ	V105 (NCZ)	AV+	5	AV	1	woensdag	  09u00
+325	5u30	H	Leys Corinne	ANDERE	Andere job		andere school		6	AV	1	woensdag	  13u00
+326	4u00	H	Loodsteen Inge	WERKVE	Werkveldverkenning deel 2	3SCW	K101(SCW)+beame		2	AV	1	maandag	  14u00
+327	2u00	H	Lopez Marga	FRANçA	Le français des affaires	2BA;2BF	B206A	AV+	6	AV	1	maandag	  11u00
+328	2u00	H	Lopez Marga	4E TAA	4e taal onafh.gebr.B1-Spaans	3BL Spaans	B109		6	AV	1	donderdag	  10u00
+329	2u00	H	Lopez Marga	4E TAA	4e taal basisgebr. A1-Spaans	2BL Spaans	B109	AV+	6	AV	1	woensdag	  10u00
+330	2u00	H	Lopez Marga	FRANçA	Le français des affaires	2BL	B109	AV+	6	AV	1	donderdag	  08u00
+331	2u00	H	Lopez Marga	FRANçA	Français	1BL	B109		6	AV	1	vrijdag	  10u00
+332	10u00	H	Maelstaf Hilde	INTERN	Internationalisering		Externe locatie		1	AV	1	vrijdag	  08u00
+333	10u00	H	Maelstaf Hilde	INTERN	Internationalisering		Externe locatie		2	AV	1	maandag	  08u00
+334	10u00	H	Maelstaf Hilde	INTERN	Internationalisering		Externe locatie		2	AV	1	dinsdag	  08u00
+335	10u00	H	Maelstaf Hilde	INTERN	Internationalisering		Externe locatie		2	AV	1	woensdag	  08u00
+336	10u00	H	Maelstaf Hilde	INTERN	Internationalisering		Externe locatie		1	AV	1	donderdag	  08u00
+337	1u00	H	Maertens Eva	PSYCHO	Psychoped.comp: Onderwijskunde	1  SO Groep LO	Aula B5 +beamer		5	AV	1	dinsdag	  13u00
+338	10u00	H	Maertens Eva	ANDERE	Andere job		Externe locatie		6	AV	1	vrijdag	  08u00
+339	1u00	H	Maertens Eva	PSYCHO	Psychoped.comp: Psychologie	1  SO Groep LO	Aula B5 +beamer		5	AV	1	dinsdag	  14u00
+340	2u00	H	Maertens Eva	DID. L	Did. LO - Didactiek algemeen	1 SO LO groep 3;1 SO LO groep 5;1 SO LO groep 6	Aula B4 +beamer	AV+	5	AV	1	dinsdag	  16u00
+341	2u00	H	Maertens Eva	DID. L	Did. LO - Didactiek algemeen	1 SO LO groep 1;1 SO LO groep 2;1 SO LO groep 4	Aula B6 +beamer	AV+	5	AV	1	dinsdag	  10u00
+342	10u00	H	Maertens Eva	ANDERE	Andere job		Externe locatie		6	AV	1	woensdag	  08u00
+343	2u00	H	Mancel Evelyne	WORKSH	Workshop	1ON Groep 1	K019 + beamer		1	AV	1	woensdag	  08u00
+344	2u00	H	Mancel Evelyne	WORKSH	Workshop	1ON Groep 3;1ON Groep 5	K019 + beamer		1	AV	1	woensdag	  10u00
+345	2u00	H	Mancel Evelyne	WORKSH	Workshop	1ON Groep 2;1ON Groep 4;1ON Groep 6	K019 + beamer		1	AV	1	woensdag	  13u00
+346	1u00	H	Marrannes Mirl	ZANG	Zang	1KL Groep 1;1KL Groep 2	V203 (MO)		1	AV	1	vrijdag	  16u00
+347	1u00	H	Marrannes Mirl	ZANG	Zang	1KL Groep 5;1KL Groep 6	V203 (MO)		1	AV	1	vrijdag	  14u00
+348	1u00	H	Marrannes Mirl	ZANG	Zang	1KL Groep 3;1KL Groep 4	V203 (MO)		1	AV	1	vrijdag	  11u00
+349	1u00	H	Marrannes Mirl	ZANG	Zang	1ON Groep 3;1ON Groep 4	V203 (MO)		1	AV	1	vrijdag	  15u00
+350	1u00	H	Marrannes Mirl	ZANG	Zang	1ON Groep 1;1ON Groep 2	V203 (MO)		1	AV	1	vrijdag	  13u00
+351	1u00	H	Marrannes Mirl	ZANG	Zang	1ON Groep 5;1ON Groep 6	V203 (MO)		1	AV	1	vrijdag	  10u00
+352	3u00	H	Martens Nele	ANDERE	Andere job		Externe locatie		6	AV	1	maandag	  15u00
+353	10u00	H	Martens Nele	ANDERE	Andere job		Externe locatie		6	AV	1	woensdag	  08u00
+354	5u00	H	Martens Nele	ANDERE	Andere job		Externe locatie		6	AV	1	vrijdag	  13u00
+355	1u00	H	Martens Nele	TAAL R	Taalremediëring mondeling	1ON Groep 2;1ON Groep 4;1ON Groep 6	K204		5	AV	1	dinsdag	  14u00
+356	1u00	H	Martens Nele	TAAL R	Taalremediëring mondeling	1ON Groep 5	K204		2	AV	1	dinsdag	  11u00
+357	3u00	H	Martens Nele	INSPEL	Inspelen op verschillen 5 Taal	3ON Groep 1	K101(SCW)+beame		1	AV	1	maandag	  08u00
+358	3u00	H	Martens Nele	INSPEL	Inspelen op verschillen 5 Taal	3ON Groep 2	K103 (Eng)+beam		1	AV	1	dinsdag	  08u00
+359	1u00	H	Martens Nele	TAAL R	Taalremediëring mondeling	1ON Groep 1	K204		1	AV	1	dinsdag	  13u00
+360	1u00	H	Martens Nele	TAAL R	Taalremediëring mondeling	1ON Groep 3	K204		1	AV	1	dinsdag	  15u00
+361	2u00	H	Martin Philippe	WO:NAT	WO:natuur,tijd&ruimte 1-Tijd	1ON Groep 5	V104 (gesch)		2	AV	1	dinsdag	  13u00
+362	3u00	H	Martin Philippe	GESCHI	Geschied klassieke oudheid 1	1 SO Gesch	M108		4	AV	1	dinsdag	  09u00
+363	2u00	H	Martin Philippe	GESCHI	Geschied klassieke oudheid 1	1 SO Gesch	M108	AV+	4	AV	1	woensdag	  13u00
+364	2u00	H	Martin Philippe	GESCHI	Geschied klassieke oudheid 1	1 SO Gesch	M108	AV+	4	AV	1	vrijdag	  16u00
+365	2u00	H	Martin Philippe	WO:NAT	WO:natuur,tijd&ruimte 1-Tijd	1ON Groep 2;1ON Groep 4;1ON Groep 6	V104 (gesch)		1	AV	1	woensdag	  16u00
+366	3u00	H	Masson Ann	TRAINI	Training: Vaardigheden v d MA1	1SWB Gr 08	K105 (S)+beamer		4	AV	1	donderdag	  13u00
+367	3u00	H	Masson Ann	TRAINI	Training: Vaardigheden v d MA1	1SWA Gr 07	K105 (S)+beamer		4	AV	1	donderdag	  09u00
+368	2u00	H	Masson Ann	SUPERV	Supervisie	2SW Gr26	B114 + beamer		6	AV	1	vrijdag	  14u00
+369	4u00	H	Mast Pascale	VERGAD	Vergadering PWO Wetens & Techn		Geen lokaal		6	AV	1	donderdag	  13u00
+370	1u00	H	Mast Pascale	BOUW 1	Bouw 1	1 SO Bouw	K202	AV+	1	AV	1	donderdag	  09u00
+371	6u00	H	Mast Pascale	STUDIO	Studio-T		B114 + beamer		3	AV	1	woensdag	  12u00
+372	2u00	H	Mast Pascale	BOUW 1	Bouw 1	1 SO Bouw	K202	AV+	1	AV	1	donderdag	  10u00
+373	3u30	H	Mast Pascale	TO: PR	TO: Proeven van techniek 1	1 SO TO	PA 26 (TO)	AV+	4	AV	1	dinsdag	  09u00
+374	1u00	H	Mertens Patsy	SOCIAA	Sociaal en cultureel traject 1	1 SO LO groep 5;1 SO LO groep 6	N2 (theorie)		1	AV	1	vrijdag	  09u00
+375	1u00	H	Mertens Patsy	SOCIAA	Sociaal en cultureel traject 1	1 SO LO groep 5;1 SO LO groep 6	N2 (theorie)		1	AV	1	vrijdag	  15u30
+376	1u00	H	Mertens Patsy;Plaetinck Silke	SPORTT	Sporttechniek 1: Gymnastiek	1 SO LO groep 1;1 SO LO groep 2;1 SO LO groep 4	NGymzaal		3	AV	1	woensdag	  10u00
+377	2u00	H	Mertens Patsy	SOCIAA	Sociaal en cultureel traject 1	1 SO LO groep 3;1 SO LO groep 4;Internationaal L	N2 (theorie)		3	AV	1	vrijdag	  10u00
+378	1u00	H	Mertens Patsy;Plaetinck Silke	SPORTT	Sporttechniek 1: Gymnastiek	1 SO LO groep 3	NGymzaal		3	AV	1	woensdag	  11u00
+379	1u00	H	Mertens Patsy;Plaetinck Silke	SPORTT	Sporttechniek 1: Gymnastiek	1 SO LO groep 6	NGymzaal		3	AV	1	woensdag	  09u00
+380	1u00	H	Mertens Patsy;Plaetinck Silke	SPORTT	Sporttechniek 1: Gymnastiek	1 SO LO groep 5	NGymzaal		3	AV	1	woensdag	  08u00
+381	2u00	H	Mertens Patsy	SOCIAA	Sociaal en cultureel traject 1	1 SO LO groep 1;1 SO LO groep 2	Aula K2		4	AV	1	maandag	  16u00
+382	2u00	H	Mertens Patsy	DANCE	Dance expression	Internationaal L	NDans/gevechts		5	AV	1	vrijdag	  13u00
+383	10u00	H	Mertens Patsy	VAK NI	Vak niet toegekend	Internat Kroaten	Geen lokaal		1	AV	1	donderdag	  08u00
+384	5u00	H	Meskens Ad	PWO GE	PWO Geschiedenis vd wiskunde		Geen lokaal		6	AV	1	vrijdag	  13u00
+385	3u00	H	Meskens Ad	FYSICA	Fysica (Fysica1A/Biologie1B)	1 SO Biologie;1 SO Fysica	V106 (lab fys)		2	AV	1	donderdag	  09u00
+386	2u00	H	Meskens Ad	BACKGR	Background of Flanders	Internationaal L	V101(wisk)+beam		6	AV	1	dinsdag	  14u00
+387	2u00	H	Michielsen Annick	SUPERV	Supervisie	2SW Gr27	B208 + beamer		6	AV	1	vrijdag	  14u30
+388	2u00	H	Mommaerts Magda	TAAL:	Taal: Bouwstenen 1- Nederlands	1ON Groep 1	K103 (Eng)+beam		1	AV	1	dinsdag	  14u00
+389	1u30	H	Mommaerts Magda	TOOLKI	Toolkit	1 SO LO groep 1;1 SO LO groep 2;1 SO LO groep 4	B211		1	AV	1	dinsdag	  08u30
+390	3u15	H	Naaisters	NAAICU	Naaicursus	CVO VIVA	B110 + SB;B111 + beamer;B114 + beamer;B005 (Kantine)	AV+	6	AV	1	maandag	  18u45
+391	2u00	H	Onzia Freek	SUPERV	Supervisie	2SW Gr28	K205 (Ned)		6	AV	1	vrijdag	  14u00
+392	2u00	H	Onzia Freek	SUPERV	Supervisie	2SW Gr29	K205 (Ned)		6	AV	1	vrijdag	  16u00
+393	2u00	H	Pauwels Frank	BURO M	Buro MS Office&kantoortechn.1	1 SO Burotica	B104 (comp);B105 (comp)		5	AV	1	vrijdag	  16u00
+394	2u00	H	Pauwels Frank	BURO M	Buro MS Office&kantoortechn.1	1 SO Burotica	B104 (comp)		5	AV	1	woensdag	  13u00
+395	3u00	H	Pauwels Frank	BURO M	Buro MS Office&kantoortechn.1	1 SO Burotica	B104 (comp);B105 (comp)		5	AV	1	dinsdag	  09u00
+396	3u30	H	Pauwels Jos	VERGAD	Vergadering		M106 (salon)		1	AV	1	maandag	  13u30
+397	1u00	H	Pazmany Peter	MUSICE	Musiceren:Liedbegel 1 (piano)	1 SO MO groep A	Academie 2.9	AV+	3	AV	1	maandag	  10u00
+398	1u00	H	Pazmany Peter	MUSICE	Musiceren:Liedbegel 1 (piano)	1 SO MO groep B	Academie 2.9	AV+	3	AV	1	maandag	  11u00
+399	1u00	H	Pazmany Peter	MUSICE	Musiceren:Liedbegel 1 (piano)	1 SO MO groep C	Academie 2.9	AV+	3	AV	1	maandag	  12u00
+400	1u00	H	Pazmany Peter	MUSICE	Musiceren:Liedbegel 1 (piano)	1 SO MO groep D	Academie 2.9	AV+	3	AV	1	maandag	  13u00
+401	1u00	H	Pazmany Peter	MUSICE	Musiceren:Liedbegel 1 (piano)	1 SO MO groep E	Academie 2.9	AV+	3	AV	1	maandag	  14u00
+402	1u00	H	Pazmany Peter	MUSICE	Musiceren:Liedbegel 1 (piano)	1 SO MO groep F	Academie 2.9	AV+	3	AV	1	dinsdag	  09u00
+403	2u00	H	Peeters Lynn/Student AV	BIJLES	Bijles Frans	1BA;1BF;1BL;1BM;1OM	K109(MW)+beamer		1	AV	1	woensdag	  16u00
+404	3u00	H	Pensaert Erika	NEDERL	Nederlands vakinhoud 1	1 SO Nederlands	K204	AV+	5	AV	1	donderdag	  13u00
+405	2u00	H	Pensaert Erika	ONTWIK	Ontwikkelingsroute 1 Taal	1KL Groep 3	K204		1	AV	1	woensdag	  14u00
+406	2u00	H	Pensaert Erika	COMMUN	Communiceren 1 Taal	1KL Groep 3	K105 (S)+beamer		1	AV	1	maandag	  14u00
+407	3u00	H	Pensaert Erika	COMMUN	Communiceren 1 Taal	1KL Groep 1	K204		1	AV	1	dinsdag	  08u00
+408	3u00	H	Pensaert Erika	NEDERL	Nederlands mondeling 1	1 SO Nederlands	K105 (S)+beamer	AV+	5	AV	1	maandag	  09u00
+409	1u00	H	Pensaert Erika	COMMUN	Communiceren 1 Taal	1KL Groep 3	K204		1	AV	1	maandag	  13u00
+410	2u00	H	Pensaert Erika	ONTWIK	Ontwikkelingsroute 1 Taal	1KL Groep 5	K204		1	AV	1	woensdag	  09u00
+411	1u00	H	Pensaert Erika	NEDERL	Nederlands vakinhoud 1	1 SO Nederlands	V101(wisk)+beam		1	AV	1	maandag	  08u00
+412	2u00	H	Pensaert Erika	ONTWIK	Ontwikkelingsroute 1 Taal	1KL Groep 2;1KL Groep 4;1KL Groep 6	K204		1	AV	1	donderdag	  10u00
+413	2u00	H	Pensaert Erika	ONTWIK	Ontwikkelingsroute 1 Taal	1KL Groep 1	K204		1	AV	1	woensdag	  11u00
+414	10u00	H	Persoons Jef	ANDERE	Andere job		andere school		6	AV	1	woensdag	  08u00
+415	2u30	H	Persoons Jef	ORGANI	Organisatie van de sport 1	1  SO BR 3-5-6	N2 (theorie)	AV+	5	AV	1	donderdag	  10u30
+416	1u00	H	Persoons Jef	SPORTT	Sporttechniek 1: Atletiek	1 SO LO groep 1	NGymzaal	AV+	3	AV	1	donderdag	  16u00
+417	1u00	H	Persoons Jef	SPORTT	Sporttechniek 1: Atletiek	1 SO LO groep 3;1 SO LO groep 5;1 SO LO groep 6	NGymzaal	AV+	3	AV	1	donderdag	  15u00
+418	1u00	H	Persoons Jef	SPORTT	Sporttechniek 1: Atletiek	1 SO LO groep 2	NGymzaal	AV+	3	AV	1	donderdag	  13u00
+419	1u00	H	Persoons Jef	SPORTT	Sporttechniek 1: Atletiek	1 SO LO groep 4	NGymzaal	AV+	3	AV	1	donderdag	  14u00
+420	2u00	H	Possemiers Philippe	ONTWIK	Ontwikkelen in een bedrijfsomg	3TI	B203 (comp)		6	AV	1	maandag	  16u00
+421	3u30	H	Possemiers Philippe	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	dinsdag	  09u00
+422	2u30	H	Possemiers Philippe	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	donderdag	  14u30
+423	1u00	H	Possemiers Philippe	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	vrijdag	  16u00
+424	3u30	H	Possemiers Philippe	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	dinsdag	  13u30
+425	4u30	H	Possemiers Philippe;Schenkels Lynn	VERGAD	Vergadering Bridging the Gap		B002 (Vergzaal);B117 + beamer		1	AV	1	donderdag	  08u00
+426	4u30	H	Possemiers Philippe;Schenkels Lynn	VERGAD	Vergadering Bridging the Gap		B002 (Vergzaal);B117 + beamer		1	AV	1	vrijdag	  08u00
+427	2u00	H	Postma Yvonne	ORGANI	Organisatiekunde 2	3PW	K111(PW)+beamer	AV+	5	AV	1	woensdag	  11u00
+428	2u00	H	Postma Yvonne	ORGANI	Organisatiekunde 2	3MW Groep 2	K110(MW)+beamer	AV+	5	AV	1	dinsdag	  14u00
+429	2u00	H	Postma Yvonne	ORGANI	Organisatiekunde 2	3SCW	K101(SCW)+beame	AV+	5	AV	1	woensdag	  09u00
+430	2u00	H	Postma Yvonne	ORGANI	Organisatiekunde	2MW	Aula V3		1	AV	1	vrijdag	  11u00
+431	2u00	H	Postma Yvonne	ORGANI	Organisatiekunde 2	3MW Groep 1	K109(MW)+beamer	AV+	5	AV	1	dinsdag	  16u00
+432	2u00	H	Postma Yvonne	ORGANI	Organisatiekunde	2PW;2SCW	Aula V3		1	AV	1	vrijdag	  09u00
+433	2u00	H	Pot Pierre	BELAST	Belasting over de toeg. waard1	2BA	B211		6	AV	1	maandag	  14u00
+434	3u00	H	Pot Pierre	FISCAL	Fiscale update met casestudy's	3BA	B211	AV+	6	AV	1	maandag	  09u00
+435	2u00	H	Pot Pierre	VENNOO	Vennootschapsbelasting 1	2BA	B206A	AV+	6	AV	1	donderdag	  10u00
+436	3u45	H	Pycke Gwen	ANDERE	Andere job		andere school		6	AV	1	donderdag	  08u00
+437	8u15	H	Pycke Gwen	ANDERE	Andere job		andere school		6	AV	1	vrijdag	  08u00
+438	2u30	H	Pycke Gwen	GEZOND	Gezondheidsleer 1	1  SO BR 3-5-6	B210 + beamer	AV+	5	AV	1	dinsdag	  09u00
+439	4u30	H	Pycke Gwen	ANDERE	Andere job		andere school		6	AV	1	dinsdag	  12u30
+440	5u00	H	Pycke Lies	ANDERE	Andere job		andere school		6	AV	1	donderdag	  13u00
+441	3u30	H	Reniers J.;Smet Saskia	VENNOO	Vennootschapsbelasting 2	BKR Fiscaliteit2	Aula B4 +beamer	AV+	6	AV	1	dinsdag	  18u30
+442	3u00	H	Robert Nathan	ONDERW	Onderwijzen 1	1KL Groep 5;1KL Groep 6	Aula K2		1	AV	1	vrijdag	  15u00
+443	2u30	H	Robert Nathan	VLAAMS	Vlaams onderwijs	Internat Kroaten	Aula B4 +beamer		1	AV	1	maandag	  12u30
+444	2u00	H	Rosiers Luc	SPECIF	Specifieke softwarepakketten	2BF	B104 (comp)		4	AV	1	maandag	  15u00
+445	2u00	H	Rosiers Luc	FINANC	Financiële actualiteit	2BF	B108	AV+	5	AV	1	maandag	  08u00
+446	2u00	H	Rosiers Luc	PERSON	Personenverz (incl levensverz)	3BF	B108		6	AV	1	vrijdag	  10u00
+447	2u00	H	Rosiers Luc	IB: RE	IB: reg,schenk&successierechte	3BA	B108		2	AV	1	maandag	  13u00
+448	2u00	H	Rosiers Luc	BEU&BE	Beurs- en beleggingsleer 2	3BF	B108		3	AV	1	vrijdag	  13u00
+449	2u00	H	Rosiers Luc	INLEID	Inleiding financie verzekering	1BF	B108		6	AV	1	donderdag	  15u00
+450	2u00	H	Rosiers Luc	VERZEK	Verzekeringsrecht	2BF	B108	AV+	6	AV	1	donderdag	  13u00
+451	2u00	H	Rosiers Luc	BEURS	Beurs- en beleggingsleer 1	2BF	B108	AV+	6	AV	1	donderdag	  10u00
+452	2u00	H	Rosiers Luc	REGIST	Registr,schenk,successierechte	3BF	B108		3	AV	1	vrijdag	  08u00
+453	3u00	H	Rosiers Luc	BRAND,	brand, ongevallen en alle risi	3BF	B108		6	AV	1	woensdag	  08u00
+454	2u00	H	Rosseel Tom	BACHEL	Bachelorproef	3ON Groep 1	V201 (peda)		1	AV	1	dinsdag	  13u00
+455	2u00	H	Rosseel Tom	BACHEL	Bachelorproef	3ON Groep 2	V201 (peda)		1	AV	1	maandag	  09u00
+456	1u00	H	Rymen Tine	MUSICE	Musiceren: Zang 1	1 SO MO groep B	Academie 2.8	AV+	3	AV	1	dinsdag	  09u00
+457	1u00	H	Rymen Tine	MUSICE	Musiceren: Zang 1	1 SO MO groep D	Academie 2.8	AV+	3	AV	1	maandag	  12u00
+458	1u00	H	Rymen Tine	MUSICE	Musiceren: Zang 1	1 SO MO groep F	Academie 2.8	AV+	3	AV	1	maandag	  10u00
+459	1u00	H	Rymen Tine	MUSICE	Musiceren: Zang 1	1 SO MO groep A	Academie 2.8	AV+	3	AV	1	maandag	  13u00
+460	1u00	H	Rymen Tine	MUSICE	Musiceren: Zang 1	1 SO MO groep C	Academie 2.8	AV+	3	AV	1	maandag	  14u00
+461	4u30	H	Rymen Tine	ANDERE	Andere job		andere school		6	AV	1	donderdag	  09u30
+462	1u00	H	Rymen Tine	MUSICE	Musiceren: Zang 1	1 SO MO groep E	Academie 2.8	AV+	3	AV	1	maandag	  11u00
+463	4u30	H	Schenkels Lynn	VERGAD	Vergadering Bridging the Gap		B002 (Vergzaal);B117 + beamer		1	AV	1	donderdag	  13u30
+464	4u30	H	Schenkels Lynn	VERGAD	Vergadering Bridging the Gap		B002 (Vergzaal);B117 + beamer		1	AV	1	vrijdag	  13u30
+465	3u00	H	Schenkels Ronny	OPERAT	Operating Systems	1TI	Aula B4 +beamer		3	AV	1	woensdag	  10u00
+466	2u30	H	Schenkels Ronny	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	woensdag	  13u30
+467	2u00	H	Scheyving Koen	INFORM	Informatie- & studievaardighed	1BF	B111 + beamer	AV+	1	AV	1	donderdag	  10u00
+468	2u00	H	Scheyving Koen	INFORM	Informatie- & studievaardighed	1BA	B208 + beamer	AV+	1	AV	1	maandag	  13u00
+469	2u00	H	Scheyving Koen	INFORM	Informatie- & studievaardighed	1OM	B111 + beamer	AV+	1	AV	1	donderdag	  13u00
+470	1u00	H	Schoeters Geert	MUSICE	Musiceren:Liedbegel 1 (gitaar)	1  SO Groep MO	Academie 3.5	AV+	3	AV	1	donderdag	  14u30
+471	2u00	H	Schoonjans Karel	SUPERV	Supervisie	2SW Gr30	K202		6	AV	1	vrijdag	  14u00
+472	2u00	H	Schoonjans Karel	SUPERV	Supervisie	2SW Gr31	K202		6	AV	1	vrijdag	  16u00
+473	2u00	H	Schwagten Marina	SEMINA	Seminaries Logistiek	2BL	B206A	AV+	5	AV	1	dinsdag	  10u00
+474	2u00	H	Schwagten Marina	LOGIST	Logistieke projecten 1	2BL	B206A	AV+	5	AV	1	dinsdag	  12u00
+475	3u00	H	Simons Hedda	TRAINI	Leergroepen 1	1SWB Gr 08	K205 (Ned)		6	AV	1	donderdag	  09u00
+476	3u00	H	Simons Hedda	TRAINI	Leergroepen 1	1SWA Gr 07	K205 (Ned)		6	AV	1	dinsdag	  14u00
+477	2u00	H	Simons Hedda	SUPERV	Supervisie	2SW Gr32	B115 + beamer		6	AV	1	vrijdag	  14u00
+478	2u00	H	Simpson Olivia	SUPERV	Supervisie	2SW Gr33	K104 (S)+ SB		6	AV	1	vrijdag	  15u30
+479	2u00	H	Soenen Christine	4E TAA	4e taal basisgebr. A1-Duits	2BL Duits	B206B	AV+	6	AV	1	woensdag	  10u00
+480	2u00	H	Soenen Christine	4E TAA	4e taal onafh.gebr.B1-Duits	3BL Duits	B206B		6	AV	1	donderdag	  10u00
+481	2u00	H	Soenen Christine	4E TAA	4e taal beginnend gebr.: Duits	1OM Duits	B206B	AV+	5	AV	1	maandag	  10u00
+482	3u00	H	Soenen Christine	COMMUN	Communicatieleer	1OM	B206B		5	AV	1	maandag	  13u00
+483	2u00	H	Specstadt Charline	VAKDID	Vakdid PKV1: methodiek DKO 1	1  SO Groep PKV	Academie 2.6	AV+	3	AV	1	dinsdag	  10u00
+484	2u00	H	Studenten AV	ELEMEN	Elementary Dutch	Internationaal L	V201 (peda)		6	AV	1	donderdag	  16u00
+485	3u00	H	Svensson Sven	TRAINI	Leergroepen 1	1SWB Gr 10	K016 (Frans)		6	AV	1	donderdag	  09u00
+486	3u00	H	Svensson Sven	TRAINI	Leergroepen 1	1SWB Gr 09	K016 (Frans)		6	AV	1	donderdag	  13u00
+487	2u00	H	Svensson Sven	SUPERV	Supervisie	3SCW Superv 1	K101(SCW)+beame		5	AV	1	vrijdag	  14u00
+488	1u00	H	Taets An	ONTWIK	Ontwikkelingsroute 1 LO	1KL Groep 5	NDans/gevechts		4	AV	1	maandag	  15u00
+489	1u00	H	Taets An	SPELEN	Spelen 1 LO	1KL Groep 5	NDans/gevechts		4	AV	1	maandag	  14u00
+490	1u00	H	Taets An	SPELEN	Spelen 1 LO	1KL Groep 5	N2 (theorie)		4	AV	1	maandag	  13u00
+491	2u00	H	Taets An	EHBO	EHBO	2KL Groep 1	Aula K1		1	AV	1	vrijdag	  13u00
+492	1u00	H	Taets An	SPELEN	Spelen 1 LO	1KL Groep 1	N2 (theorie)		4	AV	1	dinsdag	  14u00
+493	1u00	H	Taets An	SPELEN	Spelen 1 LO	1KL Groep 1	NDans/gevechts		4	AV	1	dinsdag	  15u00
+494	1u00	H	Taets An	ONTWIK	Ontwikkelingsroute 1 LO	1KL Groep 1	NDans/gevechts		4	AV	1	dinsdag	  16u00
+495	1u00	H	Taets An	ONTWIK	Ontwikkelingsroute 1 LO	1KL Groep 2;1KL Groep 4;1KL Groep 6	NDans/gevechts		3	AV	1	dinsdag	  08u00
+496	1u00	H	Taets An	SPELEN	Spelen 1 LO	1KL Groep 2;1KL Groep 4;1KL Groep 6	NDans/gevechts		3	AV	1	dinsdag	  09u00
+497	1u00	H	Taets An	SPELEN	Spelen 1 LO	1KL Groep 2;1KL Groep 4;1KL Groep 6	N2 (theorie)		3	AV	1	dinsdag	  10u00
+498	1u00	H	Taets An	SPELEN	Spelen 1 LO	1KL Groep 3	N2 (theorie)		3	AV	1	dinsdag	  11u00
+499	1u00	H	Taets An	SPELEN	Spelen 1 LO	1KL Groep 3	NDans/gevechts		3	AV	1	dinsdag	  12u00
+500	1u00	H	Taets An	ONTWIK	Ontwikkelingsroute 1 LO	1KL Groep 3	NDans/gevechts		3	AV	1	dinsdag	  13u00
+501	2u00	H	Taets An	EHBO	EHBO	2KL Groep 3	Aula K1		1	AV	1	vrijdag	  08u00
+502	2u00	H	Taets An	EHBO	EHBO	2KL Groep 2;2KL Groep 4	Aula K1		1	AV	1	vrijdag	  10u00
+503	2u00	H	Thijs Inge	INLEID	Inleiding recht	1SWA;1SWB	Aula Keizerstra	AV+	6	AV	1	vrijdag	  09u00
+504	2u00	H	Timmermans Annie	AARDRI	Aardrijkskunde vakinhoud 1	1 SO Aardrijksk	V108(aard)+beam	AV+	5	AV	1	donderdag	  16u00
+505	2u00	H	Timmermans Annie	DE WEG	De weg naar wiskunde	2KL Groep 2;2KL Groep 4	K103 (Eng)+beam		1	AV	1	vrijdag	  13u00
+506	2u00	H	Timmermans Annie	AARDRI	Aardrijkskunde vakinhoud 1	1 SO Aardrijksk	V108(aard)+beam	AV+	5	AV	1	maandag	  13u00
+507	2u00	H	Timmermans Annie	DE WEG	De weg naar wiskunde	2KL Groep 1	K103 (Eng)+beam		1	AV	1	vrijdag	  15u00
+508	3u00	H	Timmermans Annie	AARDRI	Aardrijkskunde vakinhoud 1	1 SO Aardrijksk	V108(aard)+beam	AV+	5	AV	1	woensdag	  09u00
+509	2u00	H	Timmermans Annie	VERK.V	Verk. vd wereld 1 Ruimte 1	1KL Groep 1	K103 (Eng)+beam		1	AV	1	woensdag	  16u00
+510	2u00	H	Timmermans Annie	VERK.V	Verk. vd wereld 1 Ruimte 1	1KL Groep 3	K103 (Eng)+beam		1	AV	1	maandag	  10u00
+511	2u00	H	Timmermans Annie	VERK.V	Verk. vd wereld 1 Ruimte 1	1KL Groep 5	K103 (Eng)+beam		1	AV	1	maandag	  08u00
+512	2u00	H	Timmermans Annie	VERK.V	Verk. vd wereld 1 Ruimte 1	1KL Groep 2;1KL Groep 4;1KL Groep 6	K103 (Eng)+beam		1	AV	1	vrijdag	  08u00
+513	2u00	H	Timmermans Annie	DE WEG	De weg naar wiskunde	2KL Groep 3	K103 (Eng)+beam		1	AV	1	vrijdag	  10u00
+514	2u00	H	Tirions Michel	ETHISC	Ethisch handelen	1SWA;1SWB	Aula Keizerstra	AV+	5	AV	1	woensdag	  09u00
+515	2u00	H	Tirions Michel	HULPVE	Hulpverlening en samenleving	3MW Groep 2	K110(MW)+beamer	AV+	6	AV	1	donderdag	  11u00
+516	2u00	H	Tirions Michel	HULPVE	Hulpverlening en samenleving	3MW Groep 1	K110(MW)+beamer	AV+	6	AV	1	donderdag	  09u00
+517	2u00	H	Tops Marijke	INLEID	Inleiding Soc-agogisch werk	1SWA;1SWB	Aula Keizerstra	AV+	6	AV	1	maandag	  09u00
+518	2u00	H	Tops Marijke	PSYCHO	Psychopathologie	3MW Groep 1	K109(MW)+beamer	AV+	6	AV	1	dinsdag	  14u00
+519	2u00	H	Tops Marijke	PSYCHO	Psychopathologie	3MW Groep 2	K110(MW)+beamer	AV+	6	AV	1	dinsdag	  11u00
+520	2u00	H	Tops Marijke	INLEID	Inleiding psychologie	1SWA;1SWB	Aula Keizerstra	AV+	6	AV	1	maandag	  11u00
+521	2u00	H	Van Agtmael Staf	GOEDER	Goederen en transportverzekeri	3BL	B111 + beamer		6	AV	1	maandag	  13u00
+522	2u00	H	Van den Broeck Tom	MUZ. U	Muz.Uitd.: Koor 1-3-5	1  SO Groep PKV	Academie 3.5	AV+	3	AV	1	woensdag	  08u00
+523	2u00	H	Van den Bussche Nina	INFORM	Informatie- & studievaardighed	1BM	B210 + beamer	AV+	1	AV	1	woensdag	  10u00
+524	2u00	H	Van den Bussche Nina	INFORM	Informatie- & studievaardighed	1BL	B210 + beamer	AV+	1	AV	1	woensdag	  13u00
+525	2u00	H	Van der Haegen Tineke	WISKUN	Wiskunde getallenleer 1	1 SO Wiskunde	V101(wisk)+beam		5	AV	1	woensdag	  13u00
+526	3u00	H	Van der Haegen Tineke	WISKUN	Wiskunde getallenleer 1	1 SO Wiskunde	V101(wisk)+beam	AV+	5	AV	1	dinsdag	  09u00
+527	2u00	H	Van der Haegen Tineke	WISKUN	Wiskunde Logica&Verzamelleer 1	1 SO Wiskunde	V101(wisk)+beam	AV+	2	AV	1	vrijdag	  16u00
+528	1u00	H	Van Doren Lies	CLASS	Class Teacher Training	Internationaal L	V201 (peda)		5	AV	1	donderdag	  12u00
+529	2u00	H	Van Doren Lies	CLASS	Class Teacher Training	Internationaal L	K102 (Eng)+ SB		4	AV	1	dinsdag	  16u00
+530	3u00	H	Van Doren Lies	ALGEME	Algemene didactiek AV 1	1  SO Groep AV A;1  SO Groep AV B;1  SO GRTV lila	Aula B6 +beamer	AV+	3	AV	1	vrijdag	  09u00
+531	3u00	H	Van Doren Lies	PSYCHO	Psychopeda comp.AV oriënteren1	1  SO Groep AV A	Aula K2		4	AV	1	dinsdag	  13u00
+532	11u00	H	Van Doren Lies	ANDERE	Andere job		andere school		6	AV	1	maandag	  08u00
+533	3u00	H	Van Doren Lies	PSYCHO	Psychopeda comp.AV oriënteren1	1  SO Groep AV B;1  SO GRTV lila	Aula V3		3	AV	1	donderdag	  09u00
+534	2u00	H	Van Doren Lies	COMPAR	Comparing education systems	Internationaal L	V201 (peda)		1	AV	1	donderdag	  14u00
+535	2u00	H	Van Gastel Gert	SUPERV	Supervisie	3MW Superv 5	Externe locatie		5	AV	1	donderdag	  15u00
+536	1u00	H	Van Havere Lotte	VAKDID	Vakdid. PKV1: Meth. Basisond 1	1  SO Groep PKV	Academie 2.6	AV+	3	AV	1	vrijdag	  13u00
+537	4u00	H	Van Himbeeck Hilde	PROJEC	Project	3SCW Projgroep 1	M107	AV+	6	AV	1	maandag	  09u00
+538	4u00	H	Van Himbeeck Hilde	PROJEC	Project	3SCW Projgroep 2	M107	AV+	6	AV	1	dinsdag	  14u00
+539	3u00	H	Van Himbeeck Hilde	TRAINI	Training: Vaardigheden v d MA1	1SWB Gr 13	V201 (peda)		4	AV	1	donderdag	  09u00
+540	2u00	H	Van Himbeeck Hilde	LEERGR	Leergroepen 1: theorie	1SWA	Aula K1	AV+	3	AV	1	dinsdag	  09u00
+541	2u00	H	Van Himbeeck Hilde	LEERGR	Leergroepen 1: theorie	1SWB	Aula K1	AV+	3	AV	1	dinsdag	  11u00
+542	4u00	H	Van Himbeeck Hilde	PROJEC	Project	3SCW Projgroep 3	M107	AV+	6	AV	1	donderdag	  13u30
+543	2u00	H	Van Hofstraeten Stella	SUPERV	Supervisie	2SW Gr34	K017		6	AV	1	vrijdag	  14u00
+544	2u00	H	Van Hofstraeten Stella	SUPERV	Supervisie	3SCW Superv 7;3MW Superv 7	K101(SCW)+beame		6	AV	1	donderdag	  09u30
+545	2u00	H	Van Leuven Wendy	ONDERW	Onderwijzen 1	1KL Groep 3;1KL Groep 4	K104 (S)+ SB		1	AV	1	vrijdag	  13u00
+546	1u00	H	Van Leuven Wendy	ONDERW	Onderwijzen 1	1KL Groep 3;1KL Groep 4	K105 (S)+beamer		1	AV	1	woensdag	  16u00
+547	1u00	H	Van Leuven Wendy	ONDERW	Onderwijzen 1	1KL Groep 1;1KL Groep 2	K105 (S)+beamer		1	AV	1	woensdag	  15u00
+548	2u00	H	Van Leuven Wendy	ONDERW	Onderwijzen 1	1KL Groep 1;1KL Groep 2	K104 (S)+ SB		1	AV	1	vrijdag	  10u00
+549	10u00	H	Van Mileghem Maria;Vercauteren Lieven	PERSON	Personal train&groepsdynamica	2OM;3OM	Externe locatie		1	AV	1	maandag	  08u00
+550	10u00	H	Van Mileghem Maria;Vercauteren Lieven	PERSON	Personal train&groepsdynamica	2OM;3OM	Externe locatie		1	AV	1	dinsdag	  08u00
+551	10u00	H	Van Mileghem Maria;Vercauteren Lieven	PERSON	Personal train&groepsdynamica	2OM;3OM	Externe locatie		1	AV	1	woensdag	  08u00
+552	10u00	H	Van Mileghem Maria;Vercauteren Lieven	PERSON	Personal train&groepsdynamica	2OM;3OM	Externe locatie		1	AV	1	donderdag	  08u00
+553	2u00	H	Van Osselaer Inge	NETWER	Netwerken 3	3TI Groep 1	B203 (comp)		6	AV	1	vrijdag	  16u00
+554	2u00	H	Van Osselaer Inge	BESTUR	Besturingssys. & infrastruc. 3	3TI	B203 (comp);B204 (comp)		6	AV	1	maandag	  11u00
+555	2u00	H	Van Osselaer Inge	NETWER	Netwerken 3	3TI Groep 2	B203 (comp);B204 (comp)		6	AV	1	maandag	  09u00
+556	2u00	H	Van Osselaer Inge	NETWOR	Network Fundamentals	1TI Groep 1;1TI Groep 2	B203 (comp);B204 (comp)		6	AV	1	dinsdag	  10u00
+557	2u00	H	Van Osselaer Inge	NETWOR	Network Fundamentals	1TI Groep 3;1TI Groep 4	B203 (comp);B204 (comp)		6	AV	1	dinsdag	  12u00
+558	2u30	H	Van Osselaer Inge	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	maandag	  13u30
+559	2u00	H	Van Osselaer Inge	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	vrijdag	  09u00
+560	2u00	H	Van Osselaer Inge	INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	vrijdag	  14u00
+561	2u00	H	Van Put Anne	ARBEID	Arbeid en samenleving	3PW	K111(PW)+beamer	AV+	5	AV	1	dinsdag	  14u00
+562	3u00	H	Van Put Anne	LOOPBA	Loopbaan-en organisatieontw.	3PW	K111(PW)+beamer	AV+	5	AV	1	donderdag	  10u00
+563	2u00	H	Van Put Anne	ARBEID	Arbeidsverhoudingen	3PW	K111(PW)+beamer		3	AV	1	donderdag	  14u00
+564	1u00	H	Weemaes Thomas	ORGANI	Organisatie van de sport 1	1  SO BR 1-2-4	B211	AV+	5	AV	1	donderdag	  11u00
+565	1u30	H	Weemaes Thomas	ORGANI	Organisatie van de sport 1	1  SO BR 1-2-4	Aula B5 +beamer	AV+	5	AV	1	dinsdag	  16u00
+566	2u00	H	Van Riel Karolien	PROJEC	Projectmanagement en meth.	1TI	B210 + beamer		6	AV	1	maandag	  11u00
+567	4u00	H	Van Strydonck Marleen	VERGAD	Vergadering PWO Wetens & Techn		Geen lokaal		1	AV	1	woensdag	  08u00
+568	14u00	H	Van Strydonck Marleen	DIENST	Dienstvrijstelling		Geen lokaal		1	AV	1	donderdag	  08u00
+569	6u00	H	Van Vaek Jan	ANDERE	Andere job		andere school		6	AV	1	vrijdag	  12u00
+570	6u00	H	Van Vaek Jan	ANDERE	Andere job		andere school		6	AV	1	woensdag	  12u00
+571	3u00	H	Vander Zande Katrien	WERKVE	Werkveldspecialisatie 2	3MW Groep 1	K109(MW)+beamer		2	AV	1	vrijdag	  10u00
+572	2u00	H	Vander Zande Katrien	SUPERV	Supervisie	2SW Gr35	K110(MW)+beamer		2	AV	1	donderdag	  16u00
+573	3u00	H	Vander Zande Katrien	WERKVE	Werkveldspecialisatie 2	3MW Groep 2	K110(MW)+beamer		2	AV	1	vrijdag	  14u00
+574	10u00	H	Vandewinkel Anneleen	ANDERE	Andere job		andere school		6	AV	1	dinsdag	  08u00
+575	10u00	H	Vandewinkel Anneleen	ANDERE	Andere job		andere school		6	AV	1	maandag	  08u00
+576	6u00	H	Vandewinkel Anneleen	ANDERE	Andere job		andere school		5	AV	1	woensdag	  08u00
+577	2u00	H	Vandewinkel Anneleen	TAAL:	Taal: Bouwstenen 1- Nederlands	1ON Groep 3	K105 (S)+beamer		3	AV	1	vrijdag	  08u00
+578	2u00	H	Vansteelandt Iris	TAAL:	Taal: Bouwstenen 1- Nederlands	1ON Groep 2;1ON Groep 4;1ON Groep 6	K103 (Eng)+beam		6	AV	1	woensdag	  10u00
+579	10u00	H	Vansteelandt Iris	PWO	PWO		Lokaal onbekend		4	AV	1	dinsdag	  08u00
+580	10u00	H	Vansteelandt Iris	PWO	PWO		Lokaal onbekend		4	AV	1	maandag	  08u00
+581	2u00	H	Vansteelandt Iris	TAAL:	Taal: Bouwstenen 1- Nederlands	1ON Groep 5	K103 (Eng)+beam		6	AV	1	woensdag	  08u00
+582	1u30	H	Vansteelandt Iris	LEERKR	Leerkracht in ontwikkeling 1	1KL Groep 2;1KL Groep 3;1KL Groep 4;1KL Groep 6	Aula K2		1	AV	1	donderdag	  14u30
+583	1u30	H	Vansteelandt Iris	LEERKR	Leerkracht in ontwikkeling 1	1KL Groep 1;1KL Groep 5	Aula V3		1	AV	1	woensdag	  13u30
+584	2u00	H	Verbiest Griet	PROF.	Prof. begeleiden v. individuen	3MW Groep 1	K109(MW)+beamer		5	AV	1	woensdag	  11u00
+585	2u00	H	Verbiest Griet	PROF.	Prof. begeleiden v. individuen	3MW Groep 2	K110(MW)+beamer		5	AV	1	woensdag	  09u00
+586	2u00	H	Verbiest Griet	PROF.	Prof. begeleiden v. individuen	3PW	K111(PW)+beamer		6	AV	1	woensdag	  14u00
+587	3u00	H	Verbiest Griet	TRAINI	Training: Vaardigheden v d MA1	1SWA Gr 05	K010 (S)+beamer		3	AV	1	donderdag	  09u00
+588	3u00	H	Verbiest Griet	TRAINI	Training: Vaardigheden v d MA1	1SWA Gr 06	K010 (S)+beamer		3	AV	1	donderdag	  13u00
+589	2u00	H	Verbiest Griet	SUPERV	Supervisie	2SW Gr36	B206A		6	AV	1	vrijdag	  14u00
+590	3u00	H	Verbiest Griet	TRAINI	Training: Vaardigheden v d MA1	1SWA Gr 04	V202 (peda)		3	AV	1	dinsdag	  14u00
+591	2u00	H	Verbiest Griet	PROF.	Prof. begeleiden v. individuen	3SCW	K101(SCW)+beame		1	AV	1	vrijdag	  09u00
+592	2u00	H	Verbiest Griet	PROF.	Prof. begeleiden v. individuen	3SCW	K101(SCW)+beame		5	AV	1	woensdag	  16u00
+593	2u00	H	Vercruysse Didier	SUPERV	Supervisie	2SW Gr37	V105 (NCZ)		6	AV	1	vrijdag	  14u00
+594	3u00	H	Verheyen Tom	TRAINI	Training: Vaardigheden v d MA1	1SWB Gr 15	K019 + beamer		4	AV	1	donderdag	  13u00
+595	3u00	H	Verheyen Tom	TRAINI	Training: Vaardigheden v d MA1	1SWB Gr 14	K019 + beamer		4	AV	1	donderdag	  09u00
+596	3u00	H	Verheyen Tom	EDUCAT	Educatie 2	3SCW	K101(SCW)+beame	AV+	1	AV	1	dinsdag	  10u00
+597	2u00	H	Verhuyck Thomas	ENGLIS	English	1BL	Aula B6 +beamer	AV+	6	AV	1	woensdag	  10u00
+598	2u00	H	Verhuyck Thomas	ENGLIS	English	1BF	Aula B4 +beamer	AV+	6	AV	1	woensdag	  08u00
+599	2u00	H	Verhuyck Thomas	BUSINE	Business English	2BA;2BF	Aula B5 +beamer		6	AV	1	donderdag	  08u00
+600	2u00	H	Verhuyck Thomas	ENGLIS	English	1BA	Aula B5 +beamer	AV+	6	AV	1	donderdag	  13u00
+601	2u00	H	Verhuyck Thomas	ENGLIS	English	1BM	Aula B6 +beamer	AV+	6	AV	1	donderdag	  10u00
+602	2u00	H	Vermeerbergen Gerda	MODE C	Mode creatie&moderealisatie 1	1 SO Mode 2012	PL 3.12 (mode)	AV+	5	AV	1	donderdag	  15u30
+603	3u00	H	Vermeerbergen Gerda	MODE C	Mode creatie&moderealisatie 1	1 SO Mode 2012	PL 3.12 (mode)	AV+	5	AV	1	donderdag	  09u00
+604	5u00	H	Vermeiren Kristel	ANDERE	Andere job		andere school		6	AV	1	donderdag	  08u00
+605	10u00	H	Vermeiren Kristel	ANDERE	Andere job		andere school		6	AV	1	maandag	  08u00
+606	2u00	H	Vermeiren Kristel	MECHAN	Mechanica 1	1 SO Mechanica	PA 03 (me/el)	AV+	5	AV	1	donderdag	  16u00
+607	2u00	H	Vermeiren Kristel	MODE C	Mode creatie&moderealisatie 1	1 SO Mode 2012	B203 (comp)	AV+	5	AV	1	vrijdag	  13u00
+608	2u00	H	Vermeiren Kristel	MECHAN	Mechanica 1	1 SO Mechanica	PA 26 (TO)	AV+	5	AV	1	dinsdag	  15u00
+609	6u00	H	Vermeiren Kristel	ANDERE	Andere job		andere school		6	AV	1	woensdag	  12u00
+610	3u00	H	Verpoort Roxanne	WORD E	Word en Internet	1OM	B104 (comp)	AV+	6	AV	1	donderdag	  09u00
+611	8u00	H	Verschaeren Ines	STAGEC	Stagecoördinatie		Geen lokaal		6	AV	1	maandag	  09u00
+612	2u00	H	Verschaeren Ines	VERK.V	Verk.vd wereld 3 Natuur	2KL Groep 1	V204 (lab bio)		1	AV	1	dinsdag	  15u00
+613	2u00	H	Verschaeren Ines	VERK.V	Verk.vd wereld 3 Natuur	2KL Groep 2;2KL Groep 4	V204 (lab bio)		1	AV	1	dinsdag	  09u00
+614	2u00	H	Verschaeren Ines	VERK.V	Verk. vd wereld 1 Natuur 1	1KL Groep 5	V204 (lab bio)		3	AV	1	vrijdag	  09u00
+615	2u00	H	Verschaeren Ines	VERK.V	Verk. vd wereld 1 Natuur 1	1KL Groep 3	K105 (S)+beamer		1	AV	1	vrijdag	  15u00
+616	2u00	H	Verschaeren Ines	VERK.V	Verk. vd wereld 1 Natuur 1	1KL Groep 1	K105 (S)+beamer		1	AV	1	vrijdag	  13u00
+617	1u00	H	Vervoort Raf	SPORTT	Sporttechniek 1: Basketbal	1 SO LO groep 4	NSporthal		3	AV	1	vrijdag	  09u00
+618	1u00	H	Vervoort Raf	SPORTT	Sporttechniek 1: Basketbal	1 SO LO groep 1	NSporthal		3	AV	1	vrijdag	  10u00
+619	1u00	H	Vervoort Raf	SPORTT	Sporttechniek 1: Basketbal	1 SO LO groep 2	NSporthal		3	AV	1	vrijdag	  11u00
+620	1u00	H	Vervoort Raf	SPORTT	Sporttechniek 1: Basketbal	1 SO LO groep 3;1 SO LO groep 5;1 SO LO groep 6	NSporthal		3	AV	1	vrijdag	  08u00
+621	2u00	H	Vervoort Thierry	NCZ	NCZ en vakdidactiek	Postgraduaat NCZ	V105 (NCZ)	AV+	6	AV	1	woensdag	  16u00
+622	2u00	H	Vervoort Thierry	VRIJZI	Vrijzinnig humanisme	Postgraduaat NCZ	V105 (NCZ)	AV+	6	AV	1	woensdag	  14u00
+623	3u30	H	Vrancken Bart	BTW 1	BTW 1	BKR Fiscaliteit2	Aula B4 +beamer	AV+	6	AV	1	donderdag	  18u30
+624	10u00	H	Vukojevic Philippe	ANDERE	Andere job		andere school		6	AV	1	maandag	  08u00
+625	10u00	H	Vukojevic Philippe	ANDERE	Andere job		andere school		6	AV	1	dinsdag	  08u00
+626	2u00	H	Vukojevic Philippe	FRANçA	Français	1BA Groep 1	B206B	AV+	6	AV	1	donderdag	  15u00
+627	10u00	H	Vukojevic Philippe	ANDERE	Andere job		andere school		6	AV	1	vrijdag	  08u00
+628	2u00	H	Vukojevic Philippe	FRANçA	Français	1BF Groep 1	B109	AV+	6	AV	1	donderdag	  13u00
+629	2u00	H	Vukojevic Philippe	FRANçA	Français	1BM	Aula B6 +beamer	AV+	6	AV	1	donderdag	  08u00
+630	2u00	H	Vukojevic Philippe	ZAKELI	Zakelijke communicatie	2BA;2BF	Aula B5 +beamer	AV+	1	AV	1	woensdag	  13u00
+631	2u00	H	Vukojevic Philippe	INTERN	Intern. ICT communication	1TI	Aula B6 +beamer		6	AV	1	woensdag	  08u00
+632	2u00	H	Vukojevic Philippe	COMMUN	Communicatietechnieken 1	1TI	Aula B6 +beamer	AV+	6	AV	1	woensdag	  16u00
+633	1u00	H	Wattel Aline/Student AV	BIJLES	Bijles Frans	1ON Groep 2;1ON Groep 4;1ON Groep 5;1ON Groep 6	K102 (Eng)+ SB		1	AV	1	woensdag	  15u00
+634	1u00	H	Wattel Aline/Student AV	BIJLES	Bijles Frans	1ON Groep 1;1ON Groep 3	K102 (Eng)+ SB		1	AV	1	woensdag	  16u00
+635	1u00	H	Weemaes Thomas	PSYCHO	Psychoped.comp:Psycho/Motoriek	1  SO Groep LO	Aula B5 +beamer		5	AV	1	dinsdag	  15u00
+636	2u00	H	Wets Diana	VOEDIN	Voeding/Verzorging 1	1 SO Voed/verzor	K205 (Ned)	AV+	3	AV	1	donderdag	  13u00
+637	2u00	H	Wets Diana	VOEDIN	Voeding/Verzorging 1	1 SO Voed/verzor	K202	AV+	3	AV	1	dinsdag	  16u00
+638	2u00	H	Wets Diana	VOEDIN	Voeding/Verzorging 1	1 SO Voed/verzor	K202	AV+	1	AV	1	maandag	  10u00
+639	2u00	H	Willaert Kim	SUPERV	Supervisie	2SW Gr38	K111(PW)+beamer		6	AV	1	vrijdag	  16u00
+640	2u00	H	Willems Eddy	INTERD	Interdisciplinaire vaardigh 5	3TI	B110 + SB		6	AV	1	maandag	  14u00
+641	2u00	H	Willems Eddy	WEGVER	Wegvervoer	2BL	B110 + SB	AV+	6	AV	1	woensdag	  13u00
+642	2u00	H	Willems Eddy	LUCHTV	Luchtvervoer	2BL	B110 + SB	AV+	6	AV	1	woensdag	  15u00
+643	10u00	H	Willems Nele	ANDERE	Andere job		andere school		6	AV	1	woensdag	  08u00
+644	10u00	H	Willems Nele	ANDERE	Andere job		andere school		6	AV	1	maandag	  08u00
+645	1u30	H	Wouters Greet	DE MUZ	De muze in jou 1: Muziek	1ON Groep 3	V203 (MO)		1	AV	1	maandag	  16u00
+646	1u30	H	Wouters Greet	DE MUZ	De muze in jou 1: Muziek	1ON Groep 2;1ON Groep 4;1ON Groep 6	V203 (MO)		1	AV	1	maandag	  08u00
+647	1u30	H	Wouters Greet	DE MUZ	De muze in jou 1: Muziek	1ON Groep 5	V203 (MO)		1	AV	1	maandag	  09u30
+648	1u30	H	Wouters Greet	DE MUZ	De muze in jou 1: Muziek	1ON Groep 1	V203 (MO)		1	AV	1	maandag	  14u30
+649	2u00	H	Wydaeghe Koen	KWALIT	Kwaliteit van software	3TI	B203 (comp);B204 (comp)		6	AV	1	donderdag	  11u00
+650	2u00	H	Wydaeghe Koen	BEVEIL	Beveiliging	3TI	B203 (comp);B204 (comp)		6	AV	1	donderdag	  09u00
+651	1u00	H		RESERV	Reservatie lokaal		Zwembad Veldstr		6	AV	1	dinsdag	  14u00
+652	14u00	H		RESERV	Reservatie lokaal		K011 Instapklas;K012 Kleuterkla		6	AV	1	vrijdag	  08u00
+653	5u00	H		BR-STA	BR-Stage	1  SO BR 1-2-4;1  SO BR 3-5-6	Externe locatie		6	AV	1	woensdag	  13u00
+654	14u00	H		RESERV	Reservatie lokaal		K011 Instapklas;K012 Kleuterkla		6	AV	1	donderdag	  08u00
+655	14u00	H		RESERV	Reservatie lokaal		K011 Instapklas;K012 Kleuterkla		6	AV	1	dinsdag	  08u00
+656	14u00	H		RESERV	Reservatie lokaal		K011 Instapklas;K012 Kleuterkla		6	AV	1	woensdag	  08u00
+657	14u00	H		RESERV	Reservatie lokaal		K011 Instapklas;K012 Kleuterkla		6	AV	1	maandag	  08u00
+658	4u00	H		BEDRIJ	Bedrijfsbeheer	IVBO Bedrijfsbeh	Aula B5 +beamer		4	AV	1	maandag	  18u00
+659	1u30	H		STAFVE	Vergadering Stafvergadering		B002 (Vergzaal)		1	AV	1	dinsdag	  09u30
+660	4u00	H		BEDRIJ	Bedrijfsbeheer	IVBO Bedrijfsbeh	Aula B5 +beamer		1	AV	1	maandag	  09u00
+661	4u00	H		BEDRIJ	Bedrijfsbeheer	IVBO Bedrijfsbeh	Aula B5 +beamer		1	AV	1	dinsdag	  09u00
+662	0u30	H		RESERV	Reservatie lokaal		Zwembad Veldstr		6	AV	1	maandag	  14u30
+663	9u00	H		RESERV	Reservatie lokaal		PL 1.11(keuken)		3	AV	1	maandag	  08u30
+664	9u00	H		RESERV	Reservatie lokaal		PL 1.11(keuken)		3	AV	1	dinsdag	  08u30
+665	3u45	H		RESERV	Reservatie lokaal		PL 1.11(keuken)		4	AV	1	donderdag	  08u30
+666	3u45	H		RESERV	Reservatie lokaal		PL 1.11(keuken)		4	AV	1	donderdag	  12u45
+667	3u45	H		RESERV	Reservatie lokaal		PL 1.11(keuken)		4	AV	1	vrijdag	  12u45
+668	3u45	H		RESERV	Reservatie lokaal		PL 1.11(keuken)		4	AV	1	vrijdag	  08u30
+669	3u45	H		RESERV	Reservatie lokaal		PL 3.12 (mode)		4	AV	1	dinsdag	  12u45
+670	3u45	H		RESERV	Reservatie lokaal		PL 3.12 (mode)		4	AV	1	woensdag	  12u45
+671	2u15	H		RESERV	Reservatie lokaal		PL 3.12 (mode)		4	AV	1	donderdag	  12u45
+672	10u00	H		PROJEC	Project Sales en meeloopstage	3BM	Externe locatie		1	AV	1	maandag	  08u00
+673	10u00	H		PROJEC	Project Sales en meeloopstage	3BM	Externe locatie		1	AV	1	dinsdag	  08u00
+674	10u00	H		PROJEC	Project Sales en meeloopstage	3BM	Externe locatie		1	AV	1	woensdag	  08u00
+675	10u00	H		PROJEC	Project Sales en meeloopstage	3BM	Externe locatie		1	AV	1	donderdag	  08u00
+676	10u00	H		PROJEC	Project Sales en meeloopstage	3BM	Externe locatie		1	AV	1	vrijdag	  08u00
+677	9u00	H		RESERV	Reservatie lokaal		PL 1.11(keuken)		5	AV	1	woensdag	  08u30
+678	3u45	H		RESERV	Reservatie lokaal		PL 3.12 (mode)		4	AV	1	maandag	  08u30
+679	3u45	H		RESERV	Reservatie lokaal		PL 3.12 (mode)		4	AV	1	maandag	  12u45
+680	2u00	H		RESERV	Reservatie lokaal		PL 3.12 (mode)		4	AV	1	dinsdag	  10u15
+681	2u00	H		RESERV	Reservatie lokaal		PL 3.12 (mode)		4	AV	1	woensdag	  10u15
+682	2u00	H		RESERV	Reservatie lokaal		PL 3.12 (mode)		3	AV	1	vrijdag	  10u15
+683	3u30	H		RESERV	Reservatie lokaal	BKR	B002 (Vergzaal)		1	AV	1	woensdag	  18u30
+684	8u00	H		RESERV	Reservatie lokaal		PL 0.31 (comp)		1	AV	1	dinsdag	  08u30
+685	1u45	H		RESERV	Reservatie lokaal		PL 0.31 (comp)		4	AV	1	woensdag	  14u45
+686	2u15	H		RESERV	Reservatie lokaal		PL 0.31 (comp)		4	AV	1	donderdag	  12u45
+687	2u15	H		RESERV	Reservatie lokaal		PL 0.31 (comp)		2	AV	1	vrijdag	  12u45
+688	6u00	H		KINDER	Kinderen ondersteunen 5	3ON PFS	Externe locatie		6	AV	1	woensdag	  12u00
+689	10u00	H		BBP 3-	BBP 3-4 Doe stage	2ON	andere school		1	AV	1	donderdag	  08u00
+690	10u00	H		BBP 3-	BBP 3 - Bijwonen	2ON	andere school		1	AV	1	dinsdag	  08u00
+691	10u00	H		BBP 3-	BBP 3 - Bijwonen	2ON	andere school		1	AV	1	woensdag	  08u00
+692	10u00	H		BBP 3-	BBP 3 - Bijwonen	2ON	andere school		1	AV	1	maandag	  08u00
+693	10u00	H		BBP 3-	BBP 3-4 Doe stage	2ON	andere school		1	AV	1	vrijdag	  08u00
+694	4u00	H		BBP 3-	BBP 3 - Bijwonen	2KL	andere school		1	AV	1	donderdag	  13u30
+695	4u00	H		BBP 3-	BBP 3 - Bijwonen	2KL	andere school		1	AV	1	donderdag	  08u30
+696	2u00	H		INFORM	Informaticaprojecten 3	2TI	CH0 (comp);CH1 (comp);CH2 (comp)		1	AV	1	donderdag	  09u30
+697	6u00	H		KINDER	Kinderen ondersteunen 5	3ON Leertrein	Externe locatie		1	AV	1	donderdag	  12u00
+698	5u00	H		KINDER	Kinderen ondersteunen 5	3ON Leertrein	andere school		1	AV	1	woensdag	  13u00
+699	8u00	H		RESERV	Reservatie lokaal		NSporthal		1	AV	1	dinsdag	  09u00
+700	8u00	H		VERGAD	Vergadering		Academie 3.1		1	AV	1	donderdag	  10u00
