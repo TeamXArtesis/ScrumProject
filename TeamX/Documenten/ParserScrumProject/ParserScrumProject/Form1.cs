@@ -57,6 +57,8 @@ namespace ParserScrumProject
 
         private void button2_Click(object sender, EventArgs e)
         {
+            richTextBox1.Text = null; 
+            progressBar1.Value = 0;
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
             openFileDialog1.Filter = "Text|*.txt|All|*.*";
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
