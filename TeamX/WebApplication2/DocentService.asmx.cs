@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.Script.Serialization;
 using System.Web.Script.Services;
 using System.Web.Services;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using TeamX.Models;
 
 namespace WebApplication2
@@ -24,12 +26,20 @@ namespace WebApplication2
         public string GetDocentByID(int id = -1)
         {
             TimetableContext ctx = new TimetableContext();
-
+            JavaScriptSerializer js = new JavaScriptSerializer();
             var result = from doc in ctx.Docents
                          where doc.docent_id == id
-                         select doc;
-            JavaScriptSerializer js = new JavaScriptSerializer();
-            return js.Serialize(result);
+                         select new
+                             {
+                                 docent_id = doc.docent_id,
+                                 naam = doc.naam,
+                                 voornaam = doc.voornaam,
+                                 email = doc.email,
+                                 olodcount = doc.Olods.Count()
+                             };
+            string json = JsonConvert.SerializeObject(result);
+            return json;
+          //  return js.Serialize(result);
         }
 
         [WebMethod]

@@ -11,7 +11,7 @@ namespace TeamX.Models.Validators
     {
         public override void OnException(ExceptionContext filterContext)
         {
-            EmailClient.Emailclient.ErrorEmail("admin@artesis.be", "Foutmelding", filterContext.Exception.Message);
+            //EmailClient.Emailclient.ErrorEmail("admin@artesis.be", "Foutmelding", filterContext.Exception.Message);
             base.OnException(filterContext);
         }
     }
