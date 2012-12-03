@@ -12,6 +12,8 @@ namespace TeamX
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.IgnoreRoute("{resource}.asmx/{*pathInfo}");
+            routes.IgnoreRoute("Webservices/{resource}.asmx/{*pathInfo}");
 
             routes.MapRoute(
                 name: "Default",
