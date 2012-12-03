@@ -180,6 +180,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validators\CostumAttribut.cs" />
     <Compile Include="Validators\CostumModelClientValidationRule.cs" />
+    <Compile Include="Webservices\DocentService.asmx.cs">
+      <DependentUpon>DocentService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\LesService.asmx.cs">
+      <DependentUpon>LesService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -238,6 +246,8 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Webservices\DocentService.asmx" />
+    <Content Include="Webservices\LesService.asmx" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
