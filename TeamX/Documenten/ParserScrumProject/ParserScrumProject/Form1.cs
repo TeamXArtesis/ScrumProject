@@ -26,13 +26,13 @@ namespace ParserScrumProject
 
                 temp = parser.uitvoer(pathFileShow.Text);
                 richTextBox1.Text = " ";
-                int counter = 0;
+                //int counter = 0;
                 foreach (string s in temp)
                 {
-                    if (counter % 7 == 0)
-                    {
-                        progressBar1.Value++;
-                    }
+                    //if (counter % 7 == 0)
+                    //{
+                    //    progressBar1.Value++;
+                    //}
                     if (richTextBox1.Text == null)
                     {
                         richTextBox1.Text += s + "\n";
@@ -42,10 +42,12 @@ namespace ParserScrumProject
                         richTextBox1.AppendText(s + "\n");
                     }
                     richTextBox1.ScrollToCaret();
-                    counter ++;
+                    progressBar1.Value++;
+                    //counter ++;
 
                 }
                 System.Windows.Forms.MessageBox.Show("Data added to database");
+                progressBar1.Value = 0;
             }
             catch(Exception)
             {
@@ -58,7 +60,6 @@ namespace ParserScrumProject
         private void button2_Click(object sender, EventArgs e)
         {
             richTextBox1.Text = null; 
-            progressBar1.Value = 0;
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
             openFileDialog1.Filter = "Text|*.txt|All|*.*";
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
@@ -71,7 +72,8 @@ namespace ParserScrumProject
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            progressBar1.Minimum = 0;
+            progressBar1.Maximum = 700;
         }
 
     }
