@@ -20,26 +20,33 @@ namespace WebApplication2
     [System.Web.Script.Services.ScriptService]
     public class DocentService : System.Web.Services.WebService
     {
+        private static TimetableContext ctx = new TimetableContext();
+        private static JsonSerializerSettings serSettings = new JsonSerializerSettings() { 
+            ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+        }; 
 
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public string GetDocentByID(int id = -1)
-        {
-            TimetableContext ctx = new TimetableContext();
+        {            
             JavaScriptSerializer js = new JavaScriptSerializer();
             var result = from doc in ctx.Docents
                          where doc.docent_id == id
-                         select new
+                         select doc;
+                         /*select new
                              {
                                  docent_id = doc.docent_id,
                                  naam = doc.naam,
                                  voornaam = doc.voornaam,
                                  email = doc.email,
                                  olodcount = doc.Olods.Count()
-                             };
-            string json = JsonConvert.SerializeObject(result);
-            return json;
+                             };*/
+            //string json = JsonConvert.SerializeObject(result);
+            //return json;
           //  return js.Serialize(result);
+           
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;
         }
 
         [WebMethod]
