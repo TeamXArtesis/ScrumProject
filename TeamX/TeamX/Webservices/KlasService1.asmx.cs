@@ -21,12 +21,11 @@ namespace TeamX.Webservices
     [System.Web.Script.Services.ScriptService]
     public class KlasService1 : System.Web.Services.WebService
     {
-
-        [WebMethod]
-        public string HelloWorld()
+        private static TimetableContext ctx = new TimetableContext();
+        private static JsonSerializerSettings serSettings = new JsonSerializerSettings()
         {
-            return "Hello World";
-        }
+            ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+        };
 
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
@@ -35,23 +34,49 @@ namespace TeamX.Webservices
 
             JavaScriptSerializer js = new JavaScriptSerializer();
             var result = from klasVar in ctx.Klas
-                         where klasVar.klas_i == id
+                         where klasVar.klas_id == id
                          select klasVar;
-
-            // TimetableContext ctx = new TimetableContext();
-            // JavaScriptSerializer js = new JavaScriptSerializer();
-            // var result = from klasVar in ctx.Klas
-                         // where klasVar.klas_id == id
-                         // select new
-                            //  {
-                              //    klas_id = klasVar.klas_id,
-                                //  afkorting = klasVar.afkorting,
-                                 // naam = klasVar.naam
-            //  };
-
-            string json = JsonConvert.SerializeObject(result);
-            return json;
-          //  return js.Serialize(result);
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;           
+          
         }
+        [WebMethod]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string getKlasByAfk(string afk = null)
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            var result = from klasVarAfk in ctx.Klas
+                         where klasVarAfk.afkorting == afk
+                         select klasVarAfk;
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;     
+        }
+
+        [WebMethod]
+        public string getKlasByNaam(string naam = null)
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            var result = from klasVarNaam in ctx.Klas
+                         where klasVarNaam.naam == naam
+                         select klasVarNaam;
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;
+        } 
     }
 }
+
+
+
+//oude methode
+// TimetableContext ctx = new TimetableContext();
+// JavaScriptSerializer js = new JavaScriptSerializer();
+// var result = from klasVar in ctx.Klas
+// where klasVar.klas_id == id
+// select new
+//  {
+//    klas_id = klasVar.klas_id,
+//  afkorting = klasVar.afkorting,
+// naam = klasVar.naam
+//string json = JsonConvert.SerializeObject(result);
+//return js.Serialize(result);
+//  }; 

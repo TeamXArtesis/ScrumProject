@@ -182,6 +182,10 @@
       <DependentUpon>DocentService.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Webservices\KlasService1.asmx.cs">
+      <DependentUpon>KlasService1.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Webservices\LesService.asmx.cs">
       <DependentUpon>LesService.asmx</DependentUpon>
       <SubType>Component</SubType>
@@ -249,6 +253,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Webservices\DocentService.asmx" />
+    <Content Include="Webservices\KlasService1.asmx" />
     <Content Include="Webservices\LesService.asmx" />
     <Content Include="Webservices\OlodService.asmx" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
