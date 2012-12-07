@@ -32,16 +32,22 @@ namespace TeamX.Webservices
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public string getKlasById(int id = -1)
         {
-            TimetableContext ctx = new TimetableContext();
+
             JavaScriptSerializer js = new JavaScriptSerializer();
             var result = from klasVar in ctx.Klas
-                         where klasVar.klas_id == id
-                         select new
-                             {
-                                 klas_id = klasVar.klas_id,
-                                 afkorting = klasVar.afkorting,
-                                 naam = klasVar.naam
-                             };
+                         where klasVar.klas_i == id
+                         select klasVar;
+
+            // TimetableContext ctx = new TimetableContext();
+            // JavaScriptSerializer js = new JavaScriptSerializer();
+            // var result = from klasVar in ctx.Klas
+                         // where klasVar.klas_id == id
+                         // select new
+                            //  {
+                              //    klas_id = klasVar.klas_id,
+                                //  afkorting = klasVar.afkorting,
+                                 // naam = klasVar.naam
+            //  };
 
             string json = JsonConvert.SerializeObject(result);
             return json;
