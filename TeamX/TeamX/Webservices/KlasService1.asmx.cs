@@ -65,8 +65,6 @@ namespace TeamX.Webservices
     }
 }
 
-
-
 //oude methode
 // TimetableContext ctx = new TimetableContext();
 // JavaScriptSerializer js = new JavaScriptSerializer();
