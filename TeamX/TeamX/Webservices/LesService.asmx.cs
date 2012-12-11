@@ -5,9 +5,11 @@ using System.Web;
 using System.Web.Script.Serialization;
 using System.Web.Script.Services;
 using System.Web.Services;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using TeamX.Models;
 
-namespace WebApplication2
+namespace TeamX.Webservices
 {
     /// <summary>
     /// Summary description for LesService
@@ -18,66 +20,62 @@ namespace WebApplication2
     [System.Web.Script.Services.ScriptService]
     public class LesService : System.Web.Services.WebService
     {
+        private static TimetableContext ctx = new TimetableContext();
+        private static JsonSerializerSettings serSettings = new JsonSerializerSettings()
+        {
+            ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+        }; 
 
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public string GetLesByID(int id = -1)
-        {
-            Les l = new Les();
-            if (id == 1)
-            {
-                l.les_id = 1;
-                // l.tijd = new TimeSpan(2, 0, 0);
-                l.lokaal = "TestLokaal";
-                l.dag = 1;
-                l.week = 2;   
-            } else if (id == 2)
-            {
-                l.les_id = 2;
-                l.tijd = new TimeSpan(2, 0, 0);
-                l.lokaal = "B04";
-                l.dag = 2;
-                l.week = 2; 
-            }
-            else
-            {
-                l.les_id = -1;
-                l.lokaal = ""; 
-            }
-
+        public string GetLesById(int id = -1)
+        {            
             JavaScriptSerializer js = new JavaScriptSerializer();
-            return js.Serialize(l);
+            var result = from les in ctx.Les
+                            where les.les_id == id
+                            select les;
+
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;            
         }
 
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public string GetLesByLokaal(string lokaal)
         {
-            Les l = new Les();
-            if (lokaal.ToUpper().Equals("TESTLOKAAL"))
-            {
-                l.les_id = 1;
-                // l.tijd = new TimeSpan(2, 0, 0);
-                l.lokaal = "TestLokaal";
-                l.dag = 1;
-                l.week = 2;
-            }
-            else if (lokaal.ToUpper().Equals("B04"))
-            {
-                l.les_id = 2;
-                l.tijd = new TimeSpan(2, 0, 0);
-                l.lokaal = "B04";
-                l.dag = 2;
-                l.week = 2;
-            }
-            else
-            {
-                l.les_id = -1;
-                l.lokaal = "";
-            }
-
             JavaScriptSerializer js = new JavaScriptSerializer();
-            return js.Serialize(l);
+            var result = from les in ctx.Les
+                         where les.lokaal == lokaal
+                         select les;
+
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;
+        }
+
+        [WebMethod]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string GetLesByOlodNaam(string olod_naam)
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            var result = from les in ctx.Les
+                         where les.Olod.naam == olod_naam
+                         select les;
+
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;
+        }
+
+        [WebMethod]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string GetLesByDag(int dag)
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            var result = from les in ctx.Les
+                         where les.dag == dag
+                         select les;
+
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;
         }
     }
 }

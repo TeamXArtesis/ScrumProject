@@ -29,7 +29,7 @@ namespace TeamX.Webservices
 
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public string getKlasById(int id = -1)
+        public string GetKlasById(int id = -1)
         {
 
             JavaScriptSerializer js = new JavaScriptSerializer();
@@ -42,7 +42,7 @@ namespace TeamX.Webservices
         }
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public string getKlasByAfk(string afk = null)
+        public string GetKlasByAfk(string afk = null)
         {
             JavaScriptSerializer js = new JavaScriptSerializer();
             var result = from klasVarAfk in ctx.Klas
@@ -53,7 +53,7 @@ namespace TeamX.Webservices
         }
 
         [WebMethod]
-        public string getKlasByNaam(string naam = null)
+        public string GetKlasByNaam(string naam = null)
         {
             JavaScriptSerializer js = new JavaScriptSerializer();
             var result = from klasVarNaam in ctx.Klas

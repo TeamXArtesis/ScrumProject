@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using TeamX.Models;
 
-namespace WebApplication2
+namespace TeamX.Webservices
 {
     /// <summary>
     /// Summary description for DocentService
@@ -27,23 +27,13 @@ namespace WebApplication2
 
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public string GetDocentByID(int id = -1)
+        public string GetDocentById(int id = -1)
         {            
             JavaScriptSerializer js = new JavaScriptSerializer();
             var result = from doc in ctx.Docents
                          where doc.docent_id == id
                          select doc;
-                         /*select new
-                             {
-                                 docent_id = doc.docent_id,
-                                 naam = doc.naam,
-                                 voornaam = doc.voornaam,
-                                 email = doc.email,
-                                 olodcount = doc.Olods.Count()
-                             };*/
-            //string json = JsonConvert.SerializeObject(result);
-            //return json;
-          //  return js.Serialize(result);
+                        
            
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;
@@ -51,56 +41,54 @@ namespace WebApplication2
 
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public string GetDocentByVoornaam(string naam)
-        {
-            Docent d = new Docent();
-            if (naam.ToUpper().Equals("JAN"))
-            {
-                d.docent_id = 1;
-                d.naam = "Janssens";
-                d.email = "jan.janssens@artesis.be";
-                d.voornaam = "Jan";
-            }
-            else if (naam.ToUpper().Equals("PHILIPPE"))
-            {
-                d.docent_id = 2;
-                d.naam = "Possemiers";
-                d.voornaam = "Philippe";
-                d.email = "philippe.possemiers@artesis.be";
-            }
-            else
-            {
-                d.docent_id = -1;
-            }
+        public string GetDocentByVoornaam(string voornaam)
+        {           
             JavaScriptSerializer js = new JavaScriptSerializer();
-            return js.Serialize(d);
+            var result = from doc in ctx.Docents
+                         where doc.voornaam == voornaam
+                         select doc;
+
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;            
         }
 
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public string GetDocentByNaam(string naam)
         {
-            Docent d = new Docent();
-            if (naam.ToUpper().Equals("JANSSENS"))
-            {
-                d.docent_id = 1;
-                d.naam = "Janssens";
-                d.email = "jan.janssens@artesis.be";
-                d.voornaam = "Jan";
-            }
-            else if (naam.ToUpper().Equals("POSSEMIERS"))
-            {
-                d.docent_id = 2;
-                d.naam = "Possemiers";
-                d.voornaam = "Philippe";
-                d.email = "philippe.possemiers@artesis.be";
-            }
-            else
-            {
-                d.docent_id = -1;
-            }
             JavaScriptSerializer js = new JavaScriptSerializer();
-            return js.Serialize(d);
+            var result = from doc in ctx.Docents
+                         where doc.naam == naam
+                         select doc;
+
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;    
+        }
+
+        [WebMethod]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string GetDocentByEmail(string email)
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            var result = from doc in ctx.Docents
+                         where doc.email == email
+                         select doc;
+
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;
         }
     }
 }
+
+//Oude manier
+/*select new
+                            {
+                                docent_id = doc.docent_id,
+                                naam = doc.naam,
+                                voornaam = doc.voornaam,
+                                email = doc.email,
+                                olodcount = doc.Olods.Count()
+                            };*/
+//string json = JsonConvert.SerializeObject(result);
+//return json;
+//  return js.Serialize(result);
