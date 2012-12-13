@@ -32,7 +32,7 @@ namespace TeamX.Models.Mapping
                 .Map(m =>
                     {
                         m.ToTable("Klas_olod");
-                        m.MapLeftKey("klad_id");
+                        m.MapLeftKey("klas_id");
                         m.MapRightKey("olod_id");
                     });
 
