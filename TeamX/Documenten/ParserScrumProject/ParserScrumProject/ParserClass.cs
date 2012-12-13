@@ -10,53 +10,68 @@ namespace ParserScrumProject
 {
     class ParserClass
     {
+        PutInDatabase databaseConnector = new PutInDatabase();
 
         public string[] uitvoer(string path)
         {
             List<string> cllcn = readFromFile(path);
             string[] returncllcn = cllcn.ToArray();
-
+            putDataToObjects(returncllcn);
             return returncllcn;
         }
 
-        public string[] test(string path)
-        {
-            string[] lijst = null;
-            string[] uitvoer = new string[1];
-            string[] tempPuntComma = null;
-            //string[] listToArraytemp = null;
-            string[] addStringToArray = null;
-            List<string> temp2 = new List<string>();
-            List<string> col = readFromFile(path);
-            string puntComma = ";";
 
-            foreach (string s in col)
+        public void putDataToObjects(string[] collection)
+        {
+            Records[] cllctn = new Records[collection.Length];
+            string[] lijst = null;
+            int counter = 0;
+
+            foreach (string s in collection)
             {
                 lijst = parseOnTab(s);
-                foreach (string a in lijst)
-                {
-                    if (a.Contains(puntComma))
-                    {
-                        tempPuntComma = parsePuntComma(a);
+                Records record = new Records(
+                    deleteUFromHours(lijst[1]),
+                    parsePuntComma(lijst[3]),
+                    lijst[4],
+                    lijst[5],
+                    parsePuntComma(lijst[6]),
+                    parsePuntComma(lijst[7]),
+                    int.Parse(lijst[9]),
+                    deleteUFromHours(lijst[13]),
+                    getDayOutOfParser(lijst[12]),
+                    8);
+                cllctn[counter] = record;
+                counter++;
+            }
+            databaseConnector.addListToDatabase(cllctn);
+        }
 
-                        addStringToArray = new string[uitvoer.Length + tempPuntComma.Length];
-                        uitvoer.CopyTo(addStringToArray, 0);
-                        tempPuntComma.CopyTo(addStringToArray, uitvoer.Length);
-                        uitvoer = addStringToArray;
-                        addStringToArray = null;
-                    }
-                    else
-                    {
-                        addStringToArray = new string[uitvoer.Length + 1];
-                        uitvoer.CopyTo(addStringToArray, 0);
-                        addStringToArray[uitvoer.Length] = a;
-                        uitvoer = addStringToArray;
-                        addStringToArray = null;
-                    }
-                }
+        public int getDayOutOfParser(string dag)
+        {
+            int dotw;
+            switch (dag) {
+                case "maandag": dotw = 1;
+                    break;
+                case "dinsdag": dotw = 2;
+                    break;
+                case "woensdag": dotw = 3;
+                    break;
+                case "donderdag": dotw =  4;
+                    break;
+                case "vrijdag": dotw = 5;
+                    break;
+                default: dotw = 1;
+                    break;
             }
 
-            return uitvoer;
+            return dotw;
+        
+        }
+
+        public int deleteUFromHours(string duur)
+        {
+            return int.Parse(duur.Replace("u", string.Empty));;
         }
 
         public List<string> readFromFile(string path)
@@ -72,18 +87,14 @@ namespace ParserScrumProject
             catch (FileNotFoundException e)
             {
                 System.Windows.Forms.MessageBox.Show("File in use "+e);
-                //Console.WriteLine(e);
             }
 
-            StreamReader frstr_in = new StreamReader(reader);
+            StreamReader frstr_in = new StreamReader(reader, Encoding.GetEncoding("iso-8859-1"));
 
             while ((buffer = frstr_in.ReadLine()) != null)
             {
                 uitvoer.Add(buffer);
             }
-
-            //buffer = frstr_in.ReadLine();
-            //uitvoer.Add(buffer);
 
             return uitvoer;
         }
@@ -101,59 +112,6 @@ namespace ParserScrumProject
             string[] lijst = value.Split(tab);
             return lijst;
         }
-
-
-
-        //public void checkDocent(string name)
-        //{
-        //    ResultSet rs = null;
-        //    string docentName = null;
-        //    bool inDatabase = false;
-        //    while (rs.next())
-        //    {
-        //        docentName = rs.getstring("naam") + " " + rs.getstring("voornaam");
-        //        if (docentName == name)
-        //        {
-        //            inDatabase = true;
-        //        }
-        //    }
-        //    if (!inDatabase)
-        //    {
-        //        insert docent query here
-        //    }
-        //}
-
-        //public void checkClass(string className)
-        //{
-        //    ResultSet rs = null;
-        //    string nameClass = null;
-        //    bool inDatabase = false;
-        //    while(rs.next())
-        //    {
-        //        nameClass = rs.getstring("naam");
-        //        if(nameClass == className)
-        //        {
-        //            inDatabase = true;
-        //        }
-        //    }
-        //    if(!inDatabase)
-        //    {
-        //        // insert class query here
-        //    }
-        //}
-
-        //public Boolean addDocent(int id, string name, string lastName, string email)
-        //{
-        //    try{
-        //        //insert query here
-        //        return true;
-        //    }
-        //    catch(Exception E){
-        //        E.ToString();
-        //        return false;
-        //    }
-
-        //}
 
     }
 
