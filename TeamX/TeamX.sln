@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamX", "TeamX\TeamX.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamX.Tests", "TeamX.Tests\TeamX.Tests.csproj", "{FD79F4E3-3242-4DAE-B5BF-2D5A273C5E33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamXTestServices", "WebApplication2\TeamXTestServices.csproj", "{9754018A-88BE-46F6-9BC2-09C28B2E5417}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{FD79F4E3-3242-4DAE-B5BF-2D5A273C5E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD79F4E3-3242-4DAE-B5BF-2D5A273C5E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD79F4E3-3242-4DAE-B5BF-2D5A273C5E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9754018A-88BE-46F6-9BC2-09C28B2E5417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9754018A-88BE-46F6-9BC2-09C28B2E5417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9754018A-88BE-46F6-9BC2-09C28B2E5417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9754018A-88BE-46F6-9BC2-09C28B2E5417}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
