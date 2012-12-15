@@ -10,33 +10,80 @@ namespace ParserScrumProject
 {
     class PutInDatabase
     {
-        private SqlConnection connection = new SqlConnection(@"Data Source=DB2-PC;Initial Catalog=Timetable;Persist Security Info=True;User ID=sa;Password=sa");
+        private SqlConnection connection;
         Form1 gs = new Form1();
 
-        public void addListToDatabase(Records[] recs)
+        private static PutInDatabase instance = null;
+
+        public static PutInDatabase getInstance()
         {
+            if (instance == null)
+            {
+                instance = new PutInDatabase();
+            }
+            return instance;
+        }
+
+        public void setConnectionString(string pcname, string username, string password)
+        {
+            connection = new SqlConnection(@"Data Source="+pcname+";Initial Catalog=Timetable;Persist Security Info=True;User ID="+username+";Password="+password+"");
+        }
+
+        public Boolean testConnection()
+        {
+            Boolean success = false;
             try
             {
                 connection.Open();
-                foreach (Records temp in recs)
-                {
-                    int minutes = temp.StartUur % 100;
-                    int hours = temp.StartUur / 100;
+                success = true;
+            }
+            catch
+            {
+                success = false;
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return success;
+        }
+
+        public void addListToDatabase(Records recs, string pcname, string username, string password)
+        {
+            connection = new SqlConnection(@"Data Source=" + pcname + ";Initial Catalog=Timetable;Persist Security Info=True;User ID=" + username + ";Password=" + password + "");
+
+            try
+            {
+                connection.Open();
+                    int minutes = recs.StartUur % 100;
+                    int hours = recs.StartUur / 100;
 
                     TimeSpan startTijd = new TimeSpan(hours, minutes, 0);
 
-                    int olodId = checkOlod(temp.Deelopleidingsonderdeel.Replace('\'', ' '), temp.Opleidingsonderdeel.Replace('\'', ' '), temp.Studiepunten);
+                    int olodId = checkOlod(recs.Deelopleidingsonderdeel.Replace('\'', ' '), recs.Opleidingsonderdeel.Replace('\'', ' '), recs.Studiepunten);
 
-                    Docent[] docenten = new Docent[temp.Docenten.Length];
+                    Docent[] docenten = new Docent[recs.Docenten.Length];
                     int count = 0;
-                    if (temp.Docenten.Length != 0)
+                    if (recs.Docenten.Length != 0)
                     {
-                        foreach (string s in temp.Docenten)
+                        foreach (string s in recs.Docenten)
                         {
                             if (s.Contains(' '))
                             {
                                 string[] naamvoornaam = s.Split(' ');
-                                docenten[count] = new Docent(naamvoornaam[0].Replace('\'', ' '), naamvoornaam[1].Replace('\'', ' '));
+                                if (naamvoornaam.Length == 2)
+                                {
+                                    docenten[count] = new Docent(naamvoornaam[0].Replace('\'', ' '), naamvoornaam[1].Replace('\'', ' '));
+                                }
+                                else
+                                {
+                                    string achternaam = naamvoornaam[0];
+                                    for (int i = 1; i < naamvoornaam.Length-1; i++)
+                                    { 
+                                        achternaam += " "+naamvoornaam[i];
+                                    }
+                                    docenten[count] = new Docent(achternaam.Replace('\'', ' '), naamvoornaam[naamvoornaam.Length - 1].Replace('\'', ' '));
+                                }
                             }
                             else
                             {
@@ -52,19 +99,19 @@ namespace ParserScrumProject
 
                     int[] docentId = checkDocent(docenten);
                     checkOlodDocentRelation(docentId, olodId);
-                    int[] klasid = checkKlas(temp.Klas);
+                    int[] klasid = checkKlas(recs.Klas);
                     checkOlodKlasRelation(klasid, olodId);
 
-                    int duur = temp.Duration;
+                    int duur = (recs.Duration%100)+((recs.Duration/100)*60);
 
                     string room = null;
 
-                    foreach (string s in temp.Lokaal)
+                    foreach (string s in recs.Lokaal)
                     {
                         room += s + "  ";
                     }
 
-                    int dag = temp.Dag;
+                    int dag = recs.Dag;
 
                     CultureInfo ciCurr = CultureInfo.CurrentCulture;
                     int week = ciCurr.Calendar.GetWeekOfYear(DateTime.Now, CalendarWeekRule.FirstFourDayWeek, DayOfWeek.Monday);
@@ -75,7 +122,6 @@ namespace ParserScrumProject
                     addLes.ExecuteNonQuery();
 
                     
-                }
 
             }
             catch (SqlException e)
@@ -135,7 +181,7 @@ namespace ParserScrumProject
             return id;
         }
 
-        public void addOlodToDatabase(string deelOpleidingsOnderdeel, string opleidingsOnderdeel, int studiepunten)
+        private void addOlodToDatabase(string deelOpleidingsOnderdeel, string opleidingsOnderdeel, int studiepunten)
         {
             SqlCommand docentQuery = connection.CreateCommand();
             docentQuery.CommandText = "INSERT INTO olod (naam,studiepunten,omschrijving) values ('" + deelOpleidingsOnderdeel + "'," + studiepunten + ",'" + opleidingsOnderdeel + "')";

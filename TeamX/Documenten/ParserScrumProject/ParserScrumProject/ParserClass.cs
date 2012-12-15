@@ -10,18 +10,27 @@ namespace ParserScrumProject
 {
     class ParserClass
     {
-        PutInDatabase databaseConnector = new PutInDatabase();
+    //    PutInDatabase databaseConnector = new PutInDatabase();
 
-        public string[] uitvoer(string path)
+        public Records[] uitvoer(string path)
         {
             List<string> cllcn = readFromFile(path);
             string[] returncllcn = cllcn.ToArray();
-            putDataToObjects(returncllcn);
-            return returncllcn;
+            Records[] recs = null;
+            try
+            {
+                recs= putDataToObjects(returncllcn);
+            }
+            catch
+            { 
+                
+            }
+            return recs;
+
         }
 
 
-        public void putDataToObjects(string[] collection)
+        public Records[] putDataToObjects(string[] collection)
         {
             Records[] cllctn = new Records[collection.Length];
             string[] lijst = null;
@@ -44,7 +53,8 @@ namespace ParserScrumProject
                 cllctn[counter] = record;
                 counter++;
             }
-            databaseConnector.addListToDatabase(cllctn);
+            //databaseConnector.addListToDatabase(cllctn);
+            return cllctn;
         }
 
         public int getDayOutOfParser(string dag)

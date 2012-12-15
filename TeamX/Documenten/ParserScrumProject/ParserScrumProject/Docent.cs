@@ -34,7 +34,7 @@ namespace ParserScrumProject
         {
             this.lastname = lastname;
             this.name = name;
-            this.email = name+"."+lastname+"@artesis.be";
+            this.email = name+"."+lastname.Replace(" ",string.Empty)+"@artesis.be";
         }
     }
 }
