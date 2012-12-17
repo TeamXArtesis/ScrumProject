@@ -77,6 +77,20 @@ namespace TeamX.Webservices
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;
         }
+
+        [WebMethod]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string GetDocenten()
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            var result = from doc in ctx.Docents                         
+                         select doc.naam;
+
+
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;
+        }
+
     }
 }
 

@@ -61,7 +61,20 @@ namespace TeamX.Webservices
                          select klasVarNaam;
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;
-        } 
+        }
+
+        [WebMethod]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string GetKlassen()
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            var result = from klas in ctx.Klas
+                         select klas.naam;
+
+
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;
+        }
     }
 }
 
