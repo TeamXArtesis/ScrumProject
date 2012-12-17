@@ -69,7 +69,7 @@ namespace TeamX.Webservices
         {
             JavaScriptSerializer js = new JavaScriptSerializer();
             var result = from klas in ctx.Klas
-                         select klas.naam;
+                         select new {klas.naam, klas.klas_id};
 
 
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);

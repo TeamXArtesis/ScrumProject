@@ -77,5 +77,31 @@ namespace TeamX.Webservices
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;
         }
+
+        [WebMethod]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string GetLessen()
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            var result = from les in ctx.Les
+                         select new { les.lokaal, les.les_id, les.Olod.naam};
+
+
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;
+        }
+
+        [WebMethod]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string GetLokalen()
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            var result = (from les in ctx.Les
+                         select les.lokaal).Distinct();
+
+
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;
+        }
     }
 }

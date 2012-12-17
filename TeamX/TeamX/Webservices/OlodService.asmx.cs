@@ -68,6 +68,19 @@ namespace TeamX.Webservices
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;
         }
+
+        [WebMethod]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string GetOlods()
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            var result = from olod in ctx.Olods
+                         select new {olod.olod_id, olod.naam};
+
+
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;
+        }
         
     }
 }
