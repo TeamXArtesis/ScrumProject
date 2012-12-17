@@ -17,14 +17,16 @@ namespace ParserScrumProject
             List<string> cllcn = readFromFile(path);
             string[] returncllcn = cllcn.ToArray();
             Records[] recs = null;
-            try
-            {
-                recs= putDataToObjects(returncllcn);
-            }
-            catch
-            { 
-                
-            }
+
+                try
+                {
+                    recs = putDataToObjects(returncllcn);
+                }
+                catch
+                {
+
+                }
+
             return recs;
 
         }
@@ -105,7 +107,7 @@ namespace ParserScrumProject
             {
                 uitvoer.Add(buffer);
             }
-
+            frstr_in.Close();
             return uitvoer;
         }
 

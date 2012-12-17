@@ -34,24 +34,31 @@ namespace ParserScrumProject
                     progressBar1.Maximum = temp.Length;
                     richTextBox1.Text = " ";
                     int counter = 0;
-                    foreach (Records s in temp)
+                    if (temp.Length > 0)
                     {
-                        pidb.addListToDatabase(s,pcname,username,password);
-                        if (richTextBox1.Text == null)
+                        foreach (Records s in temp)
                         {
-                            richTextBox1.Text += s + "\n";
+                            pidb.addListToDatabase(s, pcname, username, password);
+                            if (richTextBox1.Text == null)
+                            {
+                                richTextBox1.Text += s + "\n";
+                            }
+                            else
+                            {
+                                richTextBox1.AppendText(s + "\n");
+                            }
+                            richTextBox1.ScrollToCaret();
+                            counter++;
+                            progressBar1.Value++;
                         }
-                        else
-                        {
-                            richTextBox1.AppendText(s + "\n");
-                        }
-                        richTextBox1.ScrollToCaret();
-                        counter++;
-                        progressBar1.Value++;
+                        System.Windows.Forms.MessageBox.Show("Data added to database");
+                        this.Close();
+                        this.Dispose();
                     }
-                    System.Windows.Forms.MessageBox.Show("Data added to database");
-                    this.Close();
-                    this.Dispose();
+                    else
+                    {
+                        MessageBox.Show("Nothing in textfile");
+                    }
                 }
                 catch
                 {
