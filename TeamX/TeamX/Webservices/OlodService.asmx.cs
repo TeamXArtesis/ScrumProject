@@ -68,18 +68,6 @@ namespace TeamX.Webservices
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;
         }
-        // testen
-        [WebMethod]
-        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public string GetOlodByOmschrijving(string omschrijf)
-        {
-            JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from olod in ctx.Olods
-                         where olod.omschrijving.Equals(omschrijf)
-                         select olod;
-
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;
-        }
+        
     }
 }
