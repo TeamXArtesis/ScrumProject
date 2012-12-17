@@ -1,7 +1,20 @@
 ﻿@{
     ViewBag.Title = "Home Page";
-}
 
+    int id = ViewBag.Id;
+    string day = "";
+    switch (id)
+    {
+        case 1: day = "Monday"; break;
+        case 2: day = "Tuesday"; break;
+        case 3: day = "Wednesday"; break;
+        case 4: day = "Thursday"; break;
+        case 5: day = "Friday"; break;
+        default: day = "WTF"; break;
+    }
+    ViewBag.Day = day;
+}
+<form action="~/Home/ResultPage" name="docentform">
   <h3>Klas</h3>
 				<div class="ui-widget">
 			    <label>Selecteer een klas:  &nbsp;&nbsp;</label>
@@ -9,20 +22,29 @@
 			    	<option value="">Select one.."></option>
 				</select>
 				</div>
-				
-				
-			<h3>OLOD</h3>
+
+<h3>Lokaal</h3>
 				<div class="ui-widget">
-			    <label>Selecteer een OLOD:&nbsp;</label>
+			    <label>Selecteer een lokaal:  &nbsp;&nbsp;</label>
 			    <select id="combobox1">
 			    	<option value="">Select one.."></option>
 				</select>
+				</div>
+					
+			<h3>OLOD</h3>
+				<div class="ui-widget">
+			    <label>Selecteer een OLOD:&nbsp;</label>
+			    <select id="combobox2">
+			    	<option value="">Select one.."></option>
+				</select>
 				</div>	
+            
 			<h3>Docent</h3>
 					<div class="ui-widget">
 				    <label>Selecteer een docent: </label>
-				    <select id="combobox2">
+				    <select id="combobox3">
 				        <option value="">Select one...</option>
+
 				        <option value="ActionScript">ActionScript</option>
 				        <option value="AppleScript">AppleScript</option>
 				        <option value="Asp">Asp</option>
@@ -47,4 +69,5 @@
 				        <option value="Scheme">Scheme</option>
 				    </select>
 				</div>
-				<input type="submit" value="OK" class="smbutton">
+				<input type="submit" value="OK" class="button">
+                </form>

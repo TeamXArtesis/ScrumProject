@@ -96,6 +96,7 @@ nav {
 
 #content {
 	display: table;
+    margin-top:50px;
 }
 
 	#mainContent {
@@ -104,6 +105,7 @@ nav {
 		padding-left:22px;
 		padding-right: 22px;
 		padding-top:22px;
+        padding-bottom:30px;
 	}
 	
 /*------------------------------
@@ -154,3 +156,20 @@ footer {
 		footer ul li a {
 			display: block;
 		}
+
+.bigfield {
+	border: 1px solid #999999;
+	height:24px;
+}
+
+.button {
+	width: 90px; 
+	height: 25px;
+	color: #ffffff;
+	background-color: #ff7700;	
+}
+
+.button:hover {
+	background-color: #db6600;
+}
+
