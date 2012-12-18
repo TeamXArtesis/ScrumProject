@@ -42,6 +42,24 @@ namespace TeamX.DAO
             var col = new List<Docent>(result);
             return col;
         }
+
+        public List<Docent> GetDocentByNaam(string naam)
+        {
+            var result = from doc in ctx.Docents
+                         where doc.naam == naam
+                         select doc;
+            var col = new List<Docent>(result);
+            return col;
+        }
+
+        public List<Docent> GetDocentByEmail(string email)
+        {
+            var result = from doc in ctx.Docents
+                         where doc.email == email
+                         select doc;
+            var col = new List<Docent>(result);
+            return col;
+        }
         
     }
 }
