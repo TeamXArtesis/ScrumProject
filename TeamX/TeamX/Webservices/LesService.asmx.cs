@@ -103,5 +103,79 @@ namespace TeamX.Webservices
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;
         }
-    }
+
+        [WebMethod]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string GetLesByDocentId(int docentId, int week, int dag)
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+
+            var result = from les in ctx.Les
+                         from doc in les.Olod.Docents
+                         where les.week == week && (dag == -1 || dag == les.dag) && doc.docent_id == docentId
+                         select new
+                             {
+                                 les.les_id,
+                                 les.dag,
+                                 les.week,
+                                 doc.docent_id,
+                                 les.lokaal,                                 
+                                 les.Olod.naam,                                 
+                                 les.Olod.studiepunten,
+                                 les.duur_in_minuten,
+                                 les.tijd
+                             };
+
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;
+        }
+
+        [WebMethod]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string GetLesByKlasId(int klasId, int dag, int week)
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            
+            var result = from les in ctx.Les
+                         from klas in ctx.Klas
+                         where les.week == week && (dag == -1 || dag == les.dag) && klas.klas_id == klasId
+                         select new
+                             {
+                                 les.les_id,
+                                 les.dag,
+                                 les.week,
+                                 klasnaam = klas.naam,
+                                 klas.afkorting,
+                                 les.lokaal,                                 
+                                 les.Olod.naam,                                 
+                                 les.Olod.studiepunten,
+                                 les.duur_in_minuten,
+                                 les.tijd
+                             };;
+
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;
+        }
+
+        /*from doc in ctx.Docents
+                         where doc.docent_id == id
+                         select new
+                         {
+                             docent_id = doc.docent_id,
+                             naam = doc.naam,
+                             voornaam = doc.voornaam,
+                             email = doc.email,
+                             Olods = from ol in ctx.Olods
+                                     where ol.Docents.Contains(doc)
+                                     select new
+                                     {
+                                         id = ol.olod_id,
+                                         naam = ol.naam,
+                                         studiepunten = ol.studiepunten
+                                     }
+                         };*/
+
+
+
+        }
 }
