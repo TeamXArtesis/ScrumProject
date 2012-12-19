@@ -10,21 +10,47 @@ schema[6] = "Possemiers";
 
 
 $(function () {
-    $.ajax({
-        type: "POST",
-        contentType: "application/json; charset=utf-8",
-        /*data: "{ klasId: 1, week: 51, dag: 1 }",*/
-        data: "{klasId:"+localStorage.getItem("klasid")+",week:"+localStorage.getItem("week")+",dag:"+localStorage.getItem("dag")+"}",
-        url: "../Webservices/LesService.asmx/GetLesByKlasId",
-        dataType: "json",
-        success: function (msg) {
-            console.log(msg);
-            var c = eval(msg.d);
-            for (var i in c) {
-                console.log(c[i]);
+    if (localStorage.getItem("type") == "klas")
+    {
+        $.ajax({
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            /*data: "{ klasId: 1, week: 51, dag: 1 }",*/
+            data: "{klasId:"+localStorage.getItem("klasid")+",week:"+localStorage.getItem("week")+",dag:"+localStorage.getItem("dag")+"}",
+            url: "../Webservices/LesService.asmx/GetLesByKlasId",
+            dataType: "json",
+            success: function (msg) {
+                console.log(msg);
+                var c = eval(msg.d);
+                for (var i in c) {
+                    console.log(c[i]);
+                }
             }
-        }
-    });
+        });
+    }
+    else if(localStorage.getItem("type")=="lokaal")
+    {
+        alert(localStorage.getItem("lokaal"))
+        $.ajax({
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            /*data: "{ klasId: 1, week: 51, dag: 1 }",*/
+            data: "{lokaal:\"" + localStorage.getItem("lokaal") + "\",week:" + localStorage.getItem("week") + ",dag:" + localStorage.getItem("dag") + "}",
+            url: "../Webservices/LesService.asmx/getlesbylokaal",
+            dataType: "json",
+            success: function (msg) {
+                console.log(msg);
+                var c = eval(msg.d);
+                for (var i in c) {
+                    console.log(c[i]);
+                }
+            },
+            error: function (a, b) {
+                console.log(a);
+            }
+        });
+    }
+    
 });
 
 

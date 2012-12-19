@@ -27,7 +27,7 @@ $(function () {
         success: function (msg) {
             var c = eval(msg.d);
             for (var i in c) {
-                $("#combobox1 option:last").after("<option value=" + c[i][0] + ">" + c[i] + "</option>");
+                $("#combobox1 option:last").after("<option value=" + c[i] + ">" + c[i] + "</option>");
             }
         }
     });
