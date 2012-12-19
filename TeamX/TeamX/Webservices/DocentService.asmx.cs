@@ -51,46 +51,7 @@ namespace TeamX.Webservices
            
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;
-        }
-
-        [WebMethod]
-        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public string GetDocentByVoornaam(string voornaam)
-        {           
-            JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from doc in ctx.Docents
-                         where doc.voornaam == voornaam
-                         select doc;
-
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;            
-        }
-
-        [WebMethod]
-        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public string GetDocentByNaam(string naam)
-        {
-            JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from doc in ctx.Docents
-                         where doc.naam == naam
-                         select doc;
-
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;    
-        }
-
-        [WebMethod]
-        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public string GetDocentByEmail(string email)
-        {
-            JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from doc in ctx.Docents
-                         where doc.email == email
-                         select doc;
-
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;
-        }
+        }       
 
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]

@@ -41,33 +41,7 @@ namespace TeamX.Webservices
             return json;
         }
 
-        [WebMethod]
-        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public string GetOlodByNaam(String naam)
-        {
-
-            JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from olod in ctx.Olods
-                         where olod.naam == naam
-                         select olod;
-
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;
-        }
-
-        [WebMethod]
-        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public string GetOlodByStudiepunten(int studiepunten)
-        {
-
-            JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from olod in ctx.Olods
-                         where olod.studiepunten == studiepunten
-                         select olod;
-
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;
-        }
+       
 
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]

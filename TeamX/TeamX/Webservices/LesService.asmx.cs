@@ -52,18 +52,7 @@ namespace TeamX.Webservices
             return json;
         }
 
-        [WebMethod]
-        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public string GetLesByOlodNaam(string olod_naam)
-        {
-            JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from les in ctx.Les
-                         where les.Olod.naam == olod_naam
-                         select les;
-
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;
-        }
+       
 
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
@@ -199,7 +188,7 @@ namespace TeamX.Webservices
                                  les.Olod.naam,
                                  les.Olod.studiepunten,
                                  les.duur_in_minuten,
-                                 les.tijd
+                                 les.tijd                                  
                              };
             ;
 

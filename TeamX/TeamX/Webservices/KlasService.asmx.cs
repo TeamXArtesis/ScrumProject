@@ -40,28 +40,7 @@ namespace TeamX.Webservices
             return json;           
           
         }
-        [WebMethod]
-        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public string GetKlasByAfk(string afk = null)
-        {
-            JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from klasVarAfk in ctx.Klas
-                         where klasVarAfk.afkorting == afk
-                         select klasVarAfk;
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;     
-        }
-
-        [WebMethod]
-        public string GetKlasByNaam(string naam = null)
-        {
-            JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from klasVarNaam in ctx.Klas
-                         where klasVarNaam.naam == naam
-                         select klasVarNaam;
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;
-        }
+        
 
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
