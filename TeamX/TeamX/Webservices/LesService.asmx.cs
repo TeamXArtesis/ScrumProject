@@ -116,7 +116,7 @@ namespace TeamX.Webservices
             JavaScriptSerializer js = new JavaScriptSerializer();
             
             var result = from les in ctx.Les
-                         from klas in ctx.Klas
+                         from klas in les.Olod.Klas
                          where les.week == week && (dag == -1 || dag == les.dag) && klas.klas_id == klasId
                          select new
                              {
@@ -143,16 +143,15 @@ namespace TeamX.Webservices
             JavaScriptSerializer js = new JavaScriptSerializer();
 
             var result = from les in ctx.Les
-                         from olod in ctx.Olods
-                         where les.week == week && (dag == -1 || dag == les.dag) && olod.olod_id == olodid
+                         where les.week == week && (dag == -1 || dag == les.dag) && les.Olod.olod_id == olodid
                          select new
                          {
                              les.les_id,
                              les.dag,
                              les.week,
-                             olod.naam,
-                             olod.omschrijving,
-                             olod.studiepunten,
+                             les.Olod.naam,
+                             les.Olod.omschrijving,
+                             les.Olod.studiepunten,
                              les.lokaal,                             
                              les.duur_in_minuten,
                              les.tijd
