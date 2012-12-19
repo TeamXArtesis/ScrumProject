@@ -98,7 +98,7 @@ namespace TeamX.Webservices
         {
             JavaScriptSerializer js = new JavaScriptSerializer();
             var result = from doc in ctx.Docents                         
-                         select new {doc.docent_id, doc.naam};
+                         select new {doc.docent_id, naam = doc.naam + " " + doc.voornaam};
 
 
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
