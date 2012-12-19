@@ -12,6 +12,11 @@ namespace TeamX.DAO
     {
         private static TimetableContext ctx = new TimetableContext();
 
+        private static JsonSerializerSettings serSettings = new JsonSerializerSettings()
+        {
+            ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+        }; 
+
         public static void Add(Docent d)
         {
             ctx.Docents.Add(d);
@@ -29,36 +34,33 @@ namespace TeamX.DAO
             ctx.SaveChanges();
         }
 
-        public Docent GetDocentById(int id = -1)
-        {
-            return ctx.Docents.Find(id);
-        }
-
-        public List<Docent> GetDocentByVoornaam(string voornaam)
+        public static Object GetDocentById(int id = -1)
         {
             var result = from doc in ctx.Docents
-                         where doc.voornaam == voornaam
-                         select doc;
-            var col = new List<Docent>(result);
-            return col;
+                         where doc.docent_id == id
+                         select new
+                         {
+                             docent_id = doc.docent_id,
+                             naam = doc.naam,
+                             voornaam = doc.voornaam,
+                             email = doc.email,
+                             Olods = from ol in ctx.Olods
+                                     where ol.Docents.Contains(doc)
+                                     select new
+                                     {
+                                         id = ol.olod_id,
+                                         naam = ol.naam,
+                                         studiepunten = ol.studiepunten
+                                     }
+                         };
+            return result;
         }
 
-        public List<Docent> GetDocentByNaam(string naam)
+        public static IEnumerable<Object> GetAllDocenten()
         {
             var result = from doc in ctx.Docents
-                         where doc.naam == naam
-                         select doc;
-            var col = new List<Docent>(result);
-            return col;
-        }
-
-        public List<Docent> GetDocentByEmail(string email)
-        {
-            var result = from doc in ctx.Docents
-                         where doc.email == email
-                         select doc;
-            var col = new List<Docent>(result);
-            return col;
+                         select new { doc.docent_id, naam = doc.naam + " " + doc.voornaam };
+            return result;
         }
         
     }

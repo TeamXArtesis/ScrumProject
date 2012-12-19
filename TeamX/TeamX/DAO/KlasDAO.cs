@@ -27,7 +27,7 @@ namespace TeamX.DAO
             ctx.SaveChanges();
         }
 
-        public Klas GetKlasById(int id = -1)
+        public static Klas GetKlasById(int id = -1)
         {
             return ctx.Klas.Find(id);
         }

@@ -8,6 +8,7 @@ using System.Web.Services;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using TeamX.Models;
+using TeamX.DAO;
 
 namespace TeamX.Webservices
 {
@@ -20,7 +21,6 @@ namespace TeamX.Webservices
     [System.Web.Script.Services.ScriptService]
     public class DocentService : System.Web.Services.WebService
     {
-        private static TimetableContext ctx = new TimetableContext();
         private static JsonSerializerSettings serSettings = new JsonSerializerSettings() { 
             ReferenceLoopHandling = ReferenceLoopHandling.Ignore
         }; 
@@ -30,54 +30,18 @@ namespace TeamX.Webservices
         public string GetDocentById(int id = -1)
         {            
             JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from doc in ctx.Docents
-                         where doc.docent_id == id
-                         select new
-                         {
-                             docent_id = doc.docent_id,
-                             naam = doc.naam,
-                             voornaam = doc.voornaam,
-                             email = doc.email,
-                             Olods = from ol in ctx.Olods
-                                     where ol.Docents.Contains(doc)
-                                     select new
-                                     {
-                                         id = ol.olod_id,
-                                         naam = ol.naam,
-                                         studiepunten = ol.studiepunten
-                                     }
-                         };
-                        
-           
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;
-        }       
+            var result = DocentDAO.GetDocentById(id);
+            return JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+        }
 
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public string GetDocenten()
         {
             JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from doc in ctx.Docents                         
-                         select new {doc.docent_id, naam = doc.naam + " " + doc.voornaam};
-
-
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;
+            var result = DocentDAO.GetAllDocenten();
+            return JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
         }
 
     }
 }
-
-//Oude manier
-/*select new
-                            {
-                                docent_id = doc.docent_id,
-                                naam = doc.naam,
-                                voornaam = doc.voornaam,
-                                email = doc.email,
-                                olodcount = doc.Olods.Count()
-                            };*/
-//string json = JsonConvert.SerializeObject(result);
-//return json;
-//  return js.Serialize(result);
