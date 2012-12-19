@@ -12,7 +12,9 @@
 header, footer, section, aside, nav, article {
 	display: block;
 }
-
+.indexTitle {
+    text-align:center;
+}
 body {
 	font: 13px/22px Calibri, Helvetica, Arial, sans-serif;
 	background: #FFFEFC;
@@ -73,7 +75,7 @@ nav {
 		
 			nav ul li a {
 				display: block;
-				width: 128px;
+				width: 106.6px;
 				font-size: 18px;
 				line-height: 66px;
 				text-align: center;
