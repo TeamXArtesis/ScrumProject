@@ -9,12 +9,13 @@ $(function () {
         success: function (msg) {
             var c = eval(msg.d);
             for (var i in c) {
-                $("#combobox option:last").after("<option value=" + c[i][0] + ">" + c[i][1] + "</option>");
+                console.log(c[i]);
+                $("#combobox option:last").after("<option value=" + c[i].klas_id + ">" + c[i].naam + "</option>");
             }
         }
     });
 })
-/*
+
 $(function () {
     $("#query_results").empty();
     $("#query_results").append('<select id="combobox1"><option value="">Select one..</option>');
@@ -26,7 +27,7 @@ $(function () {
         success: function (msg) {
             var c = eval(msg.d);
             for (var i in c) {
-                $("#combobox1 option:last").after("<option value=" + c[i][0] + ">" + c[i][5] + "</option>");
+                $("#combobox1 option:last").after("<option value=" + c[i][0] + ">" + c[i] + "</option>");
             }
         }
     });
@@ -43,7 +44,8 @@ $(function () {
         success: function (msg) {
             var c = eval(msg.d);
             for (var i in c) {
-                $("#combobox2 option:last").after("<option value=" + c[i][0] + ">" + c[i][1] + "</option>");
+                console.log(c[i]);
+                $("#combobox2 option:last").after("<option value=" + c[i].olod_id + ">" + c[i].naam + "</option>");
             }
         }
     });
@@ -60,8 +62,9 @@ $(function () {
         success: function(msg) {
             var c = eval(msg.d);
             for (var i in c) {
-                $("#combobox3 option:last").after("<option value=" + c[i][0] + ">" + c[i][1] + " " + c[i][2] + "</option>");
+                console.log(c[i]);
+                $("#combobox3 option:last").after("<option value=" + c[i].docent_id + ">" + c[i].naam+"</option>");
             }
         }
     });
-}) */
+}) 
