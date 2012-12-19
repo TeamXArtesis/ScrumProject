@@ -77,9 +77,8 @@ namespace TeamX.Controllers
         public ActionResult Week()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-            ViewBag.Maandag = getMonday(0);
-            ViewBag.Vrijdag = getMonday(4);
-            ViewBag.Datum = getMonday(0);
+            ViewBag.Id = 6;
+            ViewBag.Datum = getMonday(ViewBag.Id);
             return View("Index");
         }
         public DateTime getMonday(int id)
