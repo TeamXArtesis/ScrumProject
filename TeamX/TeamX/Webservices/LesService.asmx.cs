@@ -157,25 +157,55 @@ namespace TeamX.Webservices
             return json;
         }
 
-        /*from doc in ctx.Docents
-                         where doc.docent_id == id
+        [WebMethod]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string GetLesByOlodId(int olodid, int dag, int week)
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+
+            var result = from les in ctx.Les
+                         from olod in ctx.Olods
+                         where les.week == week && (dag == -1 || dag == les.dag) && olod.olod_id == olodid
                          select new
                          {
-                             docent_id = doc.docent_id,
-                             naam = doc.naam,
-                             voornaam = doc.voornaam,
-                             email = doc.email,
-                             Olods = from ol in ctx.Olods
-                                     where ol.Docents.Contains(doc)
-                                     select new
-                                     {
-                                         id = ol.olod_id,
-                                         naam = ol.naam,
-                                         studiepunten = ol.studiepunten
-                                     }
-                         };*/
+                             les.les_id,
+                             les.dag,
+                             les.week,
+                             olod.naam,
+                             olod.omschrijving,
+                             olod.studiepunten,
+                             les.lokaal,                             
+                             les.duur_in_minuten,
+                             les.tijd
+                         }; ;
 
-
-
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;
         }
+
+        [WebMethod]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string getlesbylokaal(string lokaal, int dag, int week)
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+
+            var result = from les in ctx.Les
+                         where les.week == week && (dag == -1 || dag == les.dag) && les.lokaal == lokaal
+                         select new
+                             {
+                                 les.les_id,
+                                 les.dag,
+                                 les.week,
+                                 les.Olod.naam,
+                                 les.Olod.studiepunten,
+                                 les.duur_in_minuten,
+                                 les.tijd
+                             };
+            ;
+
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
+            return json;
+        }
+
+    }
 }
