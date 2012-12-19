@@ -50,23 +50,9 @@ namespace TeamX.Webservices
 
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;
-        }
+        }       
 
-       
-
-        [WebMethod]
-        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public string GetLesByDag(int dag)
-        {
-            JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from les in ctx.Les
-                         where les.dag == dag
-                         select les;
-
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;
-        }
-
+      
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public string GetLessen()
