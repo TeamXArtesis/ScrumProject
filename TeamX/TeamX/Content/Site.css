@@ -175,3 +175,11 @@ footer {
 	background-color: #db6600;
 }
 
+/*------------------------------
+=COMBOBOX
+------------------------------*/
+/* override general settings to show a scrollbar */
+.ui-autocomplete {
+	max-height: 200px;
+	overflow-y: scroll;
+}
