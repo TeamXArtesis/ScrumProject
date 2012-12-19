@@ -33,24 +33,28 @@ namespace TeamX.Webservices
             JavaScriptSerializer js = new JavaScriptSerializer();
             var result = from les in ctx.Les
                             where les.les_id == id
-                            select les;
+                         select new
+                         {
+                             id = les.les_id,
+                             les.dag,
+                             les.duur_in_minuten,
+                             les.les_id,
+                             les.lokaal,
+                             les.tijd,
+                             les.week,                                                          
+                             Olods = from ol in ctx.Olods
+                                     where ol.Les.Contains(les)
+                                     select new
+                                     {
+                                         id = ol.olod_id,
+                                         naam = ol.naam,
+                                         studiepunten = ol.studiepunten
+                                     }
+                         };
 
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;            
-        }
-
-        [WebMethod]
-        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public string GetLesByLokaal(string lokaal)
-        {
-            JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from les in ctx.Les
-                         where les.lokaal == lokaal
-                         select les;
-
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;
-        }       
+        }     
 
       
         [WebMethod]

@@ -35,7 +35,13 @@ namespace TeamX.Webservices
             JavaScriptSerializer js = new JavaScriptSerializer();
             var result = from olod in ctx.Olods
                          where olod.olod_id == id
-                         select olod;
+                         select new
+                         {
+                             olod.naam,
+                             olod.olod_id,
+                             olod.omschrijving,
+                             olod.studiepunten,                               
+                         };
 
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;

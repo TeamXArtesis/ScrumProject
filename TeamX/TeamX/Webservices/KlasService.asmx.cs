@@ -35,7 +35,20 @@ namespace TeamX.Webservices
             JavaScriptSerializer js = new JavaScriptSerializer();
             var result = from klasVar in ctx.Klas
                          where klasVar.klas_id == id
-                         select klasVar;
+                         select new
+                         {
+                             id = klasVar.klas_id,
+                             klasVar.naam,
+                             klasVar.afkorting,                                                          
+                             Olods = from ol in ctx.Olods
+                                     where ol.Klas.Contains(klasVar)
+                                     select new
+                                     {
+                                         id = ol.olod_id,
+                                         naam = ol.naam,
+                                         studiepunten = ol.studiepunten
+                                     }
+                         };
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;           
           
