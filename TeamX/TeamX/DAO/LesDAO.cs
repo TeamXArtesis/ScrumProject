@@ -10,19 +10,19 @@ namespace TeamX.DAO
     {
         private static TimetableContext ctx = new TimetableContext();
 
-        public static void Add(Les l)
+        public void Add(Les l)
         {
             ctx.Les.Add(l);
             Update();
         }
 
-        public static void Remove(Les l)
+        public void Remove(Les l)
         {
             ctx.Les.Remove(l);
             Update();
         }
 
-        public static void Update()
+        public void Update()
         {
             ctx.SaveChanges();
         }

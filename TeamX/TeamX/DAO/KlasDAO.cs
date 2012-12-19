@@ -10,24 +10,24 @@ namespace TeamX.DAO
     {
         private static TimetableContext ctx = new TimetableContext();
 
-        public static void Add(Klas k)
+        public void Add(Klas k)
         {
             ctx.Klas.Add(k);
             Update();
         }
 
-        public static void Remove(Klas k)
+        public void Remove(Klas k)
         {
             ctx.Klas.Remove(k);
             Update();
         }
 
-        public static void Update()
+        public void Update()
         {
             ctx.SaveChanges();
         }
 
-        public static Klas GetKlasById(int id = -1)
+        public Klas GetKlasById(int id = -1)
         {
             return ctx.Klas.Find(id);
         }

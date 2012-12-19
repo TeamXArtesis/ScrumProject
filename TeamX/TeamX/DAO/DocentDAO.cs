@@ -8,7 +8,7 @@ using TeamX.Models;
 
 namespace TeamX.DAO
 {
-    public class DocentDAO
+    public class DocentDAO : IDocentDAO
     {
         private static TimetableContext ctx = new TimetableContext();
 
@@ -17,24 +17,24 @@ namespace TeamX.DAO
             ReferenceLoopHandling = ReferenceLoopHandling.Ignore
         }; 
 
-        public static void Add(Docent d)
+        public void Add(Docent d)
         {
             ctx.Docents.Add(d);
             Update();
         }
 
-        public static void Remove(Docent d)
+        public void Remove(Docent d)
         {
             ctx.Docents.Remove(d);
             Update();
         }
 
-        public static void Update()
+        public void Update()
         {
             ctx.SaveChanges();
         }
 
-        public static Object GetDocentById(int id = -1)
+        public Object GetDocentById(int id = -1)
         {
             var result = from doc in ctx.Docents
                          where doc.docent_id == id
@@ -56,7 +56,7 @@ namespace TeamX.DAO
             return result;
         }
 
-        public static IEnumerable<Object> GetAllDocenten()
+        public IEnumerable<Object> GetAllDocenten()
         {
             var result = from doc in ctx.Docents
                          select new { doc.docent_id, naam = doc.naam + " " + doc.voornaam };

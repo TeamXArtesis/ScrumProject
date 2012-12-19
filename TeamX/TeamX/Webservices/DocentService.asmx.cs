@@ -21,6 +21,7 @@ namespace TeamX.Webservices
     [System.Web.Script.Services.ScriptService]
     public class DocentService : System.Web.Services.WebService
     {
+        private static DocentDAO docentenDao = new DocentDAO();
         private static JsonSerializerSettings serSettings = new JsonSerializerSettings() { 
             ReferenceLoopHandling = ReferenceLoopHandling.Ignore
         }; 
@@ -30,7 +31,7 @@ namespace TeamX.Webservices
         public string GetDocentById(int id = -1)
         {            
             JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = DocentDAO.GetDocentById(id);
+            var result = docentenDao.GetDocentById(id);
             return JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
         }
 
@@ -39,7 +40,7 @@ namespace TeamX.Webservices
         public string GetDocenten()
         {
             JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = DocentDAO.GetAllDocenten();
+            var result = docentenDao.GetAllDocenten();
             return JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
         }
 
