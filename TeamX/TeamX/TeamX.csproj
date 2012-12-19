@@ -164,6 +164,10 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="DAO\DocentDAO.cs" />
+    <Compile Include="DAO\IDocentDAO.cs" />
+    <Compile Include="DAO\IKlasDAO.cs" />
+    <Compile Include="DAO\ILesDAO.cs" />
+    <Compile Include="DAO\IOlodDAO.cs" />
     <Compile Include="DAO\KlasDAO.cs" />
     <Compile Include="DAO\LesDAO.cs" />
     <Compile Include="DAO\OlodDAO.cs" />
