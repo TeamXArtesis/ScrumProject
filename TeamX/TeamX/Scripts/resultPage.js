@@ -8,6 +8,26 @@ schema[4] = "JAVA";
 schema[5] = "CH0"
 schema[6] = "Possemiers";
 
+
+$(function () {
+    $.ajax({
+        type: "POST",
+        contentType: "application/json; charset=utf-8",
+        /*data: "{ klasId: 1, week: 51, dag: 1 }",*/
+        data: "{klasId:"+localStorage.getItem("klasid")+",week:"+localStorage.getItem("week")+",dag:"+localStorage.getItem("dag")+"}",
+        url: "../Webservices/LesService.asmx/GetLesByKlasId",
+        dataType: "json",
+        success: function (msg) {
+            console.log(msg);
+            var c = eval(msg.d);
+            for (var i in c) {
+                console.log(c[i]);
+            }
+        }
+    });
+});
+
+
 document.write('<table style="background-color:#E6E6E6;width:100%;border-collapse:collapse;">')
 document.write('<tr style="background-color:orange;color:white;">')
 document.write('<th align="center" >Dag</th>')

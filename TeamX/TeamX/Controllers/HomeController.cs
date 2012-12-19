@@ -11,7 +11,7 @@ namespace TeamX.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-            ViewBag.Id=0;
+            ViewBag.Id=1;
             ViewBag.Datum = getMonday(ViewBag.Id);
             return View();
         }
@@ -19,7 +19,7 @@ namespace TeamX.Controllers
         public ActionResult Dinsdag()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-            ViewBag.Id = 1;
+            ViewBag.Id = 2;
             ViewBag.Datum = getMonday(ViewBag.Id);
             return View("Index");
         }
@@ -27,7 +27,7 @@ namespace TeamX.Controllers
         public ActionResult Woensdag()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-            ViewBag.Id = 2;
+            ViewBag.Id = 3;
             ViewBag.Datum = getMonday(ViewBag.Id);
             return View("Index");
         }
@@ -35,7 +35,7 @@ namespace TeamX.Controllers
         public ActionResult Donderdag()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-            ViewBag.Id = 3;
+            ViewBag.Id = 4;
             ViewBag.Datum = getMonday(ViewBag.Id);
             return View("Index");
         }
@@ -43,7 +43,7 @@ namespace TeamX.Controllers
         public ActionResult Vrijdag()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-            ViewBag.Id = 4;
+            ViewBag.Id = 5;
             ViewBag.Datum = getMonday(ViewBag.Id);
             return View("Index");
         }

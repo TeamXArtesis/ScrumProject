@@ -257,6 +257,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\fillComboBox.js" />
+    <Content Include="Scripts\GetResultsByKlas.js" />
+    <Content Include="Scripts\resultPage.js" />
     <Content Include="Webservices\DocentService.asmx" />
     <Content Include="Webservices\KlasService.asmx" />
     <Content Include="Webservices\LesService.asmx" />

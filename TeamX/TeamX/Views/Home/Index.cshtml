@@ -1,10 +1,12 @@
 ﻿@{
     ViewBag.Title = "Home Page";
     ViewBag.Format = String.Format("{0:dddd}", @ViewBag.Datum);
+    int dag = @ViewBag.Id;
 }
 <script src="~/Scripts/fillComboBox.js"></script>
+<script src="~/Scripts/GetResultsByKlas.js"></script>
 <form action="~/Home/ResultPage" name="docentform">
-   <h1 class"indexTitle">@ViewBag.Format</h1>
+   <h1 class="indexTitle">@ViewBag.Format</h1>
   <h3>Klas</h3>
 				<div class="ui-widget">
 			    <label>Selecteer een klas:  &nbsp;&nbsp;</label>
@@ -36,5 +38,5 @@
 				        <option value="">Select one...</option>
 				    </select>
 				</div>
-				<input type="submit" value="OK" class="button">
+				<input type="submit" value="OK" class="button" onclick="GetResultsByKlas(@ViewBag.Id)">
                 </form>
