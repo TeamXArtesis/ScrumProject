@@ -2,6 +2,7 @@
     ViewBag.Title = "Home Page";
     ViewBag.Format = String.Format("{0:dddd}", @ViewBag.Datum);
 }
+<script src="~/Scripts/fillComboBox.js"></script>
 <form action="~/Home/ResultPage" name="docentform">
    <h1 class"indexTitle">@ViewBag.Format</h1>
   <h3>Klas</h3>
@@ -9,11 +10,10 @@
 			    <label>Selecteer een klas:  &nbsp;&nbsp;</label>
 			    <select id="combobox">
 			    	<option value="">Select one.."></option>
-                    <script src="~/Scripts/fillComboBox.js"></script>
 				</select>
 				</div>
 
-<h3>Lokaal</h3>
+            <h3>Lokaal</h3>
 				<div class="ui-widget">
 			    <label>Selecteer een lokaal:  &nbsp;&nbsp;</label>
 			    <select id="combobox1">
