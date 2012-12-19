@@ -1,20 +1,9 @@
 ﻿@{
     ViewBag.Title = "Home Page";
-
-    int id = ViewBag.Id;
-    string day = "";
-    switch (id)
-    {
-        case 1: day = "Monday"; break;
-        case 2: day = "Tuesday"; break;
-        case 3: day = "Wednesday"; break;
-        case 4: day = "Thursday"; break;
-        case 5: day = "Friday"; break;
-        default: day = "WTF"; break;
-    }
-    ViewBag.Day = day;
+    ViewBag.Format = String.Format("{0:dddd}", @ViewBag.Datum);
 }
 <form action="~/Home/ResultPage" name="docentform">
+   <h1 class"indexTitle">@ViewBag.Format</h1>
   <h3>Klas</h3>
 				<div class="ui-widget">
 			    <label>Selecteer een klas:  &nbsp;&nbsp;</label>
