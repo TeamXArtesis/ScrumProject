@@ -21,7 +21,7 @@ namespace TeamX.Webservices
     [System.Web.Script.Services.ScriptService]
     public class DocentService : System.Web.Services.WebService
     {
-        private static DocentDAO docentenDao = new DocentDAO();
+        private static IDocentDAO docentenDao = new DocentDAO();
         private static JsonSerializerSettings serSettings = new JsonSerializerSettings() { 
             ReferenceLoopHandling = ReferenceLoopHandling.Ignore
         }; 

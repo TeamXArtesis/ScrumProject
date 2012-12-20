@@ -6,7 +6,7 @@ using TeamX.Models;
 
 namespace TeamX.DAO
 {
-    public class KlasDAO
+    public class KlasDAO : IKlasDAO
     {
         private static TimetableContext ctx = new TimetableContext();
 
@@ -27,27 +27,32 @@ namespace TeamX.DAO
             ctx.SaveChanges();
         }
 
-        public Klas GetKlasById(int id = -1)
+        public Object GetKlasById(int id = -1)
         {
-            return ctx.Klas.Find(id);
+            var result = from klasVar in ctx.Klas
+                         where klasVar.klas_id == id
+                         select new
+                         {
+                             id = klasVar.klas_id,
+                             klasVar.naam,
+                             klasVar.afkorting,
+                             Olods = from ol in ctx.Olods
+                                     where ol.Klas.Contains(klasVar)
+                                     select new
+                                     {
+                                         id = ol.olod_id,
+                                         naam = ol.naam,
+                                         studiepunten = ol.studiepunten
+                                     }
+                         };
+            return result;
         }
 
-        public List<Klas> GetKlasByAfkorting(string afkorting)
+        public IEnumerable<Object> GetAllKlassen()
         {
             var result = from klas in ctx.Klas
-                         where klas.afkorting == afkorting
-                         select klas;
-            var col = new List<Klas>(result);
-            return col;
-        }
-
-        public List<Klas> GetKlasByNaam(string naam)
-        {
-            var result = from klas in ctx.Klas
-                         where klas.naam == naam
-                         select klas;
-            var col = new List<Klas>(result);
-            return col;
+                         select new { klas.naam, klas.klas_id };
+            return result;
         }
     }
 }

@@ -8,6 +8,7 @@ using System.Web.Services;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using TeamX.Models;
+using TeamX.DAO;
 
 namespace TeamX.Webservices
 {
@@ -21,7 +22,7 @@ namespace TeamX.Webservices
     [System.Web.Script.Services.ScriptService]
     public class KlasService1 : System.Web.Services.WebService
     {
-        private static TimetableContext ctx = new TimetableContext();
+        private IKlasDAO klassenDao = new KlasDAO();
         private static JsonSerializerSettings serSettings = new JsonSerializerSettings()
         {
             ReferenceLoopHandling = ReferenceLoopHandling.Ignore
@@ -33,25 +34,8 @@ namespace TeamX.Webservices
         {
 
             JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from klasVar in ctx.Klas
-                         where klasVar.klas_id == id
-                         select new
-                         {
-                             id = klasVar.klas_id,
-                             klasVar.naam,
-                             klasVar.afkorting,                                                          
-                             Olods = from ol in ctx.Olods
-                                     where ol.Klas.Contains(klasVar)
-                                     select new
-                                     {
-                                         id = ol.olod_id,
-                                         naam = ol.naam,
-                                         studiepunten = ol.studiepunten
-                                     }
-                         };
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;           
-          
+            var result = klassenDao.GetKlasById(id);
+            return JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);          
         }
         
 
@@ -60,26 +44,9 @@ namespace TeamX.Webservices
         public string GetKlassen()
         {
             JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from klas in ctx.Klas
-                         select new {klas.naam, klas.klas_id};
+            var result = klassenDao.GetAllKlassen();
 
-
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;
+            return JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
         }
     }
 }
-
-//oude methode
-// TimetableContext ctx = new TimetableContext();
-// JavaScriptSerializer js = new JavaScriptSerializer();
-// var result = from klasVar in ctx.Klas
-// where klasVar.klas_id == id
-// select new
-//  {
-//    klas_id = klasVar.klas_id,
-//  afkorting = klasVar.afkorting,
-// naam = klasVar.naam
-//string json = JsonConvert.SerializeObject(result);
-//return js.Serialize(result);
-//  }; 
