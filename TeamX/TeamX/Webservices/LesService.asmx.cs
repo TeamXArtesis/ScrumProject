@@ -97,13 +97,23 @@ namespace TeamX.Webservices
                                  les.les_id,
                                  les.dag,
                                  les.week,
-                                 doc.docent_id,
+                                 docenten = from doc2 in les.Olod.Docents
+                                            select new 
+                                            {
+                                                naam = doc2.naam + " " + doc2.voornaam
+                                            },
+                                 klassen = from klas in les.Olod.Klas
+                                           select new
+                                           {
+                                               afkorting = klas.naam
+                                           },
                                  les.lokaal,                                 
-                                 les.Olod.naam,                                 
+                                 olod_naam = les.Olod.naam,                                 
                                  les.Olod.studiepunten,
                                  les.duur_in_minuten,
                                  les.tijd
                              };
+            result = result.OrderBy(d => d.dag).ThenBy(t => t.tijd);
 
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;
@@ -123,14 +133,23 @@ namespace TeamX.Webservices
                                  les.les_id,
                                  les.dag,
                                  les.week,
-                                 klasnaam = klas.naam,
-                                 klas.afkorting,
+                                 docenten = from doc2 in les.Olod.Docents
+                                            select new
+                                            {
+                                                naam = doc2.naam + " " + doc2.voornaam
+                                            },
+                                 klassen = from klas2 in les.Olod.Klas
+                                           select new
+                                           {
+                                               afkorting = klas2.naam
+                                           },
                                  les.lokaal,                                 
                                  les.Olod.naam,                                 
                                  les.Olod.studiepunten,
                                  les.duur_in_minuten,
                                  les.tijd
-                             };;
+                             };
+            result = result.OrderBy(d => d.dag).ThenBy(t => t.tijd);
 
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;
@@ -149,13 +168,24 @@ namespace TeamX.Webservices
                              les.les_id,
                              les.dag,
                              les.week,
+                             docenten = from doc2 in les.Olod.Docents
+                                        select new
+                                        {
+                                            naam = doc2.naam + " " + doc2.voornaam
+                                        },
+                             klassen = from klas in les.Olod.Klas
+                                       select new
+                                       {
+                                           afkorting = klas.naam
+                                       },
                              les.Olod.naam,
                              les.Olod.omschrijving,
                              les.Olod.studiepunten,
                              les.lokaal,                             
                              les.duur_in_minuten,
                              les.tijd
-                         }; ;
+                         };
+            result = result.OrderBy(d => d.dag).ThenBy(t => t.tijd);
 
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;
@@ -174,12 +204,22 @@ namespace TeamX.Webservices
                                  les.les_id,
                                  les.dag,
                                  les.week,
+                                 docenten = from doc2 in les.Olod.Docents
+                                            select new
+                                            {
+                                                naam = doc2.naam + " " + doc2.voornaam
+                                            },
+                                 klassen = from klas in les.Olod.Klas
+                                           select new
+                                           {
+                                               afkorting = klas.naam
+                                           },
                                  les.Olod.naam,
                                  les.Olod.studiepunten,
                                  les.duur_in_minuten,
                                  les.tijd                                  
                              };
-            ;
+            result = result.OrderBy(d => d.dag).ThenBy(t => t.tijd);
 
             string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
             return json;
