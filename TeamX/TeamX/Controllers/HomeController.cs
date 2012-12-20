@@ -13,6 +13,7 @@ namespace TeamX.Controllers
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
             ViewBag.Id=1;
             ViewBag.Datum = getMonday(ViewBag.Id);
+            ViewBag.Naam = "Maandag";
             return View();
         }
 
@@ -21,6 +22,7 @@ namespace TeamX.Controllers
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
             ViewBag.Id = 2;
             ViewBag.Datum = getMonday(ViewBag.Id);
+            ViewBag.Naam = "Dinsdag";
             return View("Index");
         }
 
@@ -29,6 +31,7 @@ namespace TeamX.Controllers
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
             ViewBag.Id = 3;
             ViewBag.Datum = getMonday(ViewBag.Id);
+            ViewBag.Naam = "Woensdag";
             return View("Index");
         }
 
@@ -37,6 +40,7 @@ namespace TeamX.Controllers
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
             ViewBag.Id = 4;
             ViewBag.Datum = getMonday(ViewBag.Id);
+            ViewBag.Naam = "Donderdag";
             return View("Index");
         }
 
@@ -45,6 +49,7 @@ namespace TeamX.Controllers
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
             ViewBag.Id = 5;
             ViewBag.Datum = getMonday(ViewBag.Id);
+            ViewBag.Naam = "Vrijdag";
             return View("Index");
         }
 
@@ -79,12 +84,13 @@ namespace TeamX.Controllers
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
             ViewBag.Id = 6;
             ViewBag.Datum = getMonday(ViewBag.Id);
+            ViewBag.Naam = "Week";
             return View("Index");
         }
         public DateTime getMonday(int id)
         {
             DateTime input = DateTime.Now;
-            int delta = DayOfWeek.Monday - input.DayOfWeek + id;
+            int delta = DayOfWeek.Monday - input.DayOfWeek + id - 1;
             DateTime monday = input.AddDays(delta);
 
             return monday;

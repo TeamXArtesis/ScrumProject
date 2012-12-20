@@ -6,15 +6,15 @@
 <script src="~/Scripts/fillComboBox.js"></script>
 <script src="~/Scripts/GetResultsByKlas.js"></script>
 <form action="~/Home/ResultPage" name="klasform">
-   <h1 class="indexTitle">@ViewBag.Format</h1>
+   <h1 class="indexTitle">@ViewBag.Naam</h1>
   <h3>Klas</h3>
 				<div class="ui-widget">
 			    <label>Selecteer een klas:  &nbsp;&nbsp;</label>
 			    <select id="combobox">
 			    	<option value="">Select one.."></option>
 				</select>
-				</div>
     				<input type="submit" value="OK" class="button" onclick="GetResultsByKlas(@ViewBag.Id)">
+				</div>
                 </form>
 <form action="~/Home/ResultPage" name="lokaalform">
             <h3>Lokaal</h3>
@@ -23,8 +23,8 @@
 			    <select id="combobox1">
 			    	<option value="">Select one.."></option>
 				</select>
-				</div>
     				<input type="submit" value="OK" class="button" onclick="GetResultsByLokaal(@ViewBag.Id)">
+				</div>
                 </form>					
 <form action="~/Home/ResultPage" name="olodform">
 			<h3>OLOD</h3>
@@ -33,8 +33,8 @@
 			    <select id="combobox2">
 			    	<option value="">Select one.."></option>
 				</select>
-				</div>	
        				<input type="submit" value="OK" class="button" onclick="GetResultsByOlod(@ViewBag.Id)">
+				</div>	
                 </form>		         
 <form action="~/Home/ResultPage" name="docentform">
 			<h3>Docent</h3>
@@ -43,6 +43,6 @@
 				    <select id="combobox3">
 				        <option value="">Select one...</option>
 				    </select>
-				</div>
         				<input type="submit" value="OK" class="button" onclick="GetResultsByDocent(@ViewBag.Id)">
+				</div>
                 </form>		

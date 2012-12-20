@@ -21,14 +21,15 @@ body {
 }
 
 .header {
-	width:640px;
+	width: 1000px;
 	padding-bottom:64px;
 	background-image:url("../Images/bg_header.jpg");
 	background-repeat:no-repeat;
+	background-color: #fff;
 }
 .wrapper {
 	margin: 0 auto;
-	width: 640px;
+	width: 1000px;
 	background: #f0f0f0;
 	border:solid 1px #874600;	
 }
@@ -59,7 +60,7 @@ p {
 
 nav {
 	position: absolute;
-	width: 640px;
+	width: 1000px;
 	background: #FF9D00;
 }
 
@@ -103,7 +104,7 @@ nav {
 
 	#mainContent {
 		display: table-cell;
-		width: 640px;
+		width: 1000px;
 		padding-left:22px;
 		padding-right: 22px;
 		padding-top:22px;
@@ -182,4 +183,12 @@ footer {
 .ui-autocomplete {
 	max-height: 200px;
 	overflow-y: scroll;
+}
+
+
+/*------------------------------
+=RESULTS TABLE
+------------------------------*/
+table#overzicht {
+
 }

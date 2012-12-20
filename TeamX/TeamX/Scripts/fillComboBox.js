@@ -9,7 +9,6 @@ $(function () {
         success: function (msg) {
             var c = eval(msg.d);
             for (var i in c) {
-                console.log(c[i]);
                 $("#combobox option:last").after("<option value=" + c[i].klas_id + ">" + c[i].naam + "</option>");
             }
         }
@@ -44,7 +43,6 @@ $(function () {
         success: function (msg) {
             var c = eval(msg.d);
             for (var i in c) {
-                console.log(c[i]);
                 $("#combobox2 option:last").after("<option value=" + c[i].olod_id + ">" + c[i].naam + "</option>");
             }
         }
@@ -62,7 +60,6 @@ $(function () {
         success: function(msg) {
             var c = eval(msg.d);
             for (var i in c) {
-                console.log(c[i]);
                 $("#combobox3 option:last").after("<option value=" + c[i].docent_id + ">" + c[i].naam+"</option>");
             }
         }
