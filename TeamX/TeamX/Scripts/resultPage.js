@@ -105,10 +105,20 @@ $(function () {
                     c[i].tijd[1] = (c[i].duur_in_minuten + parseInt(c[i].tijd[1])) % 60;
                     schema[2] = (c[i].tijd[0] < 10 ? "0" : "") + c[i].tijd[0] + ":" + (c[i].tijd[1] < 10 ? "0" : "") + c[i].tijd[1];
 
-                    schema[3] = c[i].klasnaam;
+                    //klassen
+                    schema[3] = "";
+                    for (var klas in c[i].klassen) {
+                        schema[3] += "<div>" + c[i].klassen[klas].afkorting + "</div>";
+                    }
+
                     schema[4] = c[i].naam;
                     schema[5] = localStorage.getItem("lokaal");
-                    schema[6] = "Possemiers";
+
+                    //docenten
+                    schema[6] = "";
+                    for (var docent in c[i].docenten) {
+                        schema[6] += "<div>" + c[i].docenten[docent].naam + "</div>";
+                    }
                     Afprinten();
                 }
             },
@@ -155,10 +165,20 @@ $(function () {
                     c[i].tijd[1] = (c[i].duur_in_minuten + parseInt(c[i].tijd[1])) % 60;
                     schema[2] = (c[i].tijd[0] < 10 ? "0" : "") + c[i].tijd[0] + ":" + (c[i].tijd[1] < 10 ? "0" : "") + c[i].tijd[1];
 
-                    schema[3] = c[i].klasnaam;
+                    //klassen
+                    schema[3] = "";
+                    for (var klas in c[i].klassen) {
+                        schema[3] += "<div>" + c[i].klassen[klas].afkorting + "</div>";
+                    }
+
                     schema[4] = c[i].naam;
-                    schema[5] = localStorage.getItem("lokaal");
-                    schema[6] = "Possemiers";
+                    schema[5] = c[i].lokaal;
+
+                    //docenten
+                    schema[6] = "";
+                    for (var docent in c[i].docenten) {
+                        schema[6] += "<div>" + c[i].docenten[docent].naam + "</div>";
+                    }
                     Afprinten();
                 }
             },
@@ -176,6 +196,7 @@ $(function () {
             dataType: "json",
             success: function (msg) {
                 var c = eval(msg.d);
+                console.log(c);
                 for (var i in c) {
                     schema = new Array();
 
@@ -205,10 +226,20 @@ $(function () {
                     c[i].tijd[1] = (c[i].duur_in_minuten + parseInt(c[i].tijd[1])) % 60;
                     schema[2] = (c[i].tijd[0] < 10 ? "0" : "") + c[i].tijd[0] + ":" + (c[i].tijd[1] < 10 ? "0" : "") + c[i].tijd[1];
 
-                    schema[3] = c[i].klasnaam;
-                    schema[4] = c[i].naam;
-                    schema[5] = localStorage.getItem("lokaal");
-                    schema[6] = "Possemiers";
+                    //klassen
+                    schema[3] = "";
+                    for (var klas in c[i].klassen) {
+                        schema[3] += "<div>" + c[i].klassen[klas].afkorting + "</div>";
+                    }
+
+                    schema[4] = c[i].olod_naam;
+                    schema[5] = c[i].lokaal;
+
+                    //docenten
+                    schema[6] = "";
+                    for (var docent in c[i].docenten) {
+                        schema[6] += "<div>" + c[i].docenten[docent].naam + "</div>";
+                    }
                     Afprinten();
                 }
             },
@@ -223,11 +254,11 @@ function Afprinten() {
     var html = "";
     var x;
     if (kleur == true) {
-        html += '<tr bgcolor="#E6E6E6">';
+        html += '<tr class="odd">';
         kleur = false;
 
     } else {
-        html += '<tr bgcolor="white">';
+        html += '<tr class="even">';
         kleur = true;
     }
 

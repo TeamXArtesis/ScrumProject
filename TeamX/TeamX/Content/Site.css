@@ -115,7 +115,6 @@ nav {
 =FOOTER
 ------------------------------*/
 footer {
-	width: 640px;
 	background: #222;
 }
 
@@ -189,6 +188,21 @@ footer {
 /*------------------------------
 =RESULTS TABLE
 ------------------------------*/
-table#overzicht {
+table#overzicht th{
+    background-color:orange;
+    color:white;
+    border:solid 4px #f0f0f0;
+}
 
+table#overzicht td {
+    border:solid 4px #f0f0f0;
+    padding:4px;
+}
+
+table#overzicht td.even{
+    background-color:#fff;
+}
+
+table#overzicht td.odd{
+    background-color:#e6e6e6;
 }
