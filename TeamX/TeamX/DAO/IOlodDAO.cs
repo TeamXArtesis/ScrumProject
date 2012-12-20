@@ -13,6 +13,7 @@ namespace TeamX.DAO
         void Remove(Olod o);
         void Update();
 
-        IEnumerable<Object> GetOlods();
+        IEnumerable<Object> GetAllOlods();
+        Object GetOlodById(int id = -1);
     }
 }

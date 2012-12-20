@@ -6,7 +6,7 @@ using TeamX.Models;
 
 namespace TeamX.DAO
 {
-    public class OlodDAO
+    public class OlodDAO : IOlodDAO
     {
         private static TimetableContext ctx = new TimetableContext();
 
@@ -27,36 +27,25 @@ namespace TeamX.DAO
             ctx.SaveChanges();
         }
 
-        public Olod GetOlodById(int id = -1)
-        {
-            return ctx.Olods.Find(id);
-        }
-
-        public List<Olod> GetOlodByNaam(string naam)
+        public IEnumerable<object> GetAllOlods()
         {
             var result = from olod in ctx.Olods
-                         where olod.naam == naam
-                         select olod;
-            var col = new List<Olod>(result);
-            return col;
+                         select new { olod.olod_id, olod.naam };
+            return result;
         }
 
-        public List<Olod> GetOlodByStudiepunten(int studiepunten)
+        public Object GetOlodById(int id = -1)
         {
             var result = from olod in ctx.Olods
-                         where olod.studiepunten == studiepunten
-                         select olod;
-            var col = new List<Olod>(result);
-            return col;
-        }
-
-        public List<Olod> GetOlodByOmschrijving(string omschrijving)
-        {
-            var result = from olod in ctx.Olods
-                         where olod.omschrijving == omschrijving
-                         select olod;
-            var col = new List<Olod>(result);
-            return col;
+                         where olod.olod_id == id
+                         select new
+                         {
+                             olod.naam,
+                             olod.olod_id,
+                             olod.omschrijving,
+                             olod.studiepunten,                               
+                         };
+            return result;
         }
     }
 }

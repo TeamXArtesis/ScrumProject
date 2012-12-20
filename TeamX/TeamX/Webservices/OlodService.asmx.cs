@@ -8,6 +8,7 @@ using System.Web.Services;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using TeamX.Models;
+using TeamX.DAO;
 
 namespace TeamX.Webservices
 {
@@ -21,7 +22,7 @@ namespace TeamX.Webservices
     [System.Web.Script.Services.ScriptService]
     public class OlodService : System.Web.Services.WebService
     {
-        private static TimetableContext ctx = new TimetableContext();
+        private static IOlodDAO olodsDao = new OlodDAO();
         private static JsonSerializerSettings serSettings = new JsonSerializerSettings()
         {
             ReferenceLoopHandling = ReferenceLoopHandling.Ignore
@@ -33,18 +34,9 @@ namespace TeamX.Webservices
         {
 
             JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from olod in ctx.Olods
-                         where olod.olod_id == id
-                         select new
-                         {
-                             olod.naam,
-                             olod.olod_id,
-                             olod.omschrijving,
-                             olod.studiepunten,                               
-                         };
+            var result = olodsDao.GetOlodById(id);
 
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;
+            return JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
         }
 
        
@@ -54,12 +46,10 @@ namespace TeamX.Webservices
         public string GetOlods()
         {
             JavaScriptSerializer js = new JavaScriptSerializer();
-            var result = from olod in ctx.Olods
-                         select new {olod.olod_id, olod.naam};
+            var result = olodsDao.GetAllOlods();
 
 
-            string json = JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
-            return json;
+            return JsonConvert.SerializeObject(result, Formatting.Indented, serSettings);
         }
         
     }
