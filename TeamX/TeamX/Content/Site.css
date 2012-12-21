@@ -13,11 +13,12 @@ header, footer, section, aside, nav, article {
 	display: block;
 }
 .indexTitle {
-    text-align:center;
+    text-align:left;
+    color:#6E6E6E;
 }
 body {
 	font: 13px/22px Calibri, Helvetica, Arial, sans-serif;
-	background: #FFFEFC;
+	background: #A4A4A4;
 }
 
 .header {
@@ -30,7 +31,7 @@ body {
 .wrapper {
 	margin: 30px auto;
 	width: 1000px;
-	background: #f0f0f0;
+	background: #fff;
 	border:solid 1px #874600;	
 }
 
@@ -61,7 +62,7 @@ p {
 nav {
 	position: absolute;
 	width: 1000px;
-	background: #FF9D00;
+	background: #FF4000;
 }
 
 	nav ul {
@@ -81,11 +82,11 @@ nav {
 				line-height: 66px;
 				text-align: center;
 				text-decoration: none;
-				color: #242424;
+				color: #fff;
 			}
 			
 				nav ul li a:hover {
-					background-color: #fff;
+					background-color: #848484;
 				}
 			
 			
@@ -168,11 +169,11 @@ footer {
 	width: 90px; 
 	height: 25px;
 	color: #ffffff;
-	background-color: #ff7700;	
+	background-color: #ff4000;	
 }
 
 .button:hover {
-	background-color: #db6600;
+	background-color: #B43104;
 }
 
 /*------------------------------
@@ -189,22 +190,22 @@ footer {
 =RESULTS TABLE
 ------------------------------*/
 table#overzicht th{
-    background-color:orange;
+    background-color:#FF4000;
     color:white;
-    border:solid 4px #f0f0f0;
+    border:solid 4px #fff;
 }
 
 table#overzicht td {
-    border:solid 4px #f0f0f0;
+    border:solid 4px #fff;
     padding:4px;
 }
 
 table#overzicht tr.even{
-    background-color:#fff;
+    background-color:#eee;
 }
 
 table#overzicht tr.odd{
-    background-color:#e6e6e6;
+    background-color:#F6E3CE;
 }
 
 /*------------------------------
