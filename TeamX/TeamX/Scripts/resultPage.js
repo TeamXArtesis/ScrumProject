@@ -1,9 +1,6 @@
 ﻿var kleur = true;
 var schema = new Array();
 
-//alert("{klasId:" + localStorage.getItem("klasid") + ",week:" + localStorage.getItem("week") + ",dag:" + localStorage.getItem("dag") + "}");
-
-
 $(function () {
     if (localStorage.getItem("type") == "klas") {
         $.ajax({

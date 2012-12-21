@@ -11,10 +11,20 @@ namespace TeamX.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-            ViewBag.Id=1;
+            int dag = ((int) DateTime.Now.DayOfWeek);
+            ViewBag.Id = dag;
+            ViewBag.Datum = getMonday(ViewBag.Id);
+            ViewBag.Naam = "Vandaag";
+            return View();
+        }
+
+        public ActionResult Maandag()
+        {
+            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            ViewBag.Id = 1;
             ViewBag.Datum = getMonday(ViewBag.Id);
             ViewBag.Naam = "Maandag";
-            return View();
+            return View("Index");
         }
 
         public ActionResult Dinsdag()
