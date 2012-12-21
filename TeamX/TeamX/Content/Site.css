@@ -28,7 +28,7 @@ body {
 	background-color: #fff;
 }
 .wrapper {
-	margin: 0 auto;
+	margin: 30px auto;
 	width: 1000px;
 	background: #f0f0f0;
 	border:solid 1px #874600;	
@@ -199,10 +199,19 @@ table#overzicht td {
     padding:4px;
 }
 
-table#overzicht td.even{
+table#overzicht tr.even{
     background-color:#fff;
 }
 
-table#overzicht td.odd{
+table#overzicht tr.odd{
     background-color:#e6e6e6;
+}
+
+/*------------------------------
+=FORM
+------------------------------*/
+label {
+    width:170px;
+    display:block;
+    float:left;
 }

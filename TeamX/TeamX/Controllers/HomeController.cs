@@ -76,6 +76,7 @@ namespace TeamX.Controllers
         public ActionResult ResultPage()
         {
             ViewBag.Message = "Your parser result page.";
+            ViewBag.Naam = "Resultaten";
 
             return View();
         }
